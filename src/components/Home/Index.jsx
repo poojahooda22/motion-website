@@ -24,6 +24,8 @@ function Home() {
     
   return (
     <div className="w-full h-screen relative ">
+
+        <div></div>
         {/* video div */}
         <div 
             className="hidden vdodiv w-full h-screen absolute z-[9] 
