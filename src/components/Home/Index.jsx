@@ -27,7 +27,8 @@ function Home() {
 
         <div>We build big ideas.
             Software. Apps. Tools.
-            For real people. Real lives.</div>
+            For real people. Real lives.
+            </div>
         {/* video div */}
         <div 
             className="hidden vdodiv w-full h-screen absolute z-[9] 
