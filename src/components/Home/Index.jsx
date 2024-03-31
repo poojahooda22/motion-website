@@ -40,7 +40,6 @@ function Home() {
         </div>
 
         {/* marquee div */}
-
         <div className="marqueecontainer w-full h-screen relative overflow-hidden">
             {/* /* top Heading div */ }
             <div className=' heading absolute top-[7%] left-1/2 -translate-x-1/2 w-72'>
