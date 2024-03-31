@@ -25,7 +25,8 @@ function Home() {
   return (
     <div className="w-full h-screen relative ">
 
-        <div>We build big ideas.
+        <div>
+            We build big ideas.
             Software. Apps. Tools.
             For real people. Real lives.
         </div>
