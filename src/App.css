@@ -1,0 +1,23 @@
+body[theme="black"] {
+    background-color: #000;
+    
+}
+
+body[theme="black"] .section {
+    color: #fff;
+}
+
+@font-face {
+    font-family: 'Sansita';
+    src: url('./assets/fonts/font1.ttf');
+}
+
+@font-face {
+    font-family: 'SansitaReg';
+    src: url('./assets/fonts/font2.ttf');
+}
+
+@font-face {
+    font-family: 'SansitaBold';
+    src: url('./assets/fonts/font3.ttf');
+}
