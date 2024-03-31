@@ -8,10 +8,9 @@ function App() {
     <html>
       <body theme="black" >
         <div className='section main w-full'>
-        <Navbar/>
-        <Home />
-        </div>
-        
+          {/* <Navbar/> */}
+          <Home />
+        </div>  
       </body>
     </html>
     
