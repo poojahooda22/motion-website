@@ -49,7 +49,7 @@ function Home() {
 
             <div className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]'>
                 {/* 1st row */}
-                <div className='row -translate-x-1/2 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-1/2 w-full flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -65,7 +65,7 @@ function Home() {
                     })}
                 </div>
                 {/* 2nd row */}
-                <div className='row -translate-x-1/3 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-1/3 w-full flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -81,7 +81,7 @@ function Home() {
                     })}
                 </div>
                 {/* 3nd row */}
-                <div className='row -translate-x-2/3 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-2/3 w-full  flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -97,7 +97,7 @@ function Home() {
                     })}
                 </div>
                 {/* 4nd row */}
-                <div className='row -translate-x-1/4 w-full py-1 flex items-center gap-8 whitespace-nowrap
+                <div className='row -translate-x-1/4 w-full  flex items-center gap-8 whitespace-nowrap
                 '>
                     {items.map((item, index) => {
                         return (
