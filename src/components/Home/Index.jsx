@@ -40,7 +40,7 @@ function Home() {
 
         <div className="marqueecontainer w-full h-screen relative overflow-hidden">
             <div className=' heading absolute top-[5%] left-1/2 -translate-x-1/2'>
-                <h2 className='text-xl text-center'>Crafting a new paradigm of healthcare, one that is</h2>
+                <h2 className='text-2xl font-[Sansita] text-center'>Crafting a new paradigm of healthcare, one that is</h2>
             </div>
 
             <div className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]'>
