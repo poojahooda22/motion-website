@@ -25,7 +25,7 @@ function Home() {
   return (
     <div className="w-full h-screen relative ">
         {/* video div */}
-      <div className=" vdodiv w-full h-screen absolute top-0 left-0 bg-black overflow-hidden">  
+      <div className="hidden vdodiv w-full h-screen absolute z-[9] top-0 left-0 bg-black overflow-hidden">  
         <video
             className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             autoPlay
@@ -73,7 +73,7 @@ function Home() {
                     })}
                 </div>
                 {/* 3nd row */}
-                <div className='row -translate-x-1/4 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-2/3 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -89,7 +89,7 @@ function Home() {
                     })}
                 </div>
                 {/* 4nd row */}
-                <div className='row -translate-x-2/3 w-full py-1 flex items-center gap-8 whitespace-nowrap
+                <div className='row -translate-x-1/4 w-full py-1 flex items-center gap-8 whitespace-nowrap
                 '>
                     {items.map((item, index) => {
                         return (
