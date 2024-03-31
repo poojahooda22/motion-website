@@ -26,7 +26,7 @@ function Home() {
     <div className="w-full h-screen relative ">
 
         <div>We build big ideas.
-        Software. Apps. Tools.
+            Software. Apps. Tools.
         For real people. Real lives.</div>
         {/* video div */}
         <div 
