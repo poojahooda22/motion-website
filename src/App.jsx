@@ -6,9 +6,12 @@ function App() {
 
   return (
     <html>
-      <body className='section main w-full' >
+      <body theme="black" >
+        <div className='section main w-full'>
         <Navbar/>
         <Home />
+        </div>
+        
       </body>
     </html>
     
