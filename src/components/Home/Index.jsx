@@ -30,7 +30,7 @@ function Home() {
                 We build big ideas.
                 Software. Apps. Tools.
                 For real people. Real lives.
-                </h1>
+            </h1>
         </div>
         {/* video div */}
         <div 
