@@ -25,7 +25,7 @@ function Home() {
   return (
     <div className="w-full h-screen relative ">
 
-        <div className='btmtext absolute bottom-[7%] left-[3%]'>
+        <div className='btmtext absolute bottom-[7%] left-[3%] w-[52]'>
            <h1>
                 We build big ideas.
                 Software. Apps. Tools.
