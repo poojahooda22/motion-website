@@ -25,7 +25,7 @@ function Home() {
   return (
     <div className="w-full h-screen relative ">
         {/* video div */}
-      <div className="hidden vdodiv w-full h-screen absolute top-0 left-0 bg-black overflow-hidden">  
+      <div className=" vdodiv w-full h-screen absolute top-0 left-0 bg-black overflow-hidden">  
         <video
             className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             autoPlay
