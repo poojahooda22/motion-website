@@ -4,16 +4,22 @@ import img2 from '../../assets/images/img2.png';
 import img3 from '../../assets/images/img3.png';
 import img4 from '../../assets/images/img4.png';
 import img5 from '../../assets/images/img5.png';
+import img6 from '../../assets/images/img6.png';
+import img7 from '../../assets/images/img7.png';
+
 
 
 
 function Home() {
     const items = [
-        { text: "useful", image: img1 },
+        { text: "useful", image: img7 },
         { text: "intuitive", image: img2 },     
         { text: "empathetic", image: img3 },     
         { text: "useful", image: img4 },     
-        { text: "empathetic", image: img5 },             
+        { text: "empathetic", image: img5 },
+        { text: "intuitive", image: img2 },     
+        { text: "empathetic", image: img6 },
+        { text: "useful", image: img1 },               
     ]
     
   return (
@@ -32,10 +38,10 @@ function Home() {
 
         {/* marquee div */}
 
-        <div className="marqueecontainer w-full h-screen relative">
+        <div className="marqueecontainer w-full h-screen relative overflow-hidden">
             <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]'>
                 {/* 1st row */}
-                <div className='row w-full py-3 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-1/2 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -51,7 +57,7 @@ function Home() {
                     })}
                 </div>
                 {/* 2nd row */}
-                <div className='row w-full py-3 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-1/3 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -67,7 +73,7 @@ function Home() {
                     })}
                 </div>
                 {/* 3nd row */}
-                <div className='row w-full py-3 flex items-center gap-8 whitespace-nowrap'>
+                <div className='row -translate-x-1/4 w-full py-1 flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
@@ -83,7 +89,7 @@ function Home() {
                     })}
                 </div>
                 {/* 4nd row */}
-                <div className='row w-full py-3 flex items-center gap-8 whitespace-nowrap
+                <div className='row -translate-x-2/3 w-full py-1 flex items-center gap-8 whitespace-nowrap
                 '>
                     {items.map((item, index) => {
                         return (
