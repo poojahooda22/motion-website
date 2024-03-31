@@ -50,7 +50,7 @@ function Home() {
             </div>
 
             <div 
-            className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]'>
+                className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]'>
                 {/* 1st row */}
                 <div className='row -translate-x-1/2 w-full flex items-center gap-8 whitespace-nowrap'>
                     {items.map((item, index) => {
