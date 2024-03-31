@@ -54,7 +54,7 @@ function Home() {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
                                 <h1  className='font-[SansitaBold] text-6xl'>{item.text}</h1>
-                                <div className='imgdiv w-[3rem] h-[3rem]'>
+                                <div className='imgdiv w-[2rem] h-[2rem]'>
                                     <img 
                                         className=''
                                         src={item.image} 
@@ -70,7 +70,7 @@ function Home() {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
                                 <h1  className='font-[SansitaBold] text-6xl'>{item.text}</h1>
-                                <div className='imgdiv w-[3rem] h-[3rem]'>
+                                <div className='imgdiv w-[2rem] h-[2rem]'>
                                     <img 
                                         className=''
                                         src={item.image} 
@@ -86,7 +86,7 @@ function Home() {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
                                 <h1  className='font-[SansitaBold] text-6xl'>{item.text}</h1>
-                                <div className='imgdiv w-[3rem] h-[3rem]'>
+                                <div className='imgdiv w-[2rem] h-[2rem]'>
                                     <img 
                                         className=''
                                         src={item.image} 
@@ -103,7 +103,7 @@ function Home() {
                         return (
                             <div key={index} className='elem flex items-center gap-8'>
                                 <h1  className='font-[SansitaBold] text-6xl'>{item.text}</h1>
-                                <div className='imgdiv w-[3rem] h-[3rem]'>
+                                <div className='imgdiv w-[2rem] h-[2rem]'>
                                     <img 
                                         className=''
                                         src={item.image} 
