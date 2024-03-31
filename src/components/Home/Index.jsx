@@ -39,7 +39,7 @@ function Home() {
         {/* marquee div */}
 
         <div className="marqueecontainer w-full h-screen relative overflow-hidden">
-            <div className=' heading absolute top-[5%] left-1/2 -translate-x-1/2 w-60'>
+            <div className=' heading absolute top-[4%] left-1/2 -translate-x-1/2 w-60'>
                 <h2 className='text-2xl font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
             </div>
 
