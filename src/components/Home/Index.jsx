@@ -37,7 +37,7 @@ function Home() {
                 src={video}
             >     
             </video> 
-      </div>
+        </div>
 
         {/* marquee div */}
 
