@@ -10,7 +10,7 @@ function Cart() {
                 Whether they are employees, members, customers, or clients, we
                 never forget the real people we’re designing for.
             </p>
-            <h1 className="font-[SansitaReg] text-6xl mt-10">We Craft <br/>
+            <h1 className="font-[SansitaReg] text-6xl mt-10 leading-[5rem]">We Craft <br/>
                 Human-Centric
                 Health Software
             </h1>
