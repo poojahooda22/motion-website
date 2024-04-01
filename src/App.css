@@ -20,6 +20,15 @@ body[theme="black"] .section {
     color: var(--white);
 }
 
+body[theme="cyan"] {
+    background-color: var(--cyan);
+    
+}
+
+body[theme="cyan"] .section {
+    color: var(--black);
+}
+
 @font-face {
     font-family: 'Sansita';
     src: url('./assets/fonts/font1.ttf');
