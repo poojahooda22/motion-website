@@ -1,7 +1,9 @@
 import './App.css'
-import Cart from './components/Craft/Index'
+import Craft from './components/Craft/Index'
+
 import Home from './components/Home/Index'
 import Navbar from './components/Navbar/Index'
+import Real from './components/Real/Index'
 
 function App() {
 
@@ -11,7 +13,8 @@ function App() {
         <div className='section main w-full'>
           <Navbar/>
           <Home />
-          <Cart />
+          <Craft />
+          <Real />
         </div>  
       </body>
     </html>
