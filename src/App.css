@@ -1,15 +1,23 @@
+:root {
+    --salmon: #EF9D71;
+    --black: #000;
+    --white: #fff;
+    --cyan:  #aedee0;
+}
+
+
 *::selection {
-    background-color: #EF9D71;
+    background-color: var(--salmon);
 }
 
 
 body[theme="black"] {
-    background-color: #000;
+    background-color: var(--black);
     
 }
 
 body[theme="black"] .section {
-    color: #fff;
+    color: var(--white);
 }
 
 @font-face {
