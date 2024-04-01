@@ -2,21 +2,22 @@ import { LuArrowUpRight } from "react-icons/lu";
 
 function Cart() {
   return (
-    <div className="craft section w-full flex gap-10 justify-between px-10 py-20">
-        <div className="ltext w-[40%] py-10 ">
-            <p className="font-[Sansita] text-[1.4rem] font-light leading-[2rem]">
+    <div className="craft section w-full flex gap-10 justify-between px-10 py-10">
+        <div className="ltext w-[40%]  ">
+            <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
                 Significo is a leading health software creator founded on the belief
                 that technology can transform healthcare to put people first.
                 Whether they are employees, members, customers, or clients, we
                 never forget the real people we’re designing for.
             </p>
-            <h1 className="font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[6.5rem]">We Craft <br/>
+            <h1 className="font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[5.5rem]">We Craft <br/>
                 Human-Centric
                 Health Software
             </h1>
-            <div className="w-fit px-10 py-4 border-[1px] border-white">
+            {/* button */}
+            <div className="w-fit px-6 py-4 border-[1px] border-[--black]">
                 <div className="masker flex items-center gap-2 overflow-hidden">
-                    <span className="text-xl "> Our Solutions</span>
+                    <span className="text-medium tracking-tight font-medium"> OUR SOLUTIONS</span>
                     <LuArrowUpRight style={{fontSize: "24px", }} /> 
                 </div>         
             </div>
