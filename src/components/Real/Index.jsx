@@ -6,7 +6,8 @@ function Real() {
       <div className="cont h-[400vh] bg-green-600 relative">
         <div className="slides w-full h-[100vh] sticky top-0 left-0 flex ">
             <div className="slide w-full h-screen flex-shrink-0 bg-red-500">
-                <h1 className="font-[SansitaReg]"></h1>
+                <h1 className="font-[SansitaReg]">Real Talk,
+Real Impact</h1>
             </div>
             <div className="slide w-full h-screen flex-shrink-0 bg-yellow-500"></div>
             <div className="slide w-full h-screen flex-shrink-0 bg-green-500"></div>
