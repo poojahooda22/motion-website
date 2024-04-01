@@ -1,4 +1,4 @@
-
+import { LuArrowUpRight } from "react-icons/lu";
 
 function Cart() {
   return (
@@ -10,10 +10,16 @@ function Cart() {
                 Whether they are employees, members, customers, or clients, we
                 never forget the real people we’re designing for.
             </p>
-            <h1 className="font-[SansitaReg] text-6xl mt-10 leading-[5rem]">We Craft <br/>
+            <h1 className="font-[SansitaReg] text-[4.4rem] mt-10 leading-[6.5rem]">We Craft <br/>
                 Human-Centric
                 Health Software
             </h1>
+            <div className="w-fit px-10 py-5 border-[1px] border-white">
+                <div className="masker flex items-center">
+                    <span className="text-xl">Solutions</span>
+                    <LuArrowUpRight style={{fontSize: "24px"}} /> 
+                </div>         
+            </div>
         </div>
         <div className="cards w-1/2 h-32 bg-red-700 ">
 
