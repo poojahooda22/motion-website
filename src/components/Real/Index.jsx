@@ -2,8 +2,8 @@
 
 function Real() {
   return (
-    <div>
-      
+    <div className="real section w-full">
+      <div></div>
     </div>
   )
 }
