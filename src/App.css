@@ -3,7 +3,8 @@
     --black: #000;
     --white: #fff;
     --cyan:  #aedee0;
-    --dcyan: #abdadc;
+    --dcyan: #141b1b;
+    --dsalmon: #1e130e;
 }
 
 
@@ -27,7 +28,16 @@ body[theme="cyan"] {
 }
 
 body[theme="cyan"] .section {
-    color: var(--black);
+    color: var(--dcyan);
+}
+
+body[theme="salmon"] {
+    background-color: var(--salmon);
+    
+}
+
+body[theme="salmon"] .section {
+    color: var(--dsalmon);
 }
 
 @font-face {
