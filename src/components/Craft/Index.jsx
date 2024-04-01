@@ -10,6 +10,9 @@ function Cart() {
                 Whether they are employees, members, customers, or clients, we
                 never forget the real people we’re designing for.
             </p>
+            <h1>We Craft
+Human-Centric
+Health Software</h1>
         </div>
         <div className="cards w-1/2 h-32 bg-red-700 ">
 
