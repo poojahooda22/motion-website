@@ -25,10 +25,10 @@ function Cart() {
 
 
         <div className="cards w-1/2 ">
-            <div className="card w-2/3 flex bg-[--black] py-10 px-16 text-[--dcyan]">
-                <div className="text-[--dcyan] font-[Sansita]  leftdata">
-                    <h1 className="text- font-semibold">Driven by Purpose</h1>
-                    <p className="text-[1rem]">We believe technology can dramatically
+            <div className="card w-[80%] flex bg-[--black] py-10 px-16 text-[--dcyan] gap-4">
+                <div className=" text-[--dcyan]  font-[Sansita]  leftdata">
+                    <h1 className="text-[1.5vw] font-semibold mb-4">Driven by Purpose</h1>
+                    <p className=" text-[.9rem] font-medium">We believe technology can dramatically
                         improve the experience of managing health,
                         and when crafted with empathy, intention,
                         and expertise, impact lives at scale.
