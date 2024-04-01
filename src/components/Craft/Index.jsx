@@ -3,7 +3,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 function Cart() {
   return (
     <div className="craft section w-full flex gap-10 justify-between px-10 py-10 relative">
-        <div className="ltext w-[40%]  ">
+        <div className="ltext w-[40%] sticky top-0 left-0  ">
             <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
                 Significo is a leading health software creator founded on the belief
                 that technology can transform healthcare to put people first.
