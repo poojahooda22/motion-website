@@ -9,7 +9,7 @@ function App() {
     <html>
       <body theme="black" >
         <div className='section main w-full'>
-          {/* <Navbar/> */}
+          <Navbar/>
           <Home />
           <Cart />
         </div>  
