@@ -15,8 +15,8 @@ function Cart() {
                 Health Software
             </h1>
             <div className="w-fit px-10 py-5 border-[1px] border-white">
-                <div className="masker flex items-center">
-                    <span className="text-xl">Solutions</span>
+                <div className="masker flex items-center gap-2 overflow-hidden">
+                    <span className="text-xl ">Solutions</span>
                     <LuArrowUpRight style={{fontSize: "24px"}} /> 
                 </div>         
             </div>
