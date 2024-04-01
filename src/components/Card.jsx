@@ -19,7 +19,7 @@ function Card() {
                     <path d="M4 26H60" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </div>
-            </div>
+    </div>
   )
 }
 
