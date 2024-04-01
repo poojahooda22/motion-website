@@ -1,4 +1,5 @@
 import { LuArrowUpRight } from "react-icons/lu";
+import Card from "../Card";
 
 function Cart() {
   return (
@@ -25,7 +26,7 @@ function Cart() {
 
 
         <div className="cards w-1/2 ">
-            <div className="card w-[80%] flex items-center justify-between bg-[--black] rounded-3xl py-10 px-16 text-[--dcyan] gap-4">
+            {/* <div className="card w-[80%] flex items-center justify-between bg-[--black] rounded-3xl py-10 px-16 text-[--dcyan] gap-4">
                 <div className="w-3/4 text-[--dcyan]  font-[Sansita]  leftdata">
                     <h1 className="text-[1.5vw] font-semibold mb-4">Driven by Purpose</h1>
                     <p className=" text-[.9rem] font-medium">We believe technology can dramatically
@@ -33,7 +34,6 @@ function Cart() {
                         and when crafted with empathy, intention,
                         and expertise, impact lives at scale.
                     </p>
-
                 </div>
                 <div className="rightdata w-[64px] h-[64px]">
                     <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +43,9 @@ function Cart() {
                     <path d="M4 26H60" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </div>
-            </div>
+            </div> */}
+
+            <Card />
         </div>
     </div>
   )
