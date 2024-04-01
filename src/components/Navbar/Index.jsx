@@ -54,10 +54,10 @@ function Navbar() {
                 </svg>
             </div>
 
-            <div className=" flex gap-6 items-center z-[9] cursor-pointer">
+            <div className=" flex gap-4 items-center z-[9] cursor-pointer">
                 {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                     <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
-                    font-[Sansita] border-[1px] border-black rounded-[50px] text-[1vw] overflow-hidden`}> 
+                    font-[Sansita]text-[1vw] overflow-hidden`}> 
                         <a className={`${styles.atag} relative`}>{item} </a>                    
                     </h4>   
                 ))}
