@@ -8,7 +8,7 @@ function Real() {
             <div className="slide w-full h-screen flex-shrink-0 bg-red-500"></div>
             <div className="slide w-full h-screen flex-shrink-0 bg-yellow-500"></div>
             <div className="slide w-full h-screen flex-shrink-0 bg-green-500"></div>
-            <div className="slide w-full h-screen flex-shrink-0 bg-red-500"></div>
+            <div className="slide w-full h-screen flex-shrink-0 bg-blue-500"></div>
         </div>
       </div>
     </div>
