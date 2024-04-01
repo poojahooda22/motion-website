@@ -16,7 +16,7 @@ function Craft() {
                 Health Software
             </h1>
             {/* button */}
-            <div className="w-fit px-6 py-4 border-[1px] border-[--black]  rounded-3xl">
+            <div className="w-fit px-6 py-4 border-[1px] border-[--black]">
                 <div className="masker flex items-center gap-2 overflow-hidden ">
                     <span className="text-medium tracking-tight font-medium"> OUR SOLUTIONS</span>
                     <LuArrowUpRight style={{fontSize: "24px", }} /> 
