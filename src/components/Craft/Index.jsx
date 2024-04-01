@@ -1,7 +1,7 @@
 import { LuArrowUpRight } from "react-icons/lu";
 import Card from "../Card";
 
-function Cart() {
+function Craft() {
   return (
     <div className="craft section w-full flex gap-10 justify-between items-start px-10 py-10 relative">
         <div className="ltext w-[40%] sticky top-[10%] left-0  ">
@@ -30,4 +30,4 @@ function Cart() {
   )
 }
 
-export default Cart
+export default Craft
