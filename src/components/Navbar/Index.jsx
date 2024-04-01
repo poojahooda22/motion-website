@@ -28,7 +28,7 @@ function Navbar() {
         }}
         animate={hidden ? "hidden" : "visible"}
         transition={{duration: 0.35, ease: "easeInOut"}}
-        className="w-full px-[4vw] py-[1vh]"
+        className="section w-full px-[4vw] py-[1vh]"
     >
         <div className="flex items-center justify-between">
             <div className="logo w-[20vh] h-[10vh] cursor-pointer z-[9]">
