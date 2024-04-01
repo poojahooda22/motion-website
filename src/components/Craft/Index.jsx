@@ -15,8 +15,8 @@ function Cart() {
                 Health Software
             </h1>
             {/* button */}
-            <div className="w-fit px-6 py-4 border-[1px] border-[--black]">
-                <div className="masker flex items-center gap-2 overflow-hidden">
+            <div className="w-fit px-6 py-4 border-[1px] border-[--black]  rounded-3xl">
+                <div className="masker flex items-center gap-2 overflow-hidden ">
                     <span className="text-medium tracking-tight font-medium"> OUR SOLUTIONS</span>
                     <LuArrowUpRight style={{fontSize: "24px", }} /> 
                 </div>         
@@ -25,8 +25,8 @@ function Cart() {
 
 
         <div className="cards w-1/2 ">
-            <div className="card w-[80%] flex bg-[--black] py-10 px-16 text-[--dcyan] gap-4">
-                <div className=" text-[--dcyan]  font-[Sansita]  leftdata">
+            <div className="card w-[80%] flex items-center justify-between bg-[--black] rounded-3xl py-10 px-16 text-[--dcyan] gap-4">
+                <div className="w-3/4 text-[--dcyan]  font-[Sansita]  leftdata">
                     <h1 className="text-[1.5vw] font-semibold mb-4">Driven by Purpose</h1>
                     <p className=" text-[.9rem] font-medium">We believe technology can dramatically
                         improve the experience of managing health,
@@ -35,7 +35,7 @@ function Cart() {
                     </p>
 
                 </div>
-                <div className="rightdata">
+                <div className="rightdata w-[64px] h-[64px]">
                     <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
                     <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
