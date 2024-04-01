@@ -2,7 +2,7 @@
 
 function Cart() {
   return (
-    <div className="craft w-full flex gap-10 px-10 py-20">
+    <div className="craft w-full flex gap-10 justify-between px-10 py-20">
         <div className="ltext w-1/3 py-10 ">
             <p className="font-[Sansita] font-medium text-medium ">
                 Significo is a leading health software creator founded on the belief
