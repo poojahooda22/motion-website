@@ -7,7 +7,7 @@ function Real() {
         <div className="slides w-full h-[100vh] sticky top-0 left-0 flex ">
             <div className="slide w-full h-screen flex-shrink-0 bg-red-500"></div>
             <div className="slide w-full h-screen flex-shrink-0 bg-yellow-500"></div>
-            <div className="slide w-full h-screen flex-shrink-0 bg-red-500"></div>
+            <div className="slide w-full h-screen flex-shrink-0 bg-green-500"></div>
             <div className="slide w-full h-screen flex-shrink-0 bg-red-500"></div>
         </div>
       </div>
