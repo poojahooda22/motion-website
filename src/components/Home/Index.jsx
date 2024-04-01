@@ -25,7 +25,7 @@ function Home() {
   return (
     <div className="w-full h-screen relative ">
 
-        <div className='btmtext absolute bottom-[7%] left-[3%] w-[52]'>
+        <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48 '>
            <h1>
                 We build big ideas.
                 Software. Apps. Tools.
@@ -34,7 +34,7 @@ function Home() {
         </div>
         {/* video div */}
         <div 
-            className="hidden vdodiv w-full h-screen absolute z-[9] 
+            className="hidden vdodiv w-full h-screen absolute z-[3] 
             top-0 left-0 bg-black overflow-hidden"
         >  
             <video
