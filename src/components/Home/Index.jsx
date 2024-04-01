@@ -6,7 +6,7 @@ function Home() {
    
     
   return (
-    <div className=" section w-full h-screen relative ">
+    <div className="home section w-full h-screen relative ">
 
         <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48 '>
            <h1>
