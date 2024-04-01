@@ -2,7 +2,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 
 function Cart() {
   return (
-    <div className="craft section w-full flex gap-10 justify-between px-10 py-10">
+    <div className="craft section w-full flex gap-10 justify-between px-10 py-10 relative">
         <div className="ltext w-[40%]  ">
             <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
                 Significo is a leading health software creator founded on the belief
@@ -22,6 +22,8 @@ function Cart() {
                 </div>         
             </div>
         </div>
+
+
         <div className="cards w-1/2 h-32 bg-red-700 ">
 
         </div>
