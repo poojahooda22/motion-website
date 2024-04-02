@@ -1,6 +1,9 @@
 
+
+
+
 const data = [
-    {key: 1, title: "Dr. Rick McCartney", role: "CEO"},
+    {key: 1, title: "Dr. Rick McCartney", role: "CEO", image: img1},
     {key: 2, title: "Chris Koha", role: "COO"},
     {key: 3, title: "Caroline Nieto", role: "Chief Product Officer"},
     {key: 4, title: "Victor Albertos", role: "CTO"},
