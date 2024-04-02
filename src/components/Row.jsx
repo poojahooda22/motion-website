@@ -7,7 +7,7 @@ import img6 from '../assets/images/img6.png';
 import img7 from '../assets/images/img7.png';
 
 
-function Row({translateClass}) {
+function Row({translateClass, direction}) {
 
     const items = [
         { text: "useful", image: img7 },
@@ -21,7 +21,7 @@ function Row({translateClass}) {
     ]
 
   return (
-    <div className={`${translateClass} row w-full flex items-center gap-8 whitespace-nowrap`}>
+    <div className={`${translateClass} ${direction}  w-full flex items-center gap-8 whitespace-nowrap mb-2`}>
         {items.map((item, index) => {
             return (
                 <div key={index} className='elem flex items-center gap-8'>
