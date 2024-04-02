@@ -86,7 +86,7 @@ function Real() {
                     >
                         Our team is global and diverse, because our individual experiences make us stronger.
                     </h3>
-                    <h1 className=' font-semibold text-[10rem] leading-none '>20.4M</h1>
+                    <h1 className=' font-semibold text-[10rem] leading-none '>49%</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
                         Real people — real lives — we have built products and solutions for.
                     </h3>    
