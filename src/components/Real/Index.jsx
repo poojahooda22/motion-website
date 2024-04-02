@@ -84,8 +84,7 @@ function Real() {
                     className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
                         text-xl absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'
                     >
-                        We’re on a mission to impact as many lives as possible and build 
-                        a better company while we do it. Here’s our progress.
+                        Our team is global and diverse, because our individual experiences make us stronger.
                     </h3>
                     <h1 className=' font-semibold text-[10rem] leading-none '>20.4M</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
