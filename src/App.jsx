@@ -9,7 +9,7 @@ function App() {
 
   return (
     <html>
-      <body theme="salmon" >
+      <body theme="cyan">
         <div className='section main w-full'>
           <Navbar/>
           <Home />
