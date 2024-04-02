@@ -15,7 +15,18 @@ const data = [
 function List() {
   return (
     <div className="list-container">
-      
+      {data.map((item, index) => {
+        return (
+            <div key={index} className="listelem w-full py-5 px-5  flex 
+                items-center justify-between border-b-2 border-black ">
+                <div className="flex items-center gap-10 text-5xl">
+                    <h3 className="opacity-25">{item.key}</h3>
+                    <h1 className="">{item.title}</h1>
+                </div>
+                <h3 className="text-xl font-semibold">{item.role}</h3>
+                </div>
+        )
+      })}
     </div>
   )
 }
