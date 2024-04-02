@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.0",
     "framer-motion": "^11.0.24",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
+    "scrolltrigger": "^1.0.1",
     "sheryjs": "^1.0.0-beta.0.1.7"
   },
   "devDependencies": {
