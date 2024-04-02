@@ -25,7 +25,7 @@ function List() {
                     </div>
                     <h3 className="font-[Sansita] text-xl font-medium tracking-tighter">{item.role}</h3>   
                 </div>
-                <div className="bluelayer absolute bottom-0 left-0 z-[2] w-full h-full bg-[--salmon]"></div>
+                <div className="bluelayer absolute bottom-0 left-0 z-[2] w-full h-0 bg-[--salmon]"></div>
             </div>
         )
       })}
