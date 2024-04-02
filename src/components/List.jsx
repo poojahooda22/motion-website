@@ -34,9 +34,11 @@ function List() {
                         <h3 className="opacity-25">0{item.key}</h3>
                         <h1 className="">{item.title}</h1>
                     </div>
-                    <h3 className="font-[Sansita] text-xl font-medium tracking-tighter">{item.role}</h3>   
+                    <h3 className="font-[Sansita] text-xl font-medium tracking-tight">{item.role}</h3>   
                 </div>
-                <div></div>
+                <div className='picture w-[15rem] h-[15rem] overflow-hidden bg-red-600 rounded-full'>
+                    <img src={item.img}/>
+                </div>
                 <div className="bluelayer absolute bottom-0 left-0 z-[2] w-full h-0 bg-[--salmon]"></div>
             </div>
         )
