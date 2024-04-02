@@ -4,7 +4,7 @@ import Button from "../Button";
 
 function Craft() {
   return (
-    <div className="craft section w-full flex gap-10 justify-between items-start px-10 py-10 relative">
+    <div className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
         <div className="ltext w-[40%] sticky top-[10%] left-0  ">
             <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
                 Significo is a leading health software creator founded on the belief
@@ -17,7 +17,7 @@ function Craft() {
                 Health Software
             </h1>
             {/* button */}
-            <Button bgColor="bg-none" text="OUR SOLUTIONS" />
+            <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div className="cards w-1/2 ">                
             <Card />
