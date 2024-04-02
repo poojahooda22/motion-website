@@ -1,41 +1,21 @@
 import video from '../../assets/video/1ENIoa5sjq.mp4'
 import Row from '../Row'
-import {useEffect, useState, useRef} from 'react';
+import { useState, useRef} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { gsap } from "gsap";
 import styles from './Style.module.css';
-import { Power2 } from 'gsap/gsap-core';
+import { Power2, Power4 } from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.set(".slidesm", {scale: 6})
+
 function Home() {
     const container = useRef(null);
-
-
-    // useEffect(() => {
-    //     let ctx = gsap.context(() => {
-    //         // create as many GSAP animations
-    //        const tl = gsap.timeline({
-    //         scrollTrigger: {
-    //             start: "top bottom",
-    //             end: "bottom top",
-    //             markers: true,
-    //             scrub: .5,
-    //         }
-    //        });
-    //        tl.to(".vdodiv", {
-    //         '--clip': '0%',
-    //         ease: Power2,
-    //         duration: 2,
-    //        })
-
-    //     }, container);
-    //     return () => ctx.revert(); 
-    // }, []);
-
-
+    const line = useRef(null);
+    
     useGSAP(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -48,10 +28,24 @@ function Home() {
             }
          });
          tl.to(".vdodiv", {
-            clipPath: '0%',
+            clipPath: 'circle(0% at 50% 50%)',
             ease: Power2,
-            duration: 2,
-         }, container)
+            
+         }, container);
+         tl.to(".slidesm", {
+            scale: 1,
+            ease: Power2,
+         }, container);
+         tl.to(".lft", {
+            xPercent: -10,
+            stagger: 0.03,
+            ease: Power4,
+         }, line)
+         tl.to(".rgt", {
+            xPercent: 10,
+            stagger: 0.03,
+            ease: Power4,
+         }, line)    
     })
 
     const {scrollY} = useScroll();
@@ -151,13 +145,17 @@ function Home() {
             </div>
 
             <div 
-                className='absolute scale-[1.3] top-1/2 left-1/2 
+                ref={container}
+                className='slidesm absolute scale-[1] top-1/2 left-1/2 
                 -translate-x-1/2 -translate-y-1/2 w-[90%]'
-            >                
-                <Row translateClass="-translate-x-1/2"/>
-                <Row translateClass="-translate-x-2/3"/>
-                <Row translateClass="-translate-x-1/4" />
-                <Row translateClass="-translate-x-1/3"/>
+            >    
+                <div className='row' ref={line}>
+                    <Row translateClass="-translate-x-1/2" direction="lft"/>
+                    <Row translateClass="-translate-x-2/3" direction="rgt"/>
+                    <Row translateClass="-translate-x-1/4" direction="lft" />
+                    <Row translateClass="-translate-x-1/3" direction="rgt"/>
+                </div>            
+                
             </div>
         </div>
     </div>
