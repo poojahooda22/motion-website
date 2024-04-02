@@ -77,8 +77,22 @@ function Real() {
 
                 </div>
             </div>
-            
-            <div className="slide w-full h-screen flex-shrink-0 bg-green-500"></div>
+
+            <div className="slide w-full h-screen flex items-center justify-center flex-shrink-0  relative">
+                <div className='w-[60%] text-center font-[SansitaReg] relative'>
+                    <h3 
+                    className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
+                        text-xl absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'
+                    >
+                        We’re on a mission to impact as many lives as possible and build 
+                        a better company while we do it. Here’s our progress.
+                    </h3>
+                    <h1 className=' font-semibold text-[10rem] leading-none '>20.4M</h1>
+                    <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
+                        Real people — real lives — we have built products and solutions for.
+                    </h3>    
+                </div>
+            </div>
             <div className="slide w-full h-screen flex-shrink-0 bg-blue-500"></div>
         </div>
       </div>
