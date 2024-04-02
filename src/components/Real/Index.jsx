@@ -4,6 +4,10 @@ import img2 from '../../assets/images/real2.jpg'
 import img3 from '../../assets/images/real3.jpg'
 import img4 from '../../assets/images/real1.jpg'
 import img5 from '../../assets/images/real5.jpg'
+import icon1 from '../../assets/images/icon1.png';
+import icon2 from '../../assets/images/icon2.png';
+import icon3 from '../../assets/images/icon3.png';
+
 
 function Real() {
   return (
@@ -82,6 +86,15 @@ function Real() {
             <div 
                 className="slide w-full h-screen flex items-center justify-center 
                 flex-shrink-0  relative">
+                    <div 
+                        className="image absolute w-[15rem] h-[15rem] top-10 -translate-y-1/2 right-1/6
+                        "
+                    >
+                    <img 
+                        src={icon1}
+                        className="w-full h-full object-contain rounded-full"
+                    />
+                    </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 
                     className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
@@ -94,12 +107,30 @@ function Real() {
                         Expert Women in Tech.
                     </h3>    
                 </div>
+                <div 
+                    className="image absolute w-[20rem] h-[20rem] bottom-0 right-1/6 
+                    translate-y-[20vh]"
+                >
+                    <img 
+                        src={icon2}
+                        className="w-full h-full object-contain rounded-full"
+                    />
+                </div>
+                <div 
+                    className="image absolute w-[20rem] h-[20rem] top-1/2 -translate-y-1/2 translate-x-1/2
+                    right-0 "
+                >
+                    <img 
+                        src={icon3}
+                        className="w-full h-full object-contain rounded-full"
+                    />
+
+                </div>
             </div>
 
             {/* 4th slide */}
             <div className="slide w-full h-screen  flex items-center justify-center relative flex-shrink-0 ">
-                <div className='w-[60%] text-center font-[SansitaReg] relative'>
-                    
+                <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
                     <h1 className=' font-semibold text-[10rem] leading-none '>13</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
                         Nationalities Represented on Our Team.
