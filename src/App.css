@@ -21,6 +21,14 @@ body[theme="black"] {
 body[theme="black"] .section {
     color: var(--white);
 }
+body[theme="white"] {
+    background-color: var(--white);
+    
+}
+
+body[theme="white"] .section {
+    color: var(--black);
+}
 
 body[theme="cyan"] {
     background-color: var(--cyan);
