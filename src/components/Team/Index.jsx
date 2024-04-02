@@ -13,7 +13,7 @@ function Team() {
                 <h3>01</h3>
                 <h1>Dr. Ric McCartney</h1>
             </div>
-            
+            <h3>CEO</h3>
 
         </div>
 
