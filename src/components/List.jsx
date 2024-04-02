@@ -36,7 +36,7 @@ function List() {
                     </div>
                     <h3 className="font-[Sansita] text-xl font-medium tracking-tight">{item.role}</h3>   
                 </div>
-                <div className='picture w-[15rem] h-[15rem] overflow-hidden bg-red-600 rounded-full'>
+                <div className='picture hidden absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
                     <img src={item.img}/>
                 </div>
                 <div className="bluelayer absolute bottom-0 left-0 z-[2] w-full h-0 bg-[--salmon]"></div>
