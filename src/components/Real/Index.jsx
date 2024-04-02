@@ -11,12 +11,13 @@ import img6 from '../../assets/images/real6.jpg'
 import img7 from '../../assets/images/real7.jpg'
 import img8 from '../../assets/images/real8.jpg'
 import img9 from '../../assets/images/real9.jpg'
+import Button from '../Button';
 
 
 function Real() {
   return (
     <div className="real section w-full">
-      <div className="cont h-[400vh]  relative">
+      <div className="cont h-[400vh] relative">  
         <div className="slides w-full h-[100vh] sticky top-0 left-0 flex overflow-hidden ">
             {/* 1st slide */}
             <div className="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
@@ -181,6 +182,7 @@ function Real() {
                     />
                 </div>
             </div>
+            
         </div>
       </div>
     </div>
