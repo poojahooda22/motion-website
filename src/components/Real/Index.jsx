@@ -100,9 +100,9 @@ function Real() {
             <div className="slide w-full h-screen  flex items-center justify-center relative flex-shrink-0 ">
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     
-                    <h1 className=' font-semibold text-[10rem] leading-none '>49%</h1>
+                    <h1 className=' font-semibold text-[10rem] leading-none '>13</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
-                        Expert Women in Tech.
+                        Nationalities Represented on Our Team.
                     </h3>    
                 </div>
             </div>
