@@ -134,11 +134,38 @@ function Real() {
                 className="slide w-full h-screen  flex items-center justify-center 
                 relative flex-shrink-0 "
             >
+                <div 
+                    className="image absolute w-[18rem] h-[18rem] top-20 -translate-x-1/5
+                    -translate-y-1/2 right-1/6"
+                >
+                    <img 
+                        src={icon2}
+                        className="w-full h-full object-contain rounded-full"
+                    />
+                </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
                     <h1 className=' font-semibold text-[10rem] leading-none '>13</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
                         Nationalities Represented on Our <br/> Team.
                     </h3>    
+                </div>
+                <div 
+                    className="image absolute w-[28rem] h-[28rem] bottom-10 right-2/4 
+                    translate-y-1/3 -translate-x-1/5"
+                >
+                    <img 
+                        src={icon1}
+                        className="w-full h-full object-contain rounded-full"
+                    />
+                </div>
+                <div 
+                    className="image absolute w-[20rem] h-[20rem] top-1/2 -translate-y-1/4 
+                    translate-x-1/3 right-0 "
+                >
+                    <img 
+                        src={icon3}
+                        className="w-full h-full object-contain rounded-full"
+                    />
                 </div>
             </div>
         </div>
