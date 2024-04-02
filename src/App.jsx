@@ -4,6 +4,7 @@ import Craft from './components/Craft/Index'
 import Home from './components/Home/Index'
 import Navbar from './components/Navbar/Index'
 import Real from './components/Real/Index'
+import Team from './components/Team/Index'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Home />
           <Craft />
           <Real />
+          <Team />
         </div>  
       </body>
     </html>
