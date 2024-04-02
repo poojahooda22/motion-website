@@ -88,7 +88,7 @@ function Real() {
                     </h3>
                     <h1 className=' font-semibold text-[10rem] leading-none '>49%</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
-                        Real people — real lives — we have built products and solutions for.
+                        Expert Women in Tech.
                     </h3>    
                 </div>
             </div>
