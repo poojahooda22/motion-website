@@ -32,8 +32,7 @@ body[theme="cyan"] .section {
 }
 
 body[theme="salmon"] {
-    background-color: var(--salmon);
-    
+    background-color: var(--salmon);  
 }
 
 body[theme="salmon"] .section {
