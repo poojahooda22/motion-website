@@ -34,7 +34,6 @@ function List() {
     const list = document.querySelectorAll('.listelem')
     list.forEach((el) => {
       el.addEventListener('mousemove', function(dets) {
-        
         gsap.to(this.querySelector(".picture"), {
           opacity: 1, 
           x: gsap.utils.mapRange(0, window.innerWidth, -200, 200, dets.clientX),
@@ -43,9 +42,22 @@ function List() {
           duration: .5
         })
       })
-      el.addEventListener('mouseleave', function(dets) {
+      el.addEventListener('mouseleave', function() {
         gsap.utils.mapRange()
         gsap.to(this.querySelector(".picture"), {opacity: 0, ease: Power4, duration: .5})
+      })
+      el.addEventListener('mousemove', function() {
+        gsap.to(this.querySelector(".bluelayer"), {
+          height: '100%', 
+          ease: Power2,
+          duration: .1
+        })
+      })
+      el.addEventListener('mouseleave', function() {
+        gsap.to(this.querySelector(".bluelayer"), {
+          height: '0%',  
+          ease: Power2, 
+          duration: .1})
       })
     })
   })
@@ -64,7 +76,7 @@ function List() {
                 <div className='picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
                     <img src={item.img}/>
                 </div>
-                <div className="bluelayer absolute bottom-0 left-0 z-[2] w-full h-0 bg-[--salmon]"></div>
+                <div className="bluelayer absolute top-0 left-0 z-[2] w-full h-0 bg-[--salmon]"></div>
             </div>
         )
       })}
