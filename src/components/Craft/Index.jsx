@@ -15,15 +15,12 @@ function Craft() {
 
     const { scrollYProgress} = useScroll ({
         target: container,
-        offset: ["0 1", "1.33 1"],
+        offset: ["0 0", "1.33 1"],
     });
 
     const scaleProgress = useTransform(scrollYProgress, [0,1], [0.8, 1]);
   return (
-    <div ref={container} 
-        style={{
-            scale: scaleProgress,
-        }}
+    <div 
         className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
         <div className="ltext w-[40%] sticky top-[10%] left-0  ">
             <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
@@ -39,7 +36,12 @@ function Craft() {
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
-        <div className="cards w-1/2 ">                
+        <div
+            ref={container} 
+            style={{
+                scale: scaleProgress,
+            }}
+        className="cards w-1/2 ">                
             <Card />
         </div>
     </div>
