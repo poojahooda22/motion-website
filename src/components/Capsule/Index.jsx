@@ -1,10 +1,34 @@
 import Button from "../Button";
+import {useRef} from 'react';
 import cap1 from '../../assets/images/cap1.png';
 import cap2 from '../../assets/images/cap2.jpg'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+import { Power4 } from 'gsap/gsap-core';
+gsap.registerPlugin(ScrollTrigger);
 
 function Capsule() {
+    const container = useRef(null);
+
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+            trigger: ".home",
+            start: "top top",
+            end: "bottom bottom",
+            scrub: .5,
+            }
+        });
+        tl.to(".vdodiv", {
+            clipPath: 'circle(0% at 50% 50%)',
+            ease: Power4,
+        }, "start")
+    });
+
+
   return (
-    <div className="capsules section w-full h-screen overflow-hidden flex bg-red-400 items-start justify-between mt-60 px-10 ">
+    <div ref={container} className="capsules section w-full h-screen overflow-hidden flex  items-start justify-between mt-60 px-10 ">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
@@ -36,7 +60,7 @@ function Capsule() {
             </div>
             {/* 2nd capsule */}
             <div   
-                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[20deg] 
+                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[20deg] translate-y-20
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
