@@ -11,6 +11,7 @@ import Team from './components/Team/Index'
 import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  // const locomotiveScroll = new LocomotiveScroll();
   const scrollRef = useRef(null);
 
   useEffect(() => {
