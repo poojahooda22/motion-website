@@ -13,7 +13,7 @@
     "@gsap/react": "^2.1.0",
     "framer-motion": "^11.0.24",
     "gsap": "^3.12.5",
-    "locomotive-scroll": "^4.1.4",
+    "locomotive-scroll": "^5.0.0-beta.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
