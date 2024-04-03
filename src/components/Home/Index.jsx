@@ -17,21 +17,21 @@ function Home() {
 
     useEffect(() => {
         var clutter = "";
-        const para = document.querySelector(".textpara")
+        const para = document.querySelector(".toptext")
         const characters = para.textContent.split("")
         characters.forEach(function(e) {
             if(e === " ") clutter += `<span>&nbsp;</span>`
             clutter += `<span>${e}</span>`
         })
         para.innerHTML = clutter;   
-        gsap.set(".textpara span", {opacity: .1})
-        gsap.to(".textpara span", {
+        gsap.set(".toptext span", {opacity: .1})
+        gsap.to(".toptext span", {
             scrollTrigger: {
-                trigger: ".para",
-                start: "top 70%",
+                trigger: ".home",
+                start: "top 50%",
                 end: "bottom 90%",
                 scrub: 1,
-                markers: true,
+                
             },
             opacity: 1, 
             stagger: .03,
@@ -51,18 +51,20 @@ function Home() {
          });
          tl.to(".vdodiv", {
             clipPath: 'circle(0% at 50% 50%)',
-            ease: Power2,
+            ease: Power4,
           }, "start")
           tl.to(".slidesm", {
             scale: 1,
             ease: Power2,
          }, 'start');
          tl.to(".lft", {
-            xPercent: -20,
+            xPercent: -10,
+            stagger: .03,
             ease: Power4,
          }, 'start');
          tl.to(".rgt", {
-            xPercent: 20,
+            xPercent: 10,
+            stagger: .03,
             ease: Power4,
          }, 'start');           
     }, container )
@@ -160,7 +162,7 @@ function Home() {
             >
                 {/* /* top Heading div */ }
                 <div className=' heading absolute top-[7%] left-1/2 -translate-x-1/2 w-72'>
-                    <h2 className='text-xl font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
+                    <h2 className='toptext text-xl font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
                 </div>
 
                 <div 
