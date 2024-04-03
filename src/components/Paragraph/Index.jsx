@@ -19,13 +19,15 @@ function Para() {
         gsap.set(".textpara span", {opacity: .1})
         gsap.to(".textpara span", {
             scrollTrigger: {
-                trigger: ".textpara",
-                start: "top 80%",
-                end: "bottom 20%",
+                trigger: ".para",
+                start: "top 70%",
+                end: "bottom 90%",
                 scrub: 1,
                 markers: true,
             },
-            opacity: 1,  
+            opacity: 1, 
+            stagger: .03,
+            
         })
     },[]);
 
@@ -37,7 +39,7 @@ function Para() {
             <div className='w-[50%] flex items-center justify-center mb-12'>
                 <hr className='bg-zinc-400 w-[20%] h-[1.5px]' />
             </div>    
-            <h3 className='textpara w-[50%] font-[Sansita] text-2xl font-medium text-center leading-[2.4rem] mb-10'>Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their ability to problem solve, their openness to feedback and desire to build the product like it is their own.</h3>
+            <h3 className='textpara w-[50%] text-blue-600 font-[Sansita] text-2xl font-medium text-center leading-[2.4rem] mb-10'>Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their ability to problem solve, their openness to feedback and desire to build the product like it is their own.</h3>
             <div className="pers w-[50%] flex flex-col items-center justify-center gap-4">
                 <div className="image w-24 h-24 overflow-hidden rounded-full ">
                     <img src={img1} />
