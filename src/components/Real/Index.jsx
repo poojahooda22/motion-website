@@ -27,15 +27,38 @@ gsap.set(".slidesm", {scale: 5})
 
 
 function Real() {
+
+    const container = useRef(null);
+    
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+            trigger: ".slides",
+            start: "top top",
+            end: "bottom bottom",
+            markers: true,
+            scrub: 2,
+            }
+         });
+         tl.to(".slide", {
+            xPercent: -100,
+            ease: Power4
+         })          
+    }, container );
+
+
   return (
     <div className="real section w-full">
-      <div className="cont h-[400vh] relative">  
-        <div className="slides w-full h-[100vh] sticky top-0 left-0 flex  ">
+      <div className="cont h-[400vh] relative">
+        <div className=' absolute bottom-20 left-10'>
+            <Button bgColor="bg-[#f5f19c]" text="PARTNER WITH US" />
+        </div>  
+        <div 
+            ref={container}
+            className="slides w-full h-[100vh] sticky top-0 left-0 flex  ">
             {/* 1st slide */}
             <div className="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
-                <div className=' absolute bottom-10 left-10'>
-                    <Button bgColor="bg-[#f5f19c]" text="PARTNER WITH US" />
-                </div>
+                
                 <div className="text font-[SansitaReg] text-[15vh] leading-[18vh]">
                     <h1 className="">
                         Real Talk,    
