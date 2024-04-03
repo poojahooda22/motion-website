@@ -88,7 +88,7 @@ function Home() {
    
     
     return (
-    <div ref={container} className="home section w-full h-[200vh] relative  ">
+    <div ref={container} data-color="black" className="home section w-full h-[200vh] relative  ">
         <div className='w-full sticky top-0 left-0'>
             <motion.div 
                 variants={{
@@ -134,7 +134,7 @@ function Home() {
             </motion.div>
 
             <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48 '>
-                <h1 className='text-white'>
+                <h1 className=''>
                     We build big ideas.
                     Software. Apps. Tools.
                     For real people. Real lives.
