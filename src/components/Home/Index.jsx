@@ -1,6 +1,6 @@
 import video from '../../assets/video/1ENIoa5sjq.mp4'
 import Row from '../Row'
-import { useState, useRef} from 'react';
+import {useEffect, useState, useRef} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { gsap } from "gsap";
 import styles from './Style.module.css';
@@ -10,43 +10,42 @@ import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.set(".slidesm", {scale: 6})
+gsap.set(".slidesm", {scale: 5})
 
 function Home() {
     const container = useRef(null);
     const line = useRef(null);
     
-    useGSAP(() => {
-        const tl = gsap.timeline({
-            scrollTrigger: {
-            trigger: ".home",
-            start: "top top",
-            end: "bottom top",
-            markers: true,
-            pin: true,
-            scrub: .5,
-            }
-         });
-         tl.to(".vdodiv", {
-            clipPath: 'circle(0% at 50% 50%)',
-            ease: Power2,
-            
-         }, container);
-         tl.to(".slidesm", {
-            scale: 1,
-            ease: Power2,
-         }, container);
-         tl.to(".lft", {
-            xPercent: -10,
-            stagger: 0.03,
-            ease: Power4,
-         }, line)
-         tl.to(".rgt", {
-            xPercent: 10,
-            stagger: 0.03,
-            ease: Power4,
-         }, line)    
-    })
+    // useGSAP(() => {
+    //     const tl = gsap.timeline({
+    //         scrollTrigger: {
+    //         trigger: ".home",
+    //         start: "top top",
+    //         end: "bottom top",
+    //         markers: true,
+    //         pin: true,
+    //         scrub: .5,
+    //         }
+    //      });
+    //      tl.to(".vdodiv", {
+    //         clipPath: 'circle(0% at 50% 50%)',
+    //         ease: Power2,
+    //       }, "start")
+    //         .to(".slidesm", {
+    //           scale: 1,
+    //           ease: Power2,
+    //         }, "start")
+    //         .to(".lft", {
+    //           xPercent: -10,
+    //           stagger: 0.03,
+    //           ease: Power4,
+    //         }, "start")
+    //         .to(".rgt", {
+    //           xPercent: 12,
+    //           stagger: 0.03,
+    //           ease: Power4,
+    //         }, "start");    
+    // }, container, line);
 
     const {scrollY} = useScroll();
     const [hidden, setHidden] = useState(false);
