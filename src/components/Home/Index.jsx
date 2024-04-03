@@ -31,7 +31,6 @@ function Home() {
                 start: "top 50%",
                 end: "bottom 90%",
                 scrub: 1,
-                
             },
             opacity: 1, 
             stagger: .03,
@@ -61,11 +60,13 @@ function Home() {
             xPercent: -10,
             stagger: .03,
             ease: Power4,
+            duration: 1,
          }, 'start');
          tl.to(".rgt", {
             xPercent: 10,
             stagger: .03,
             ease: Power4,
+            duration: 1,
          }, 'start');           
     }, container )
 
