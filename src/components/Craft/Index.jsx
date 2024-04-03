@@ -6,7 +6,7 @@ function Craft() {
 
    
   return (
-    <div 
+    <div data-color="cyan"
         className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
         <div className="ltext w-[40%] sticky top-[10%] left-0  ">
             <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
