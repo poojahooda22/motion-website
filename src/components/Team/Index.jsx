@@ -1,7 +1,12 @@
 import List from "../List"
 import Button from "../Button"
 
+
+
+
 function Team() {
+
+  
   return (
     <div className='team section font-[SansitaReg] py-20'>
       <h1 className=" text-6xl text-center tracking-tight">
