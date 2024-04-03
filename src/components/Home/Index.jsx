@@ -1,6 +1,6 @@
 import video from '../../assets/video/1ENIoa5sjq.mp4'
 import Row from '../Row'
-import { useState, useRef} from 'react';
+import {useEffect, useState, useRef} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { gsap } from "gsap";
 import styles from './Style.module.css';
@@ -14,6 +14,31 @@ gsap.set(".slidesm", {scale: 5})
 
 function Home() {
     const container = useRef(null);
+
+    useEffect(() => {
+        var clutter = "";
+        const para = document.querySelector(".textpara")
+        const characters = para.textContent.split("")
+        characters.forEach(function(e) {
+            if(e === " ") clutter += `<span>&nbsp;</span>`
+            clutter += `<span>${e}</span>`
+        })
+        para.innerHTML = clutter;   
+        gsap.set(".textpara span", {opacity: .1})
+        gsap.to(".textpara span", {
+            scrollTrigger: {
+                trigger: ".para",
+                start: "top 70%",
+                end: "bottom 90%",
+                scrub: 1,
+                markers: true,
+            },
+            opacity: 1, 
+            stagger: .03,
+            
+        })
+    },[]);
+
     
     useGSAP(() => {
         const tl = gsap.timeline({
