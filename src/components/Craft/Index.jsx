@@ -1,24 +1,10 @@
 
 import Card from "../Card";
 import Button from "../Button";
-import { useRef} from 'react';
-import { gsap } from "gsap";
-import { Power2} from 'gsap/gsap-core';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from '@gsap/react';
-import { useScroll, useTransform} from 'framer-motion';
-
-gsap.registerPlugin(ScrollTrigger);
 
 function Craft() {
-    const container = useRef(null);
 
-    const { scrollYProgress} = useScroll ({
-        target: container,
-        offset: ["0 0", "1.33 1"],
-    });
-
-    const scaleProgress = useTransform(scrollYProgress, [0,1], [0.8, 1]);
+   
   return (
     <div 
         className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
@@ -37,10 +23,6 @@ function Craft() {
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            ref={container} 
-            style={{
-                scale: scaleProgress,
-            }}
         className="cards w-1/2 ">                
             <Card />
         </div>
