@@ -9,6 +9,11 @@ import img7 from '../assets/images/team7.png';
 import img8 from '../assets/images/team8.png';
 import img9 from '../assets/images/team9.png';
 
+import {useEffect, useRef} from 'react';
+import { gsap } from "gsap";
+import { Power2, Power4} from 'gsap/gsap-core';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 const data = [
     {key: 1, title: "Dr. Rick McCartney", role: "CEO", img: img1},
@@ -24,6 +29,20 @@ const data = [
 
 
 function List() {
+
+  useEffect(() => {
+    const list = document.querySelectorAll('.listelem')
+    list.forEach((el) => {
+      el.addEventListener('mousemove', function(dets) {
+        gsap.utils.mapRange()
+        gsap.to(this.querySelector(".picture"), {opacity: 1, ease: Power4, duration: .5})
+      })
+      el.addEventListener('mouseleave', function(dets) {
+        gsap.utils.mapRange()
+        gsap.to(this.querySelector(".picture"), {opacity: 0, ease: Power4, duration: .5})
+      })
+    })
+  })
   return (
     <div className="list-container">
       {data.map((item, index) => {
@@ -36,7 +55,7 @@ function List() {
                     </div>
                     <h3 className="font-[Sansita] text-xl font-medium tracking-tight">{item.role}</h3>   
                 </div>
-                <div className='picture hidden absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
+                <div className='picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
                     <img src={item.img}/>
                 </div>
                 <div className="bluelayer absolute bottom-0 left-0 z-[2] w-full h-0 bg-[--salmon]"></div>
