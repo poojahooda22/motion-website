@@ -9,10 +9,10 @@ import img7 from '../assets/images/team7.png';
 import img8 from '../assets/images/team8.png';
 import img9 from '../assets/images/team9.png';
 
-import {useEffect, useRef} from 'react';
+import {useEffect} from 'react';
 import { gsap } from "gsap";
-import { Power2, Power4} from 'gsap/gsap-core';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Power4} from 'gsap/gsap-core';
+
 
 
 const data = [
@@ -38,25 +38,24 @@ function List() {
           opacity: 1, 
           x: gsap.utils.mapRange(0, window.innerWidth, -200, 200, dets.clientX),
           y: gsap.utils.mapRange(0, window.innerHeight, -50, 50, dets.clientY),
-          ease: Power2, 
+          ease: Power4, 
           duration: .5
         })
       })
       el.addEventListener('mouseleave', function() {
-        gsap.utils.mapRange()
         gsap.to(this.querySelector(".picture"), {opacity: 0, ease: Power4, duration: .5})
       })
       el.addEventListener('mousemove', function() {
         gsap.to(this.querySelector(".bluelayer"), {
           height: '100%', 
-          ease: Power2,
+          ease: Power4,
           duration: .1
         })
       })
       el.addEventListener('mouseleave', function() {
         gsap.to(this.querySelector(".bluelayer"), {
           height: '0%',  
-          ease: Power2, 
+          ease: Power4, 
           duration: .1})
       })
     })
