@@ -14,6 +14,18 @@ import img9 from '../../assets/images/real9.jpg'
 import Button from '../Button';
 
 
+import { useState, useRef} from 'react';
+import { gsap } from "gsap";
+import { Power2, Power4 } from 'gsap/gsap-core';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.set(".slidesm", {scale: 5})
+
+
+
 function Real() {
   return (
     <div className="real section w-full">
