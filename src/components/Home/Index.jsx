@@ -61,7 +61,7 @@ function Home() {
    
     
     return (
-    <div className="home section w-full h-[200vh] relative ">
+    <div ref={container} className="home section w-full h-[200vh] relative ">
         <div className='w-full sticky top-0 left-0'>
             <motion.div 
                 variants={{
@@ -115,7 +115,7 @@ function Home() {
             </div>
             {/* video div */}
             <div 
-                ref={container}
+                
                 className={`vdodiv w-full h-screen absolute z-[3] 
                 top-0 left-0  overflow-hidden ${styles.vdodiv}`}
             >   
@@ -140,8 +140,8 @@ function Home() {
                 </div>
 
                 <div 
-                    ref={container}
-                    className='slidesm absolute scale-[1] top-1/2 left-1/2 
+                    
+                    className='slidesm absolute scale-[4] top-1/2 left-1/2 
                     -translate-x-1/2 -translate-y-1/2 w-[90%]'
                 >    
                     <div className='row'>
