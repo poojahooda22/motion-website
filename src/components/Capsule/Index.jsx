@@ -5,7 +5,7 @@ import cap2 from '../../assets/images/cap2.jpg'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
-import { Power4 } from 'gsap/gsap-core';
+import { Power4} from 'gsap/gsap-core';
 gsap.registerPlugin(ScrollTrigger);
 
 function Capsule() {
@@ -15,20 +15,26 @@ function Capsule() {
         const tl = gsap.timeline({
             scrollTrigger: {
             trigger: ".capsules",
-            start: "top top",
+            start: "top 60%",
             end: "bottom bottom",
             scrub: .5,
             }
         });
         tl.to(".capsule:nth-child(2)", {
             y: 0,
+            marginTop:32,
+            ease: Power4
+        })
+        tl.to(".capsule:nth-child(1)", {
+            marginTop:32,
             ease: Power4
         })
     }, container);
 
 
   return (
-    <div ref={container} className="capsules section w-full h-screen overflow-hidden flex  items-start justify-between mt-60 px-10 ">
+    <div data-color="white" ref={container} className="capsules  section w-full h-screen overflow-hidden 
+    flex  items-start justify-around mt-60 px-10 ">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
@@ -41,10 +47,10 @@ function Capsule() {
                 <Button bgColor="bg-[#f5f19c]" text="VIEW ALL ARTICLES" />
             </div>
         </div>
-        <div className="right font-[SansitaReg] h-full flex items-center gap-20  ">
+        <div className="right font-[SansitaReg]  h-full flex items-center gap-20  ">
             {/* 1st capsule */}
             <div   
-                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[20deg]
+                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
                 rounded-full border-[1px] border-black">
                 <div className="image w-80 h-80  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
@@ -60,7 +66,7 @@ function Capsule() {
             </div>
             {/* 2nd capsule */}
             <div   
-                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[20deg] translate-y-20
+                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-40
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
