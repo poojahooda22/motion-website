@@ -1,6 +1,6 @@
 import video from '../../assets/video/1ENIoa5sjq.mp4'
 import Row from '../Row'
-import {useEffect, useState, useRef} from 'react';
+import { useState, useRef} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { gsap } from "gsap";
 import styles from './Style.module.css';
@@ -14,38 +14,27 @@ gsap.set(".slidesm", {scale: 5})
 
 function Home() {
     const container = useRef(null);
-    const line = useRef(null);
     
-    // useGSAP(() => {
-    //     const tl = gsap.timeline({
-    //         scrollTrigger: {
-    //         trigger: ".home",
-    //         start: "top top",
-    //         end: "bottom top",
-    //         markers: true,
-    //         pin: true,
-    //         scrub: .5,
-    //         }
-    //      });
-    //      tl.to(".vdodiv", {
-    //         clipPath: 'circle(0% at 50% 50%)',
-    //         ease: Power2,
-    //       }, "start")
-    //         .to(".slidesm", {
-    //           scale: 1,
-    //           ease: Power2,
-    //         }, "start")
-    //         .to(".lft", {
-    //           xPercent: -10,
-    //           stagger: 0.03,
-    //           ease: Power4,
-    //         }, "start")
-    //         .to(".rgt", {
-    //           xPercent: 12,
-    //           stagger: 0.03,
-    //           ease: Power4,
-    //         }, "start");    
-    // }, container, line);
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+            trigger: ".home",
+            start: "top top",
+            end: "bottom top",
+            markers: true,
+            pin: true,
+            scrub: .5,
+            }
+         });
+         tl.to(".vdodiv", {
+            clipPath: 'circle(0% at 50% 50%)',
+            ease: Power2,
+          }, "start")
+          tl.to(".slidesm", {
+            scale: 1,
+            ease: Power2,
+         }, 'start');           
+    }, container )
 
     const {scrollY} = useScroll();
     const [hidden, setHidden] = useState(false);
@@ -148,7 +137,7 @@ function Home() {
                 className='slidesm absolute scale-[1] top-1/2 left-1/2 
                 -translate-x-1/2 -translate-y-1/2 w-[90%]'
             >    
-                <div className='row' ref={line}>
+                <div className='row'>
                     <Row translateClass="-translate-x-1/2" direction="lft"/>
                     <Row translateClass="-translate-x-2/3" direction="rgt"/>
                     <Row translateClass="-translate-x-1/4" direction="lft" />
