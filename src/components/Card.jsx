@@ -1,6 +1,32 @@
 
+import { useRef} from 'react';
+import { gsap } from "gsap";
+import { Power2} from 'gsap/gsap-core';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Card() {
+
+    const container = useRef(null);
+    
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+            trigger: ".real",
+            start: "top top",
+            end: "bottom bottom",
+            scrub: 1,
+            }
+         });
+         tl.to(".slide", {
+            xPercent: -300,
+            ease: Power2
+         })
+                   
+    }, container );
+
 
     const items = [
         { 
@@ -52,7 +78,7 @@ function Card() {
     ]
 
   return (
-        <div className="card-container">
+        <div ref={container} className="card-container">
             {items.map((item, index) => {
                 return (
                     <div key={index} className="card mb-8 w-[70%] flex items-center justify-between border-[1px] border-[--black]  py-10 px-10 gap-4">
