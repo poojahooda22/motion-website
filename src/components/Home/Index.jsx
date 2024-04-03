@@ -33,12 +33,11 @@ function Home() {
             ease: Power2,
          }, 'start');
          tl.to(".lft", {
-            xPercent: -10,
-            delay: 0.1,
+            xPercent: -20,
             ease: Power4,
          }, 'start');
          tl.to(".rgt", {
-            xPercent: 10,
+            xPercent: 20,
             ease: Power4,
          }, 'start');           
     }, container )
@@ -107,7 +106,7 @@ function Home() {
             </motion.div>
 
             <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48 '>
-            <h1 className='text-white'>
+                <h1 className='text-white'>
                     We build big ideas.
                     Software. Apps. Tools.
                     For real people. Real lives.
