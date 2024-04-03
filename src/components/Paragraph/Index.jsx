@@ -17,6 +17,16 @@ function Para() {
         })
         para.innerHTML = clutter;   
         gsap.set(".textpara span", {opacity: .1})
+        gsap.to(".textpara span", {
+            scrollTrigger: {
+                trigger: ".textpara",
+                start: "top 80%",
+                end: "bottom 20%",
+                scrub: 1,
+                markers: true,
+            },
+            opacity: 1,  
+        })
     },[]);
 
     
