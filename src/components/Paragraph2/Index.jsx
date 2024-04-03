@@ -26,8 +26,7 @@ function Para2() {
                 scrub: 1,
             },
             opacity: 1, 
-            stagger: .03,
-            
+            stagger: .03,   
         })
     },[]);
   return (
