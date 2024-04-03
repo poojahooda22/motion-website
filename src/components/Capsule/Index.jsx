@@ -4,7 +4,7 @@ import cap2 from '../../assets/images/cap2.jpg'
 
 function Capsule() {
   return (
-    <div className="capsules section w-full h-screen overflow-hidden flex items-start justify-between mt-60 px-10 ">
+    <div className="capsules section w-full h-screen overflow-hidden flex bg-red-400 items-start justify-between mt-60 px-10 ">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
@@ -36,7 +36,7 @@ function Capsule() {
             </div>
             {/* 2nd capsule */}
             <div   
-                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[20deg]
+                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[20deg] 
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
