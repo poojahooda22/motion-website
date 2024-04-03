@@ -8,7 +8,7 @@ function Team() {
 
   
   return (
-    <div className='team section font-[SansitaReg] py-20'>
+    <div data-color="white" className='team section font-[SansitaReg] py-20'>
       <h1 className=" text-6xl text-center tracking-tight">
         Our Team
       </h1>
