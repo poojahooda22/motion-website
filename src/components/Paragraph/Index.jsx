@@ -1,7 +1,6 @@
 import img1 from '../../assets/images/review1.jpeg';
 import { useEffect } from 'react';
 import { gsap } from "gsap";
-import { Power4} from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -23,7 +22,6 @@ function Para() {
                 start: "top 70%",
                 end: "bottom 90%",
                 scrub: 1,
-                markers: true,
             },
             opacity: 1, 
             stagger: .03,
