@@ -61,7 +61,7 @@ function Home() {
    
     
     return (
-    <div ref={container} className="home section w-full h-[200vh] relative ">
+    <div ref={container} className="home section w-full h-[200vh] relative bg-black ">
         <div className='w-full sticky top-0 left-0'>
             <motion.div 
                 variants={{
@@ -132,7 +132,7 @@ function Home() {
             {/* marquee div */}
             <div 
                 className="marqueecontainer w-full h-screen 
-                relative overflow-hidden"
+                relative overflow-hidden text-white"
             >
                 {/* /* top Heading div */ }
                 <div className=' heading absolute top-[7%] left-1/2 -translate-x-1/2 w-72'>
