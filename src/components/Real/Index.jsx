@@ -42,7 +42,7 @@ function Real() {
 
 
   return (
-    <div ref={container} className="real section w-full">
+    <div  data-color="salmon" ref={container} className="real section w-full">
       <div className="cont h-[400vh] relative">
         <div  
             className="slides w-full h-[130vh] overflow-hidden sticky top-0 left-0 flex  ">
@@ -84,7 +84,7 @@ function Real() {
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight text-xl absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'>We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</h3>
-                    <h1 className=' font-semibold text-[9rem] leading-none '>20.4M</h1>
+                    <h1 className=' font-semibold text-[9rem] leading-none text-white '>20.4M</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3rem]'>Real people — real lives — we have built products and solutions for.</h3>    
                 </div>
                 <div 
@@ -139,7 +139,7 @@ function Real() {
                     >
                         Our team is global and diverse, because our individual experiences make us stronger.
                     </h3>
-                    <h1 className=' font-semibold text-[10rem] leading-none '>49%</h1>
+                    <h1 className=' font-semibold text-[10rem] leading-none text-white '>49%</h1>
                     <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
                         Expert Women in Tech.
                     </h3>    
@@ -180,7 +180,7 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
-                    <h1 className=' font-semibold text-[10rem] leading-none '>13</h1>
+                    <h1 className=' font-semibold text-[10rem] leading-none text-white '>13</h1>
                     <h3 className='text-[2.8rem] font-semibold leading-[3.4rem]'>
                         Nationalities Represented on Our <br/> Team.
                     </h3>    
