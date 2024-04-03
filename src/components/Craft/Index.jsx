@@ -12,22 +12,22 @@ gsap.registerPlugin(ScrollTrigger);
 function Craft() {
     const container = useRef(null);
     
-    useGSAP(() => {
-        const tl = gsap.timeline({
-            scrollTrigger: {
-            trigger: ".real",
-            start: "top top",
-            end: "bottom bottom",
-            markers: true,
-            scrub: 2,
-            }
-         });
-         tl.to(".slide", {
-            xPercent: -300,
-            ease: Power2
-         })
+    // useGSAP(() => {
+    //     const tl = gsap.timeline({
+    //         scrollTrigger: {
+    //         trigger: ".craft",
+    //         start: "top top",
+    //         end: "bottom bottom",
+    //         markers: true,
+    //         scrub: 2,
+    //         }
+    //      });
+    //      tl.to(".ltext", {
+    //         backgroundColor: '--cyan',
+    //         ease: Power2
+    //      })
                    
-    }, container );
+    // }, container );
   return (
     <div ref={container}
         className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
