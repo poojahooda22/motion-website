@@ -4,7 +4,7 @@ import cap2 from '../../assets/images/cap2.jpg'
 
 function Capsule() {
   return (
-    <div className="capsules section w-full h-screen flex items-start justify-between mt-60 px-10 ">
+    <div className="capsules section w-full h-screen overflow-hidden flex items-start justify-between mt-60 px-10 ">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
