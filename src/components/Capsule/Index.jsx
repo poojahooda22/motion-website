@@ -14,17 +14,17 @@ function Capsule() {
     useGSAP(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
-            trigger: ".home",
+            trigger: ".capsules",
             start: "top top",
             end: "bottom bottom",
             scrub: .5,
             }
         });
-        tl.to(".vdodiv", {
-            clipPath: 'circle(0% at 50% 50%)',
-            ease: Power4,
-        }, "start")
-    });
+        tl.to(".capsule:nth-child(2)", {
+            y: 0,
+            ease: Power4
+        })
+    }, container);
 
 
   return (
