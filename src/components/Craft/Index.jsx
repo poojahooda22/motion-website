@@ -6,30 +6,24 @@ import { gsap } from "gsap";
 import { Power2} from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
+import { useScroll, useTransform} from 'framer-motion';
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Craft() {
     const container = useRef(null);
-    
-    // useGSAP(() => {
-    //     const tl = gsap.timeline({
-    //         scrollTrigger: {
-    //         trigger: ".craft",
-    //         start: "top top",
-    //         end: "bottom bottom",
-    //         markers: true,
-    //         scrub: 2,
-    //         }
-    //      });
-    //      tl.to(".ltext", {
-    //         backgroundColor: '--cyan',
-    //         ease: Power2
-    //      })
-                   
-    // }, container );
+
+    const { scrollYProgress} = useScroll ({
+        target: container,
+        offset: ["0 1", "1.33 1"],
+    });
+
+    const scaleProgress = useTransform(scrollYProgress, [0,1], [0.8, 1]);
   return (
-    <div ref={container}
+    <div ref={container} 
+        style={{
+            scale: scaleProgress,
+        }}
         className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
         <div className="ltext w-[40%] sticky top-[10%] left-0  ">
             <p className="font-[Sansita] text-[1.2rem] font-medium leading-[2rem]">
