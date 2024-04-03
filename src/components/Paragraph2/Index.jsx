@@ -2,7 +2,7 @@ import img1 from '../../assets/images/review2.jpg'
 
 function Para2() {
   return (
-    <div className="para section w-full flex items-center justify-center -translate-y-1/5 ">
+    <div className="para2 section w-full flex items-center justify-center -translate-y-1/5 ">
         <div className="text w-[80%] flex flex-col items-end justify-center ">
             <div className='w-[40%] flex items-center justify-center mb-12'>
                 <hr className='bg-zinc-400 w-[20%] h-[1.5px]' />
