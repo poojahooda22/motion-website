@@ -11,7 +11,7 @@ import img6 from '../../assets/images/real6.jpg'
 import img7 from '../../assets/images/real7.jpg'
 import img8 from '../../assets/images/real8.jpg'
 import img9 from '../../assets/images/real9.jpg'
-import Button from '../Button';
+// import Button from '../Button';
 import { useRef} from 'react';
 import { gsap } from "gsap";
 import { Power2} from 'gsap/gsap-core';
