@@ -1,7 +1,6 @@
 import img1 from '../../assets/images/review2.jpg'
 import { useEffect } from 'react';
 import { gsap } from "gsap";
-import { Power4} from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
