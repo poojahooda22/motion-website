@@ -20,9 +20,7 @@ function Home() {
             scrollTrigger: {
             trigger: ".home",
             start: "top top",
-            end: "bottom top",
-            
-            pin: true,
+            end: "bottom bottom",
             scrub: .5,
             }
          });
@@ -63,7 +61,7 @@ function Home() {
    
     
     return (
-    <div className="home section w-full h-screen relative ">
+    <div className="home section w-full h-[200vh] relative ">
         <div className='w-full sticky top-0 left-0'>
             <motion.div 
                 variants={{
