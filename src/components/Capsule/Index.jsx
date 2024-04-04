@@ -26,14 +26,15 @@ function Capsule() {
             ease: Power4
         })
         tl.to(".capsule:nth-child(1)", {
-            marginTop:32,
+            marginTop: 32,
+            marginBottom: 64,
             ease: Power4
         })
     }, container);
 
 
   return (
-    <div data-color="white" ref={container} className="capsules  section w-full h-screen overflow-hidden 
+    <div data-color="white" ref={container} className="capsules  section w-full h-[120vh] overflow-hidden bg-red-500
     flex  items-start justify-around mt-60 px-10 mb-60 ">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
@@ -47,7 +48,7 @@ function Capsule() {
                 <Button bgColor="bg-[#f5f19c]" text="VIEW ALL ARTICLES" />
             </div>
         </div>
-        <div className="right font-[SansitaReg]  h-full flex items-center gap-20 mb-60 ">
+        <div className="right font-[SansitaReg]  h-full flex items-center gap-20  mb-60 ">
             {/* 1st capsule */}
             <div   
                 className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
