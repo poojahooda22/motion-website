@@ -50,9 +50,6 @@ function Real() {
         <div  
             className="slides w-full h-[130vh] overflow-hidden sticky top-0 left-0 flex  ">
             {/* 1st slide */}
-            {/* <div className='buttn bottom-10 left-10'>
-                <Button bgColor="bg-[#f5f19c]" text="PARTNER WITH US" />
-            </div> */}
             <div className="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
                 
                 <div className="text1 font-[SansitaReg] text-[15vh] leading-[18vh]">
