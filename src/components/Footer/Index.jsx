@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <div className="section w-full mt-30 flex  items-start justify-around">
+    <div className="section w-full mt-30">
       <div className="w-1/3 h-[30vh] bg-red-500">
 
       </div>
