@@ -36,7 +36,7 @@ function Capsule() {
   return (
     <div data-color="white" ref={container} className="capsules  section w-full h-[120vh] overflow-hidden mb-32 
     flex  items-start justify-between mt-60 px-10">
-        <div className="left w-1/3 h-full flex flex-col justify-between py-10 bg-red-600 items-start">
+        <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
                 latest healthcare
