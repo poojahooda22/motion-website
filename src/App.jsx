@@ -9,6 +9,7 @@ import Para2 from './components/Paragraph2/Index'
 import Real from './components/Real/Index'
 import Team from './components/Team/Index'
 import LocomotiveScroll from 'locomotive-scroll';
+import Footer from './components/Footer/Index';
 
 function App() {
   const scrollRef = useRef(null);
@@ -54,6 +55,7 @@ function App() {
       <Para  />
       <Para2 />
       <Capsule />
+      <Footer />
     </div>    
   )
 }
