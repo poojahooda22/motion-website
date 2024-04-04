@@ -37,8 +37,7 @@ function Real() {
             ease: Power2
          })
          tl.fromTo(".image7", {
-            opacity: 1,
-            ease: Power2
+            h: 0,
          }, {
             opacity: 0,
          })              
