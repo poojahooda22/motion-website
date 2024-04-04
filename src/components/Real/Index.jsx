@@ -37,7 +37,7 @@ function Real() {
             ease: Power2
          })
          tl.to(".image7", {
-            h: 0,
+            opacity: 0,
          })              
     }, container );
 
