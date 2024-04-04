@@ -4,7 +4,7 @@ function Footer() {
     <div className="section w-full mt-30">
       <div className="topfoot w-full h-[30vh] bg-red-500">
         <div className="left ">
-          <div>
+          <div className="font-[SansitaReg]">
             <h1>Discover Significo.</h1>
           </div>
         </div>
