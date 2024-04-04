@@ -52,7 +52,7 @@ function Craft() {
         );
     },[]);
 
-
+    gsap.set(".card", {backgroundColor: '#000000'});
     useGSAP(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -68,11 +68,12 @@ function Craft() {
             ".card", 
             {                
                 y: 500,  
-                scale: 1,       
+                scale: .9,       
             },
             {
                 opacity: 1,
-                scale: 1.3,
+                scale: 1.1,
+                gap: 10,
                 y: 0,     
                 ease: Power4,
                 transformOrigin: "bottom",
