@@ -1,5 +1,5 @@
 
-function Index() {
+function Footer() {
   return (
     <div>
       
@@ -7,4 +7,4 @@ function Index() {
   )
 }
 
-export default Index
+export default Footer
