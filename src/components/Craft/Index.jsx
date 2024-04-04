@@ -28,7 +28,6 @@ function Craft() {
             start: "top 100%",
             end: "bottom 50%",
             scrub: .5,
-            markers: true,
             }
         });
 
@@ -59,7 +58,6 @@ function Craft() {
             trigger: ".cards",
             start: "top 10%",
             end: "bottom -100%",
-            markers: true,
             scrub: 1,
             stagger: 0.5
             }
@@ -73,7 +71,6 @@ function Craft() {
             {
                 opacity: 1,
                 scale: 1.1,
-                backgroundColor: "rgba(0,0,0,1)",
                 gap: 10,
                 y: 0,     
                 ease: Power4,
