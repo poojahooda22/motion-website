@@ -5,7 +5,7 @@ function Footer() {
       <div className="w-full h-[30vh] bg-red-500">
 
       </div>
-      <div className=" w-1/2 h-[50vh] bg-yellow-400">
+      <div className=" w-full h-[50vh] bg-yellow-400">
 
       </div>
     </div>
