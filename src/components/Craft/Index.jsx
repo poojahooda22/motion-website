@@ -5,7 +5,7 @@ import {useRef} from 'react';
 import { useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Power4, Power2} from 'gsap/gsap-core';
+import { Power4, } from 'gsap/gsap-core';
 import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,26 +13,26 @@ function Craft() {
     const container = useRef(null);
 
     useEffect(() => {
-        // var clutter = "";
-        // const para = document.querySelector(".texthead")
-        // const characters = para.textContent.split("")
-        // characters.forEach(function(e) {
-        //     if(e === " ") clutter += `<span>&nbsp;</span>`
-        //     clutter += `<span>${e}</span>`
-        // })
-        // para.innerHTML = clutter;
-        // const tl = gsap.timeline({
-        //     scrollTrigger: {
-        //     trigger: ".ltext",
-        //     start: "top 100%",
-        //     end: "bottom 50%",
-        //     scrub: .5,
-        //     markers: true,
+        var clutter = "";
+        const para = document.querySelector(".texthead")
+        const characters = para.textContent.split("")
+        characters.forEach(function(e) {
+            if(e === " ") clutter += `<span>&nbsp;</span>`
+            clutter += `<span>${e}</span>`
+        })
+        para.innerHTML = clutter;
 
-        //     }
-        // });
+        const tl = gsap.timeline({
+            scrollTrigger: {
+            trigger: ".ltext",
+            start: "top 100%",
+            end: "bottom 50%",
+            scrub: .5,
+            markers: true,
+            }
+        });
 
-        gsap.fromTo(
+        tl.fromTo(
             ".texthead", 
             {                
                 y: 100, 
@@ -52,7 +52,7 @@ function Craft() {
         );
     },[]);
 
-    gsap.set(".card", {backgroundColor: '#000000'});
+    
     useGSAP(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -73,13 +73,13 @@ function Craft() {
             {
                 opacity: 1,
                 scale: 1.1,
+                backgroundColor: "rgba(0,0,0,1)",
                 gap: 10,
                 y: 0,     
                 ease: Power4,
                 transformOrigin: "bottom",
             }
-        );
-                    
+        );                
     }, container );
 
    
