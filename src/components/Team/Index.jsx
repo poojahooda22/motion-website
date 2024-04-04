@@ -3,15 +3,15 @@ import Button from "../Button"
 
 
 
-
 function Team() {
 
-  
   return (
-    <div data-color="white" className='team section font-[SansitaReg] py-20'>
-      <h1 className=" text-6xl text-center tracking-tight">
-        Our Team
-      </h1>
+    <div  data-color="white" className='team section font-[SansitaReg] py-20'>
+      <div className="head1">
+        <h1 className=" text-6xl text-center tracking-tight">
+          Our Team
+        </h1>
+      </div>
       <div className="list mt-10 w-full px-10">
         {/* //single list */}
         <List />
