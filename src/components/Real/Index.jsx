@@ -14,7 +14,7 @@ import img9 from '../../assets/images/real9.jpg'
 // import Button from '../Button';
 import { useRef} from 'react';
 import { gsap } from "gsap";
-import { Power2, Power4} from 'gsap/gsap-core';
+import { Power2,} from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 
