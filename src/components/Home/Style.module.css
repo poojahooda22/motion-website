@@ -1,16 +1,11 @@
-.links::after {
-    content: '';
-     position: absolute;
-     left: 0;
-     bottom: -100%;
-     width: 100%;
-     height: 100%;
-     transition: all 0.5s;
-     border-radius: 50%;
-     
-}
+
 
 .vdodiv {
     clip-path: circle(100% at 50% 50%);
 }
 
+.links:hover .atag {
+    transition: translateY(-100%);
+    
+}
+ 
