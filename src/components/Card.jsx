@@ -1,32 +1,8 @@
 
-// import { useRef} from 'react';
-// import { gsap } from "gsap";
-// import { Power2} from 'gsap/gsap-core';
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { useGSAP } from '@gsap/react';
-
-// gsap.registerPlugin(ScrollTrigger);
 
 function Card() {
 
-    // const container = useRef(null);
-    
-    // useGSAP(() => {
-    //     const tl = gsap.timeline({
-    //         scrollTrigger: {
-    //         trigger: ".card-container",
-    //         start: "top top",
-    //         end: "bottom bottom",
-    //         markers: true,
-    //         scrub: 1,
-    //         }
-    //      });
-    //      tl.to(".card", {
-    //         yPercent: -300,
-    //         ease: Power2
-    //      })
-                   
-    // }, container );
+
 
 
     const items = [
@@ -83,7 +59,7 @@ function Card() {
             {items.map((item, index) => {
                 return (
                     <div key={index} className="card mb-8 w-[70%] flex items-center justify-between border-[1px] border-[--black]  py-10 px-10 gap-4">
-                    <div className="w-3/4  font-[Sansita]  leftdata">
+                    <div className="w-3/4 font-[Sansita]  leftdata">
                         <h1 key={index} className="text-[1.5vw] font-semibold mb-4">{item.title}</h1>
                         <p className=" text-[.9rem] font-medium">{item.description}</p>
                     </div>
