@@ -34,7 +34,7 @@ function Capsule() {
 
 
   return (
-    <div data-color="white" ref={container} className="capsules  section w-full h-[120vh] overflow-hidden bg-red-500
+    <div data-color="white" ref={container} className="capsules  section w-full h-[120vh] overflow-hidden 
     flex  items-start justify-around mt-60 px-10 mb-60 ">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10">
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
