@@ -57,7 +57,7 @@ function Craft() {
             scrollTrigger: {
             trigger: ".cards",
             start: "top 10%",
-            end: "bottom -100%",
+            end: "bottom 300%",
             scrub: 1,
             stagger: 0.5
             }
@@ -90,12 +90,12 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,<br/>
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[5rem]">We Craft<br/> Human-Centric<br/> Health Software</h1>
+                <h1 className="texthead font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[5rem]">We Craft Human-Centric Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-        className="cards w-1/2 ">                
+            className="cards w-1/2 ">                
             <Card />
         </div>
     </div>
