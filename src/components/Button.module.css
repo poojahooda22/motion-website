@@ -1,26 +1,32 @@
 
-
-
- 
  .masker:hover .iconMask {
    transform: rotate(45deg);
    transition: transform 0.5s;
  }
  
 
- .masker .spanMask::after {
-   content: '';
-   position: absolute;
-   left: 0;
-   bottom: -100%;
-   width: 100%;
-   height: 100%;
-   transform: translateY(-100%);
+ .masker:hover .spanMask {
    transition: transform 0.5s;
+   animation: slideAndFade 0.4s forwards;
  }
 
- .masker:hover .spanMask {
-   transform: translateY(-100%);
-   transform: translateY(100%);
-   transition: transform 0.5s;
+
+
+ @keyframes slideAndFade {
+   0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    51% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
  }
