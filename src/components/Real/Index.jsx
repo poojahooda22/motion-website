@@ -36,8 +36,8 @@ function Real() {
             xPercent: -300,
             ease: Power2
          })
-         tl.to(".image7", {
-            opacity: 0,
+         tl.fromTo(".image7", {
+            opacity: 1,
             ease: Power2
          })              
     }, container );
