@@ -13,8 +13,6 @@ import {useEffect} from 'react';
 import { gsap } from "gsap";
 import { Power4} from 'gsap/gsap-core';
 
-
-
 const data = [
     {key: 1, title: "Dr. Rick McCartney", role: "CEO", img: img1},
     {key: 2, title: "Chris Koha", role: "COO", img: img2},
@@ -29,6 +27,10 @@ const data = [
 
 
 function List() {
+
+
+
+  
 
   useEffect(() => {
     const list = document.querySelectorAll('.listelem')
