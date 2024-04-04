@@ -14,7 +14,7 @@ import img9 from '../../assets/images/real9.jpg'
 // import Button from '../Button';
 import { useRef} from 'react';
 import { gsap } from "gsap";
-import { Power2} from 'gsap/gsap-core';
+import { Power2, Power4} from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 
@@ -36,6 +36,13 @@ function Real() {
          tl.to(".slide", {
             xPercent: -300,
             ease: Power2
+         })
+         tl.fromTo(".image7", {
+            opacity: 1,
+         },
+         {
+            opacity: 0,
+            ease: Power4
          })
                    
     }, container );
@@ -186,7 +193,7 @@ function Real() {
                     </h3>    
                 </div>
                 <div 
-                    className="image absolute w-[24rem] h-[24rem] bottom-0 right-2/4 
+                    className="image7 absolute w-[24rem] h-[24rem] bottom-0 right-2/4 
                     translate-y-1/2 -translate-x-1/2"
                 >
                     <img 
