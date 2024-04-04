@@ -34,7 +34,7 @@ function Craft() {
         tl.fromTo(
             ".texthead", 
             {                
-                y: 100, 
+                y: 50, 
                 opacity: 0,           
             },
             {
