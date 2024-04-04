@@ -1,0 +1,26 @@
+
+
+
+ 
+ .masker:hover .iconMask {
+   transform: rotate(45deg);
+   transition: transform 0.5s;
+ }
+ 
+
+ .masker .spanMask::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -100%;
+   width: 100%;
+   height: 100%;
+   transform: translateY(-100%);
+   transition: transform 0.5s;
+ }
+
+ .masker:hover .spanMask {
+   transform: translateY(-100%);
+   transform: translateY(100%);
+   transition: transform 0.5s;
+ }
