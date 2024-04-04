@@ -6,6 +6,25 @@
 
 .links:hover .atag {
     transition: translateY(-100%);
+    animation: slideAndFade 0.4s forwards;
     
 }
  
+@keyframes slideAndFade {
+    0% {
+       transform: translateY(0);
+       opacity: 1;
+     }
+     50% {
+       transform: translateY(-100%);
+       opacity: 0;
+     }
+     51% {
+       transform: translateY(100%);
+       opacity: 0;
+     }
+     100% {
+       transform: translateY(0);
+       opacity: 1;
+     }
+  }
