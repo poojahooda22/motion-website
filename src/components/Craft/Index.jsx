@@ -57,7 +57,7 @@ function Craft() {
             scrollTrigger: {
             trigger: ".cards",
             start: "top 10%",
-            end: "bottom 300%",
+            end: "bottom 10%",
             scrub: 1,
             stagger: 0.5
             }
