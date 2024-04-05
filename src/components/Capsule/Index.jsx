@@ -27,14 +27,14 @@ gsap.registerPlugin(ScrollTrigger);
         })
         tl.to(".capsule:nth-child(1)", {
             marginTop: 32,
-            marginBottom: 64,
             ease: Power4
         })
     }, container);
 
 
   return (
-    <div data-color="white" ref={container} className="capsules  section w-full h-[110vh] overflow-hidden mb-32 
+    <div data-color="white" ref={container} className="capsules  section w-full h-[100vh] 
+    overflow-hidden mb-32 
     flex  items-start justify-between mt-60 px-10 gap-40">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start " >
             <h1 className="w-2/3 font-[Sansita] text-xl leading-[2rem] font-medium">
