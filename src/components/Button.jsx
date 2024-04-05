@@ -2,9 +2,9 @@ import { LuArrowUpRight } from "react-icons/lu";
 import styles from './Button.module.css';
 
 
+import PropTypes from 'prop-types';
+
 function Button({bgColor, text}) {
-
-
   return (
     <div className={`${bgColor} section w-fit px-6 py-4 border-[1px] border-[--black]`}>
         <div className= {`${styles.masker} flex items-center gap-2 overflow-hidden relative cursor-pointer`}>
@@ -15,5 +15,10 @@ function Button({bgColor, text}) {
     </div>
   )
 }
+
+Button.propTypes = {
+  bgColor: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
+};
 
 export default Button
