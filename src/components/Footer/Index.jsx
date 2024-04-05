@@ -12,7 +12,7 @@ function Footer() {
             <h1>Discover Significo.</h1>
           </div>
           {/* <Button text="Let's Go" bgColor="bg-[#f5f19c]" /> */}
-          <div className='w-fit px-6 py-4 bg-[--black] text-[#f5f19c]'>
+          <div className='w-fit px-4 py-[1.6vh] bg-[--black] text-[#f5f19c]'>
             <div 
               className= {`${styles.masker} flex items-center gap-2 overflow-hidden 
               relative cursor-pointer`}>
@@ -65,7 +65,7 @@ function Footer() {
                 the latest updates.
             </h1>
             <div className='flex items-center gap-4 '>
-              <input type="text" placeholder="Enter your email address" className="bg-[--white] w-[350px] h-[6.3vh] px-4 text-[2vh] "/>
+              <input type="text" placeholder="Enter your email address" className="bg-[--light] w-[350px] h-[6.3vh] px-4 text-[2vh] "/>
               <Button text="SUBSCRIBE" bgColor="bg-[#f5f19c]" />
             </div>
           </div>
