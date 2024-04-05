@@ -17,9 +17,14 @@ function Row({ translateClass, direction }) {
         { text: "empathetic", image: img3 },     
         { text: "useful", image: img4 },     
         { text: "empathetic", image: img5 },
+        { text: "intuitive", image: img2 },
+        { text: "useful", image: img4 },     
+        { text: "empathetic", image: img5 },
         { text: "intuitive", image: img2 },     
         { text: "empathetic", image: img6 },
-        { text: "useful", image: img1 },               
+        { text: "useful", image: img1 },      
+        { text: "empathetic", image: img6 },
+                      
     ]
 
   return (
