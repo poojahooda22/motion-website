@@ -59,7 +59,7 @@ function Real() {
                     </h1>
                 </div>
                 <div 
-                    className="image absolute w-[20rem] h-[20rem] top-1/2 -translate-y-1/2 translate-x-1/2
+                    className="image absolute w-[45vh] h-[45vh] top-1/2 -translate-y-1/2 translate-x-1/2
                     right-0 "
                 >
                     <img 
@@ -72,7 +72,7 @@ function Real() {
             {/* 2nd slide */}
             <div className="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative ">
                 <div 
-                    className="image absolute w-[15rem] h-[15rem] top-10 -translate-y-1/2 right-1/6
+                    className="image absolute  w-[40vh] h-[40vh] top-10 -translate-y-1/2 right-1/6
                     "
                 >
                     <img 
@@ -81,12 +81,12 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
-                    <h3 className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight text-xl absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'>We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</h3>
+                    <h3 className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight text-[2.2vh] absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'>We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</h3>
                     <h1 className=' font-semibold text-[15vh] leading-none text-white '>20.4M</h1>
-                    <h3 className='text-[5vh] font-semibold leading-[5vh]'>Real people — real lives — we have built products and solutions for.</h3>    
+                    <h3 className='text-[5vh] font-semibold leading-[7vh]'>Real people — real lives — we have built products and solutions for.</h3>    
                 </div>
                 <div 
-                        className="image absolute w-[10rem] h-[10rem] 
+                        className="image absolute w-[20vh] h-[20vh] 
                         top-2/3 left-1/4 -translate-x-1/2
                         "
                     >
@@ -96,7 +96,7 @@ function Real() {
                     />
                     </div>
                 <div 
-                    className="image absolute w-[20rem] h-[20rem] bottom-0 right-1/6 
+                    className="image absolute  w-[45vh] h-[45vh] bottom-0 right-1/6 
                     translate-y-[20vh]"
                 >
                     <img 
