@@ -53,12 +53,12 @@ gsap.registerPlugin(ScrollTrigger);
             <div   
                 className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
                 rounded-full border-[1px] border-black">
-                <div className="image w-60 h-60  rounded-full overflow-hidden">
+                <div className="image w-80 h-80  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
                 </div>
-                <div className="text text-center text-xl font-semibold mt-10 leading-[2.2rem]">
+                <div className="text text-center text-2xl font-semibold mt-10 leading-[2.2rem]">
                     <h3>Equity in Tech: An <br/>
-                        International Women&apos;s <br/> Day Conversation with <br/>Caroline 
+                        Internation Women&apos;s <br/> Day Conversation Wi <br/>Caroline 
                         Nieto, <br/> Significo&apos;s CPO
                     </h3>
                 </div>
@@ -71,7 +71,7 @@ gsap.registerPlugin(ScrollTrigger);
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
-                <div className="text text-center text-xl flex flex-col gap-6 mb-6 font-semibold leading-[2.2rem]">
+                <div className="text text-center text-2xl flex flex-col gap-6 mb-6 font-semibold leading-[2.2rem]">
                     <h3>How to Use Digital <br/>
                         Health Interventions&apos;s <br/>to Align Employee & <br/>Organizational Goals
                     </h3>
@@ -79,7 +79,7 @@ gsap.registerPlugin(ScrollTrigger);
                         achieving your organization&apos;s goals 
                     </h4>
                 </div>
-                <div className="image w-60 h-60  rounded-full overflow-hidden">
+                <div className="image w-80 h-80  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap2} />
                 </div>
                 
