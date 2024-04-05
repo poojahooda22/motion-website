@@ -37,7 +37,7 @@ gsap.registerPlugin(ScrollTrigger);
     overflow-hidden mb-32 
     flex  items-start justify-between mt-60 px-10 gap-40">
         <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start " >
-            <h1 className="w-2/3 font-[Sansita] text-xl leading-[2rem] font-medium">
+            <h1 className="w-2/3 font-[Sansita] text-[2.8vh] leading-[2rem3,4vh] font-medium">
                 Stay up-to-date on the
                 latest healthcare
                 innovations and thought
