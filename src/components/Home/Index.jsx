@@ -125,7 +125,7 @@ function Home() {
                     <div className=" flex gap-4 items-center z-[9] cursor-pointer ">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center 
-                            font-[Sansita]text-[1vw] overflow-hidden`}> 
+                            font-[Sansita] text-[2vh] overflow-hidden`}> 
                                 <a className={`${styles.atag} relative`}>{item} </a>                    
                             </h4>   
                         ))}
@@ -134,7 +134,7 @@ function Home() {
             </motion.div>
 
             <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48 '>
-                <h1 className=''>
+                <h1 className='text-[1.6vh]'>
                     We build big ideas.
                     Software. Apps. Tools.
                     For real people. Real lives.
@@ -163,7 +163,7 @@ function Home() {
             >
                 {/* /* top Heading div */ }
                 <div className=' heading absolute top-[7%] left-1/2 -translate-x-1/2 w-72'>
-                    <h2 className='toptext text-[1.4rem] font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
+                    <h2 className='toptext text-[2.2vh] font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
                 </div>
 
                 <div 
