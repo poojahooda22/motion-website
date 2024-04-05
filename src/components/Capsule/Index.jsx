@@ -51,7 +51,7 @@ gsap.registerPlugin(ScrollTrigger);
         <div className="right font-[SansitaReg] w-2/3  h-full flex items-start justify-start gap-20  ">
             {/* 1st capsule */}
             <div   
-                className="capsule w-fit flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
+                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
                 rounded-full border-[1px] border-black">
                 <div className="image w-60 h-60  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
@@ -67,7 +67,7 @@ gsap.registerPlugin(ScrollTrigger);
             </div>
             {/* 2nd capsule */}
             <div   
-                className="capsule w-fit flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-40
+                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-40
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
