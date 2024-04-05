@@ -29,9 +29,6 @@ const data = [
 function List() {
 
 
-
-  
-
   useEffect(() => {
     const list = document.querySelectorAll('.listelem')
     list.forEach((el) => {
@@ -62,6 +59,7 @@ function List() {
       })
     })
   })
+
   return (
     <div className="list-container">
       {data.map((item, index) => {
