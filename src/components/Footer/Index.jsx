@@ -16,7 +16,7 @@ function Footer() {
             <div 
               className= {`${styles.masker} flex items-center gap-2 overflow-hidden 
               relative cursor-pointer`}>
-              <span className={`${styles.spanMask} font-[Sansita] text-medium capitalize tracking-tight 
+              <span className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
               font-semibold `}>LET&apos;S GO</span>
               <LuArrowUpRight style={{fontSize: "24px", color: "#f5f19c", }} className={`${styles.iconMask}`} /> 
             </div>
@@ -53,7 +53,7 @@ function Footer() {
             {["Home", "Solutions", "About", "Team", "Contact"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[3.1vh] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-[2.8vh] text-white font-semibold'>
                     {item}
                 </h3>  
                 </div>
@@ -73,7 +73,7 @@ function Footer() {
             {["Insights", "Newsroom", "Resources", "Careers", "Contact"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[3.1vh] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-[2.8vh] text-white font-semibold'>
                     {item}
                 </h3>  
                 </div>
