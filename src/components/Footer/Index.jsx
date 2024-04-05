@@ -65,7 +65,7 @@ function Footer() {
                 the latest updates.
             </h1>
             <div className='flex items-center gap-4 '>
-              <input type="text" placeholder="Enter your email address" className="bg-[--white] w-[350px] py-4 px-4 "/>
+              <input type="text" placeholder="Enter your email address" className="bg-[--white] w-[350px] h-[6.3vh] px-4 text-[2vh] "/>
               <Button text="SUBSCRIBE" bgColor="bg-[#f5f19c]" />
             </div>
           </div>
