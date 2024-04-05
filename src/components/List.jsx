@@ -82,7 +82,7 @@ function List() {
                     </h3>   
                 </div>
                 <div className='picture opacity-0 absolute z-[4] top-1/2 
-                left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
+                  left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
                     <img src={item.img}/>
                 </div>
                 <div className="bluelayer absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
