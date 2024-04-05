@@ -34,10 +34,10 @@ function Capsule() {
 
 
   return (
-    <div data-color="white" ref={container} className="capsules  section w-full h-[100vh] overflow-hidden mb-32 
+    <div data-color="white" ref={container} className="capsules  section w-full h-[110vh] overflow-hidden mb-32 
     flex  items-start justify-between mt-60 px-10 gap-40">
-        <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start bg-red-500" >
-            <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
+        <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start " >
+            <h1 className="w-2/3 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
                 latest healthcare
                 innovations and thought
@@ -48,7 +48,7 @@ function Capsule() {
                 <Button bgColor="bg-[#f5f19c]" text="VIEW ALL ARTICLES" />
             </div>
         </div>
-        <div className="right font-[SansitaReg] w-2/3  h-full flex items-start justify-start gap-20 bg-red-500 ">
+        <div className="right font-[SansitaReg] w-2/3  h-full flex items-start justify-start gap-20  ">
             {/* 1st capsule */}
             <div   
                 className="capsule w-fit flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
