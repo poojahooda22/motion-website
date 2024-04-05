@@ -22,3 +22,36 @@
         transform: rotate(360deg);
     }
 }
+
+
+.masker:hover .iconMask {
+    transform: rotate(45deg);
+    transition: transform 0.5s  ease-in-out;
+  }
+  
+ 
+  .masker:hover .spanMask {
+    transition: transform 0.5s  ease-in-out; 
+    animation: slideAndFade 0.4s forwards;
+  }
+ 
+ 
+ 
+  @keyframes slideAndFade {
+    0% {
+       transform: translateY(0);
+       opacity: 1;
+     }
+     50% {
+       transform: translateY(-100%);
+       opacity: 0;
+     }
+     51% {
+       transform: translateY(100%);
+       opacity: 0;
+     }
+     100% {
+       transform: translateY(0);
+       opacity: 1;
+     }
+  }
