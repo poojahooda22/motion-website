@@ -32,7 +32,7 @@ function App() {
     list.forEach(function(e) {
       ScrollTrigger.create({
         trigger: e,
-        start: "top 80%",
+        start: "top 90%",
         end: "bottom 90%",
         onEnter: function(){
           document.body.setAttribute("theme", e.dataset.color);
