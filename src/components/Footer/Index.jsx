@@ -12,7 +12,14 @@ function Footer() {
             <h1>Discover Significo.</h1>
           </div>
           {/* <Button text="Let's Go" bgColor="bg-[#f5f19c]" /> */}
-          
+          <div>
+            <div className= {`${styles.masker} flex items-center gap-2 overflow-hidden bg-[--black] text-[#f5f19c]
+            relative cursor-pointer`}>
+              <span className={`${styles.spanMask} font-[Sansita] text-medium capitalize tracking-tight 
+              font-semibold `}>LET&apos;S GO</span>
+              <LuArrowUpRight style={{fontSize: "24px", color: "#f5f19c", }} className={`${styles.iconMask}`} /> 
+            </div>
+          </div>
         </div>
 
         <div className="right flex w-1/2 items-center justify-between px-10">
