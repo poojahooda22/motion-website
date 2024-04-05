@@ -86,7 +86,7 @@ function List() {
                   left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] 
                   overflow-hidden rounded-full'
                 >
-                    <img src={item.img}/>
+                  <img src={item.img}/>
                 </div>
                 <div className="bluelayer absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
             </div>
