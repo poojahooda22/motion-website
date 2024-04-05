@@ -47,8 +47,19 @@ function Footer() {
       </div>
 
 
-      <div className="downfoot w-full h-[50vh] bg-[--black]">
+      <div className="downfoot w-full h-fit bg-[--black]">
+        <div className='w-full flex items-center justify-between'>
+          <div>
+            {["Home", "Solutions", "About", "Team", "Contact"].map((item, index) => {
+              return (
+                
+              ) 
+            })}
+          </div>
+          
+        </div>
 
+        <div></div>
       </div>
     </div>
   )
