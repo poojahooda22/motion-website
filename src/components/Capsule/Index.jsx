@@ -34,9 +34,9 @@ function Capsule() {
 
 
   return (
-    <div data-color="white" ref={container} className="capsules  section w-full h-[120vh] overflow-hidden mb-32 
-    flex  items-start justify-between mt-60 px-10">
-        <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start">
+    <div data-color="white" ref={container} className="capsules  section w-full h-[100vh] overflow-hidden mb-32 
+    flex  items-start justify-between mt-60 px-10 gap-40">
+        <div className="left w-1/3 h-full flex flex-col justify-between py-10 items-start bg-red-500" >
             <h1 className="w-1/2 font-[Sansita] text-xl leading-[2rem] font-medium">
                 Stay up-to-date on the
                 latest healthcare
@@ -48,15 +48,15 @@ function Capsule() {
                 <Button bgColor="bg-[#f5f19c]" text="VIEW ALL ARTICLES" />
             </div>
         </div>
-        <div className="right font-[SansitaReg]  h-full flex items-center gap-20 ">
+        <div className="right font-[SansitaReg] w-2/3  h-full flex items-start justify-start gap-20 bg-red-500 ">
             {/* 1st capsule */}
             <div   
-                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
+                className="capsule w-fit flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
                 rounded-full border-[1px] border-black">
-                <div className="image w-80 h-80  rounded-full overflow-hidden">
+                <div className="image w-60 h-60  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
                 </div>
-                <div className="text text-center text-2xl font-semibold mt-10 leading-[2.2rem]">
+                <div className="text text-center text-xl font-semibold mt-10 leading-[2.2rem]">
                     <h3>Equity in Tech: An <br/>
                         International Women&apos;s <br/> Day Conversation with <br/>Caroline 
                         Nieto, <br/> Significo&apos;s CPO
@@ -67,19 +67,19 @@ function Capsule() {
             </div>
             {/* 2nd capsule */}
             <div   
-                className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-40
+                className="capsule w-fit flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-40
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
-                <div className="text text-center text-2xl flex flex-col gap-6 mb-6 font-semibold leading-[2.2rem]">
+                <div className="text text-center text-xl flex flex-col gap-6 mb-6 font-semibold leading-[2.2rem]">
                     <h3>How to Use Digital <br/>
                         Health Interventions&apos;s <br/>to Align Employee & <br/>Organizational Goals
                     </h3>
-                    <h4 className="font-[Sansita] text-[.9rem] font-medium leading-[1.4rem] text-zinc-500">How to use personalized digital health <br/> interventions to empower employees while <br/>
+                    <h4 className="font-[Sansita] text-[.8rem] font-medium leading-[1.4rem] text-zinc-500">How to use personalized digital health <br/> interventions to empower employees while <br/>
                         achieving your organization&apos;s goals 
                     </h4>
                 </div>
-                <div className="image w-80 h-80  rounded-full overflow-hidden">
+                <div className="image w-60 h-60  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap2} />
                 </div>
                 
