@@ -53,7 +53,7 @@ function Footer() {
             {["Home", "Solutions", "About", "Team", "Contact"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[2.8vh] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-[2.5vh] text-white font-semibold'>
                     {item}
                 </h3>  
                 </div>
@@ -61,11 +61,11 @@ function Footer() {
             })}
           </div>
           <div className='middle w-1/3'>
-            <h1 className='text-white w-2/3 pb-10 font-[SansitaReg] text-[3.1vh] font-semibold'>Join our mailing list for
+            <h1 className='text-white w-2/3 pb-10 font-[SansitaReg] text-[2.8vh] font-semibold'>Join our mailing list for
                 the latest updates.
             </h1>
-            <div className='flex items-center gap-4 '>
-              <input type="text" placeholder="Enter your email address" className="bg-[--light] w-[350px] h-[6.3vh] px-4 text-[2vh] "/>
+            <div className='flex items-center gap-6 '>
+              <input type="text" placeholder="Enter your email address" className="bg-[--light] w-[350px] h-[5.8vh] px-4 text-[2vh] "/>
               <Button text="SUBSCRIBE" bgColor="bg-[#f5f19c]" />
             </div>
           </div>
@@ -73,7 +73,7 @@ function Footer() {
             {["Insights", "Newsroom", "Resources", "Careers", "Contact"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[2.8vh] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-[2.5vh] text-white font-semibold'>
                     {item}
                 </h3>  
                 </div>
