@@ -33,7 +33,7 @@ function Row({ translateClass, direction }) {
             return (
                 <div key={index} className='elem flex items-center gap-8'>
                     <h1  className='font-[SansitaBold] text-6xl'>{item.text}</h1>
-                    <div className='imgdiv w-[2rem] h-[2rem]'>
+                    <div className='imgdiv w-[4vh] h-[4vh]'>
                         <img 
                             className=''
                             src={item.image} 
