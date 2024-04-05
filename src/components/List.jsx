@@ -79,7 +79,7 @@ function List() {
                     </div>
                     <h3 className="font-[Sansita] text-[2.4vh] font-medium tracking-tight">
                       {item.role}
-                      </h3>   
+                    </h3>   
                 </div>
                 <div className='picture opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full'>
                     <img src={item.img}/>
