@@ -3,10 +3,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
     background-image: url(https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317c_ScrollUp.svg);
-    animation: rotateAnimation 5s linear infinite; 
+    background-size: cover; /* Adjust this as needed */
+    background-position: center; 
+    animation: rotateAnimation 15s linear infinite;
+    z-index: 1;
 
 }
 
