@@ -8,7 +8,7 @@ import { useGSAP } from '@gsap/react';
 import { Power4} from 'gsap/gsap-core';
 gsap.registerPlugin(ScrollTrigger);
 
-function Capsule() {
+ function Capsule() {
     const container = useRef(null);
 
     useGSAP(() => {
