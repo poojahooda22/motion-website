@@ -44,7 +44,7 @@ gsap.registerPlugin(ScrollTrigger);
                 leadership.
             </h1>
             <div className="heading">
-                <h1 className="font-[SansitaReg] text-6xl py-5 leading-[4.6rem]">Explore <br/> Our Insights</h1>
+                <h1 className="font-[SansitaReg] text-[8vh] py-5 leading-[9vh]">Explore <br/> Our Insights</h1>
                 <Button bgColor="bg-[#f5f19c]" text="VIEW ALL ARTICLES" />
             </div>
         </div>
