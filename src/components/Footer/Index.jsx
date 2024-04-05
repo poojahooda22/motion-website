@@ -53,7 +53,7 @@ function Footer() {
             {["Home", "Solutions", "About", "Team", "Contact"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[1.3rem] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-[3.1vh] text-white font-semibold'>
                     {item}
                 </h3>  
                 </div>
@@ -61,19 +61,19 @@ function Footer() {
             })}
           </div>
           <div className='middle w-1/3'>
-            <h1 className='text-white w-2/3 pb-10 font-[SansitaReg] text-[1.4rem] font-semibold'>Join our mailing list for
+            <h1 className='text-white w-2/3 pb-10 font-[SansitaReg] text-[3.1vh] font-semibold'>Join our mailing list for
                 the latest updates.
             </h1>
             <div className='flex items-center gap-4 '>
               <input type="text" placeholder="Enter your email address" className="bg-[--white] w-[350px] py-4 px-4 "/>
-              <Button text="Subscribe" bgColor="bg-[#f5f19c]" />
+              <Button text="SUBSCRIBE" bgColor="bg-[#f5f19c]" />
             </div>
           </div>
           <div className='last'>
             {["Insights", "Newsroom", "Resources", "Careers", "Contact"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[1.3rem] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-[3.1vh] text-white font-semibold'>
                     {item}
                 </h3>  
                 </div>
