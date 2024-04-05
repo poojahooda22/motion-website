@@ -2,7 +2,7 @@
 import Card from "../Card";
 import Button from "../Button";
 import {useRef} from 'react';
-import { useEffect } from 'react';
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Power4, } from 'gsap/gsap-core';
@@ -12,44 +12,44 @@ gsap.registerPlugin(ScrollTrigger);
 function Craft() {
     const container = useRef(null);
 
-    useEffect(() => {
-        var clutter = "";
-        const para = document.querySelector(".texthead")
-        const characters = para.textContent.split("")
-        characters.forEach(function(e) {
-            if(e === " ") clutter += `<span>&nbsp;</span>`
-            clutter += `<span>${e}</span>`
-        })
-        para.innerHTML = clutter;
+    // useEffect(() => {
+    //     var clutter = "";
+    //     const para = document.querySelector(".texthead")
+    //     const characters = para.textContent.split("")
+    //     characters.forEach(function(e) {
+    //         if(e === " ") clutter += `<span>&nbsp;</span>`
+    //         clutter += `<span>${e}</span>`
+    //     })
+    //     para.innerHTML = clutter;
 
-        const tl = gsap.timeline({
-            scrollTrigger: {
-            trigger: ".ltext",
-            start: "top 100%",
-            end: "bottom 50%",
-            scrub: .5,
-            }
-        });
+    //     const tl = gsap.timeline({
+    //         scrollTrigger: {
+    //         trigger: ".ltext",
+    //         start: "top 100%",
+    //         end: "bottom 50%",
+    //         scrub: .5,
+    //         }
+    //     });
 
-        tl.fromTo(
-            ".texthead", 
-            {                
-                y: 50, 
-                opacity: 0,           
-            },
-            {
-                opacity: 1,
-                y: 0,
-                ease: Power4,
-                delay: 0.5,
-                transformOrigin: "40% 50% -50",
-                stagger: {
-                    each: 0.1,
-                    delay: 0.5
-                }
-            }
-        );
-    },[]);
+    //     tl.fromTo(
+    //         ".texthead", 
+    //         {                
+    //             y: 50, 
+    //             opacity: 0,           
+    //         },
+    //         {
+    //             opacity: 1,
+    //             y: 0,
+    //             ease: Power4,
+    //             delay: 0.5,
+    //             transformOrigin: "40% 50% -50",
+    //             stagger: {
+    //                 each: 0.1,
+    //                 delay: 0.5
+    //             }
+    //         }
+    //     );
+    // },[]);
 
     
     useGSAP(() => {
@@ -90,7 +90,7 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,<br/>
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead w-100 font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[5rem]">We Craft Human-Centric Health Software</h1>
+                <h1 className="texthead font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[5rem]">We Craft<br/> Human-Centric <br/> Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
