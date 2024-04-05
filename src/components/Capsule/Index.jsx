@@ -53,7 +53,7 @@ gsap.registerPlugin(ScrollTrigger);
             <div   
                 className="capsule flex flex-col items-center gap-4 p-6 -rotate-[16deg] translate-y-10
                 rounded-full border-[1px] border-black">
-                <div className="image w-80 h-80  rounded-full overflow-hidden">
+                <div className="image w-[40vh] h-[40vh]  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
                 </div>
                 <div className="text text-center text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
@@ -71,15 +71,15 @@ gsap.registerPlugin(ScrollTrigger);
                 rounded-full border-[1px] border-black">
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
                 
-                <div className="text text-center text-2xl flex flex-col gap-6 mb-6 font-semibold leading-[2.2rem]">
+                <div className="text text-center text-[3.2vh] flex flex-col gap-6 mb-6 font-semibold leading-[4.8vh]">
                     <h3>How to Use Digital <br/>
                         Health Interventions&apos;s <br/>to Align Employee & <br/>Organizational Goals
                     </h3>
-                    <h4 className="font-[Sansita] text-[.8rem] font-medium leading-[1.4rem] text-zinc-500">How to use personalized digital health <br/> interventions to empower employees while <br/>
+                    <h4 className="font-[Sansita] text-[1.9vh] font-medium leading-[2.8vh] text-zinc-500">How to use personalized digital health <br/> interventions to empower employees while <br/>
                         achieving your organization&apos;s goals 
                     </h4>
                 </div>
-                <div className="image w-80 h-80  rounded-full overflow-hidden">
+                <div className="image w-[40vh] h-[40vh]  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap2} />
                 </div>
                 
