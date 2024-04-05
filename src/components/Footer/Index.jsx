@@ -12,10 +12,9 @@ function Footer() {
             <h1>Discover Significo.</h1>
           </div>
           {/* <Button text="Let's Go" bgColor="bg-[#f5f19c]" /> */}
-          <div className='w-fit px-6 py-4 '>
+          <div className='w-fit px-6 py-4 bg-[--black] text-[#f5f19c]'>
             <div 
               className= {`${styles.masker} flex items-center gap-2 overflow-hidden 
-              bg-[--black] text-[#f5f19c]
               relative cursor-pointer`}>
               <span className={`${styles.spanMask} font-[Sansita] text-medium capitalize tracking-tight 
               font-semibold `}>LET&apos;S GO</span>
