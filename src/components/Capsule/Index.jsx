@@ -56,7 +56,7 @@ gsap.registerPlugin(ScrollTrigger);
                 <div className="image w-80 h-80  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
                 </div>
-                <div className="text text-center text-2xl font-semibold mt-10 leading-[2.2rem]">
+                <div className="text text-center text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
                     <h3>Equity in Tech: An <br/>
                         Internation Women&apos;s <br/> Day Conversation Wi <br/>Caroline 
                         Nieto, <br/> Significo&apos;s CPO
