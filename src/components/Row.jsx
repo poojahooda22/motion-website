@@ -7,7 +7,9 @@ import img6 from '../assets/images/img6.png';
 import img7 from '../assets/images/img7.png';
 
 
-function Row({translateClass, direction}) {
+import PropTypes from 'prop-types';
+
+function Row({ translateClass, direction }) {
 
     const items = [
         { text: "useful", image: img7 },
@@ -38,5 +40,10 @@ function Row({translateClass, direction}) {
     </div>
   )
 }
+
+Row.propTypes = {
+    translateClass: PropTypes.string.isRequired,
+    direction: PropTypes.string.isRequired
+  };
 
 export default Row
