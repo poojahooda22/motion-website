@@ -28,17 +28,24 @@ const data = [
 
 function List() {
 
-
+  
   useEffect(() => {
+    var rotate = 0;
+    var diffrot = 0;
     const list = document.querySelectorAll('.listelem')
-    list.forEach((el) => {
+
+    list.forEach((el) => {  
       el.addEventListener('mousemove', function(dets) {
+        
+        var diff = dets.clientY - el.getBoundingClientRect()
+        diffrot = dets.clientX - rotate;
+        rotate = dets.clientX;
         gsap.to(this.querySelector(".picture"), {
-          opacity: 1, 
-          x: gsap.utils.mapRange(0, window.innerWidth, -200, 200, dets.clientX),
-          y: gsap.utils.mapRange(0, window.innerHeight, -50, 50, dets.clientY),
-          ease: Power4, 
-          duration: .5
+          opacity: 1,
+          ease: Power4,
+          top: diff,
+          left: dets.clientX,
+          rotate: gsap.utils.clamp(-20, 20, diffrot * 0.2),
         })
       })
       el.addEventListener('mouseleave', function() {
