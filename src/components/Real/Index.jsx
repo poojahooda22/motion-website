@@ -82,7 +82,7 @@ function Real() {
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight text-[2.2vh] absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'>We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</h3>
-                    <h1 className=' font-semibold text-[15vh] leading-none text-white '>20.4M</h1>
+                    <h1 className=' font-semibold text-[20vh] leading-none text-white '>20.4M</h1>
                     <h3 className='text-[5vh] font-semibold leading-[7vh]'>Real people — real lives — we have built products and solutions for.</h3>    
                 </div>
                 <div 
@@ -121,7 +121,7 @@ function Real() {
                 className="slide w-full h-screen flex items-center justify-center 
                 flex-shrink-0  relative">
                     <div 
-                        className="image absolute w-[18rem] h-[18rem] top-20 -translate-x-1/5
+                        className="image absolute w-[45vh] h-[45vh]  top-20 -translate-x-1/5
                         -translate-y-1/2 right-1/6
                         "
                     >
@@ -133,17 +133,17 @@ function Real() {
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 
                     className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
-                        text-xl absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'
+                    text-[2.5vh] absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'
                     >
                         Our team is global and diverse, because our individual experiences make us stronger.
                     </h3>
-                    <h1 className=' font-semibold text-[10rem] leading-none text-white '>49%</h1>
-                    <h3 className='text-[2.4rem] font-semibold leading-[3.4rem]'>
+                    <h1 className=' font-semibold text-[20vh] leading-none text-white '>49%</h1>
+                    <h3 className='text-[6vh] font-semibold leading-[6vh]'>
                         Expert Women in Tech.
                     </h3>    
                 </div>
                 <div 
-                    className="image absolute w-[28rem] h-[28rem] bottom-10 right-2/4 
+                    className="image absolute w-[60vh] h-[60vh] bottom-10 right-2/4 
                     translate-y-1/3 -translate-x-1/5"
                 >
                     <img 
@@ -152,7 +152,7 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[20rem] h-[20rem] top-1/2 -translate-y-1/4 translate-x-1/3
+                    className="image absolute w-[50vh] h-[50vh] top-1/2 -translate-y-1/4 translate-x-1/3
                     right-0 "
                 >
                     <img 
@@ -169,7 +169,7 @@ function Real() {
                 relative flex-shrink-0 "
             >
                 <div 
-                    className="image absolute w-[16rem] h-[16rem] top-10 translate-x-1/2
+                    className="image absolute w-[40vh] h-[40vh] top-10 translate-x-1/2
                     -translate-y-1/2 right-2/3"
                 >
                     <img 
@@ -178,13 +178,13 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
-                    <h1 className=' font-semibold text-[10rem] leading-none text-white '>13</h1>
-                    <h3 className='text-[2.8rem] font-semibold leading-[3.4rem]'>
+                    <h1 className=' font-semibold text-[20vh] leading-none text-white '>13</h1>
+                    <h3 className='text-[6vh] font-semibold leading-[8vh]'>
                         Nationalities Represented on Our <br/> Team.
                     </h3>    
                 </div>
                 <div 
-                    className="image7 absolute w-[24rem] h-[24rem] bottom-0 right-2/4 
+                    className="image7 absolute w-[45vh] h-[45vh] bottom-0 right-2/4 
                     translate-y-1/2 -translate-x-1/2"
                 >
                     <img 
@@ -193,7 +193,7 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[20rem] h-[20rem] top-0 translate-y-1/5
+                    className="image absolute w-[45vh] h-[45vh] top-0 translate-y-1/5
                     translate-x-2/3  right-0 "
                 >
                     <img 
@@ -202,7 +202,7 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[6rem] h-[6rem] top-2/3 translate-y-1/5
+                    className="image absolute w-[15vh] h-[15vh] top-2/3 translate-y-1/5
                     -translate-x-1/3  right-1/4 "
                 >
                     <img 
