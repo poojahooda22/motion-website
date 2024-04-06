@@ -45,7 +45,8 @@ function Real() {
   return (
     <div  
         data-color="salmon" 
-        ref={container} className="real section w-full">
+        ref={container} 
+        className="real section w-full">
       <div className="cont h-[400vh] relative">
         <div  
             className="slides w-full h-[130vh] 
