@@ -59,7 +59,8 @@ function Real() {
                     </h1>
                 </div>
                 <div 
-                    className="image absolute w-[45vh] h-[45vh] top-1/2 -translate-y-1/2 translate-x-1/2
+                    className="image absolute w-[45vh] h-[45vh] 
+                    top-1/2 -translate-y-1/2 translate-x-1/2
                     right-0 "
                 >
                     <img 
