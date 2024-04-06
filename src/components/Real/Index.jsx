@@ -50,7 +50,8 @@ function Real() {
             {/* 1st slide */}
             <div className="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
                 
-                <div className="text1 font-[SansitaReg] text-[15vh] leading-[18vh]">
+                <div className="text1 font-[SansitaReg] 
+                text-[15vh] leading-[18vh]">
                     <h1 className="">
                         Real Talk,    
                     </h1>
