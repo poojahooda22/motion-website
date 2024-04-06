@@ -210,7 +210,8 @@ function Home() {
                             translateClass="-translate-x-1/4"  
                             direction="lft" 
                         />
-                        <Row translateClass="-translate-x-1/3"  direction="rgt"/>
+                        <Row 
+                        translateClass="-translate-x-1/3"  direction="rgt"/>
                     </div>            
                     
                 </div>
