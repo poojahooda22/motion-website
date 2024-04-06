@@ -101,7 +101,8 @@ function Real() {
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight text-[2.2vh] absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'>We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</h3>
                     <h1 className=' font-semibold text-[20vh] leading-none text-white '>
-                        20.4M</h1>
+                        20.4M
+                    </h1>
                     <h3 className='text-[5vh] font-semibold leading-[7vh]'>Real people — real lives — we have built products and solutions for.</h3>    
                 </div>
                 <div 
