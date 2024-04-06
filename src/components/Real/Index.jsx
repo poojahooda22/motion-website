@@ -48,12 +48,13 @@ function Real() {
         <div  
             className="slides w-full h-[130vh] overflow-hidden sticky top-0 left-0 flex  ">
             {/* 1st slide */}
-            <div className="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
+            <div 
+            className="slide w-full flex items-center justify-center h-screen flex-shrink-0 ">
                 
                 <div 
                     className="text1 font-[SansitaReg] 
                     text-[15vh] leading-[18vh]"
-                    >
+                >
                     <h1 className="">
                         Real Talk,    
                     </h1>
