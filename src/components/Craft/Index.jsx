@@ -85,7 +85,8 @@ function Craft() {
         data-color="cyan"  
         ref={container} 
         className="craft section w-full flex flex-col sm:flex-row gap-10  
-        justify-between items-start px-10 py-40 relative">
+        justify-between items-start px-10 py-40 relative"
+    >
         <div className="ltext sticky top-[10%] left-0   ">
             <p className="ptag font-[Sansita] text-[1.2rem] font-medium leading-[2rem] ">
                 Significo is a custom health software developer founded on the belief<br/>
