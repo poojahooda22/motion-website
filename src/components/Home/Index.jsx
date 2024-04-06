@@ -8,6 +8,7 @@ import { Power2, Power4 } from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 import { AiOutlineMenu } from "react-icons/ai";
+import { BiMenu } from "react-icons/bi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,10 +16,23 @@ gsap.set(".slidesm", {scale: 5})
 
 function Home() {
 
-    const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 450)
+    const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 400)
     const container = useRef(null);
 
-    
+    useEffect(() => {
+        function handleSize() {
+            setSmallScreen(window.innerWidth < 400);
+          }
+      
+          // Set up the event listener for resize events
+          window.addEventListener('resize', handleSize);
+      
+          // Call handleSize immediately to set the initial state based on the current window size
+          handleSize(); 
+      
+          // Clean up the event listener when the component unmounts or when the effect reruns
+          return () => window.removeEventListener('resize', handleSize);
+    },[])
 
     useEffect(() => {
         var clutter = "";
@@ -104,7 +118,13 @@ function Home() {
                 transition={{duration: 0.35, ease: "easeInOut"}}
                 className="section w-full px-10 py-[1vh] fixed top-0 left-0 z-[9]"
             >
-                <div className="w-full flex items-center justify-between">
+                <div className="w-full flex items-center justify-start gap-6 sm:justify-between overflow-hidden">
+                    <BiMenu
+                        style={{
+                          color: "#000",
+                            fontSize: "2rem",
+                        }}
+                    />
                     <div className="logo w-36 h-20 sm:w-[20vh] sm:h-[10vh] cursor-pointer z-[9] ">
                         {/* logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 141 41" fill="none">
@@ -126,16 +146,18 @@ function Home() {
                                 </clipPath>
                             </defs>
                         </svg>
-                    </div>
-                    {}
-                    <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer">
+                    </div>                   
+                    
+                        
+                   
+                        <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
                             font-[Sansita] text-[2.9vh] overflow-hidden font-semibold`}> 
                                 <a className={`${styles.atag} relative`}>{item} </a>                    
                             </h4>   
                         ))}
-                    </div>
+                    </div>  
                 </div>
             </motion.div>
 
