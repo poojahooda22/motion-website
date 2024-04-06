@@ -61,7 +61,8 @@ function Footer() {
             })}
           </div>
           <div className='middle w-1/3'>
-            <h1 className='text-white w-2/3 pb-10 font-[SansitaReg] text-[2.8vh] font-semibold'>Join our mailing list for
+            <h1 className='text-white w-2/3 pb-10 font-[SansitaReg] 
+            text-[2.8vh] font-semibold'>Join our mailing list for
                 the latest updates.
             </h1>
             <div className='flex items-center gap-6 '>
