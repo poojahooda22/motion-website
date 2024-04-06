@@ -7,13 +7,18 @@ import styles from './Style.module.css';
 import { Power2, Power4 } from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
+import { AiOutlineMenu } from "react-icons/ai";
 
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.set(".slidesm", {scale: 5})
 
 function Home() {
+
+    const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 450)
     const container = useRef(null);
+
+    
 
     useEffect(() => {
         var clutter = "";
@@ -99,8 +104,8 @@ function Home() {
                 transition={{duration: 0.35, ease: "easeInOut"}}
                 className="section w-full px-10 py-[1vh] fixed top-0 left-0 z-[9]"
             >
-                <div className="flex items-center justify-between">
-                    <div className="logo w-[20vh] h-[10vh] cursor-pointer z-[9] ">
+                <div className="w-full flex items-center justify-between">
+                    <div className="logo w-36 h-20 sm:w-[20vh] sm:h-[10vh] cursor-pointer z-[9] ">
                         {/* logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 141 41" fill="none">
                             <g >
@@ -122,10 +127,11 @@ function Home() {
                             </defs>
                         </svg>
                     </div>
-                    <div className=" flex gap-4 items-center z-[9] cursor-pointer ">
+                    {}
+                    <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
-                            <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center 
-                            font-[Sansita] text-[2vh] overflow-hidden font-medium`}> 
+                            <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
+                            font-[Sansita] text-[2.9vh] overflow-hidden font-semibold`}> 
                                 <a className={`${styles.atag} relative`}>{item} </a>                    
                             </h4>   
                         ))}
