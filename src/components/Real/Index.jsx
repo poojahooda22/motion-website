@@ -52,7 +52,8 @@ function Real() {
                 
                 <div 
                     className="text1 font-[SansitaReg] 
-                    text-[15vh] leading-[18vh]">
+                    text-[15vh] leading-[18vh]"
+                    >
                     <h1 className="">
                         Real Talk,    
                     </h1>
