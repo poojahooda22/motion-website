@@ -103,7 +103,8 @@ function Real() {
                     <h1 className=' font-semibold text-[20vh] leading-none text-white '>
                         20.4M
                     </h1>
-                    <h3 className='text-[5vh] font-semibold leading-[7vh]'>Real people — real lives — we have built products and solutions for.</h3>    
+                    <h3 className='text-[5vh] font-semibold leading-[7vh]'>
+                        Real people — real lives — we have built products and solutions for.</h3>    
                 </div>
                 <div 
                         className="image absolute w-[20vh] h-[20vh] 
