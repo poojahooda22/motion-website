@@ -48,7 +48,8 @@ function Real() {
         ref={container} 
         className="real section w-full"
     >
-      <div className="cont h-[400vh] relative">
+      <div 
+      className="cont h-[400vh] relative">
         <div  
             className="slides w-full h-[130vh] 
             overflow-hidden sticky top-0 left-0 flex  "
