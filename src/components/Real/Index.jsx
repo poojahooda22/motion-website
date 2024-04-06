@@ -91,8 +91,7 @@ function Real() {
             >
                 <div 
                     className="image absolute  w-[40vh] h-[40vh] 
-                    top-10 -translate-y-1/2 right-1/6
-                    "
+                    top-10 -translate-y-1/2 right-1/6"
                 >
                     <img 
                         src={img2}
