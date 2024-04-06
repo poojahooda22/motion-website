@@ -28,7 +28,8 @@ function Row({ translateClass, direction }) {
     ]
 
   return (
-    <div className={`${translateClass} ${direction} row w-full flex items-center  gap-8 whitespace-nowrap mb-2`}>
+    <div className={`${translateClass} ${direction} row w-full flex items-center  gap-8
+    whitespace-nowrap mb-2`}>
         {items.map((item, index) => {
             return (
                 <div key={index} className='elem flex items-center gap-8'>
