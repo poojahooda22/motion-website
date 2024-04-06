@@ -47,7 +47,8 @@ function Real() {
       <div className="cont h-[400vh] relative">
         <div  
             className="slides w-full h-[130vh] 
-            overflow-hidden sticky top-0 left-0 flex  ">
+            overflow-hidden sticky top-0 left-0 flex  "
+        >
             {/* 1st slide */}
             <div 
                 className="slide w-full flex items-center 
