@@ -89,7 +89,8 @@ function Craft() {
     >
         <div className="ltext sticky top-[10%] left-0   ">
             <p 
-                className="ptag font-[Sansita] text-[1.2rem] font-medium leading-[2rem]"
+                className="ptag font-[Sansita] text-[1.2rem] 
+                font-medium leading-[2rem]"
             >
                 Significo is a custom health software developer founded on the belief<br/>
                 that technology can transform healthcare to put people first. We put<br/>
