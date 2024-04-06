@@ -144,7 +144,7 @@ function Home() {
                     <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
-                            font-[Sansita] text-[2.9vh] overflow-hidden font-semibold`}> 
+                            font-[Sansita] text-[2.5vh] overflow-hidden font-medium`}> 
                                 <a className={`${styles.atag} relative`}>{item} </a>                    
                             </h4>   
                         ))}
@@ -169,7 +169,7 @@ function Home() {
             {/* video div */}
             <div 
                 
-                className={`hidden vdodiv w-full absolute z-[3] 
+                className={`vdodiv w-full absolute z-[3] 
                 top-0 left-0 overflow-hidden ${styles.vdodiv}`}
             >   
                 <video
