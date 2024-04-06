@@ -169,11 +169,11 @@ function Home() {
             {/* video div */}
             <div 
                 
-                className={`vdodiv w-full absolute z-[3] 
+                className={`vdodiv w-full h-screen absolute z-[3] 
                 top-0 left-0 overflow-hidden ${styles.vdodiv}`}
             >   
                 <video
-                    className="absolute w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    className="absolute w-full h-screen object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                     autoPlay
                     loop
                     muted
