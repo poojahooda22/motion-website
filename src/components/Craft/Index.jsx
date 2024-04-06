@@ -82,7 +82,7 @@ function Craft() {
    
   return (
     <div data-color="cyan"  
-    ref={container} 
+        ref={container} 
         className="craft section w-full flex flex-col sm:flex-row gap-10  
         justify-between items-start px-10 py-40 relative">
         <div className="ltext sticky top-[10%] left-0   ">
