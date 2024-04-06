@@ -212,7 +212,8 @@ function Home() {
                         />
                         <Row 
                             translateClass="-translate-x-1/3"  
-                            direction="rgt"/>
+                            direction="rgt"
+                        />
                     </div>            
                     
                 </div>
