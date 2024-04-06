@@ -173,7 +173,8 @@ function Home() {
                 top-0 left-0 overflow-hidden ${styles.vdodiv}`}
             >   
                 <video
-                    className="absolute w-full h-screen object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    className="absolute w-full h-screen object-cover top-1/2 left-1/2 
+                    -translate-x-1/2 -translate-y-1/2"
                     autoPlay
                     loop
                     muted
