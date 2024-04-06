@@ -199,7 +199,8 @@ function Home() {
                 >    
                     <div className='row'>
                         <Row 
-                        translateClass="-translate-x-1/2"  direction="lft"/>
+                            translateClass="-translate-x-1/2"  
+                            direction="lft"/>
                         <Row translateClass="-translate-x-2/3"  direction="rgt"/>
                         <Row translateClass="-translate-x-1/4"  direction="lft" />
                         <Row translateClass="-translate-x-1/3"  direction="rgt"/>
