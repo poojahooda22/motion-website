@@ -107,8 +107,8 @@ function Home() {
    
     
     return (
-    <div ref={container} data-color="black" className="home section w-full h-[200vh] relative  ">
-        <div className='w-full sticky top-0 left-0'>
+    <div ref={container} data-color="black" className="home section w-full h-[200vh] relative ">
+        <div className='w-full sticky top-0 left-0 '>
             <motion.div 
                 variants={{
                 visible: {y: 0},
@@ -118,13 +118,7 @@ function Home() {
                 transition={{duration: 0.35, ease: "easeInOut"}}
                 className="section w-full px-10 py-[1vh] fixed top-0 left-0 z-[9]"
             >
-                <div className="w-full flex items-center justify-start gap-6 sm:justify-between overflow-hidden">
-                    <BiMenu
-                        style={{
-                          color: "#000",
-                            fontSize: "2rem",
-                        }}
-                    />
+                <div className="w-full flex items-center justify-between">
                     <div className="logo w-36 h-20 sm:w-[20vh] sm:h-[10vh] cursor-pointer z-[9] ">
                         {/* logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 141 41" fill="none">
@@ -147,21 +141,25 @@ function Home() {
                             </defs>
                         </svg>
                     </div>                   
-                    
-                        
-                   
-                        <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer">
+                    <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
                             font-[Sansita] text-[2.9vh] overflow-hidden font-semibold`}> 
                                 <a className={`${styles.atag} relative`}>{item} </a>                    
                             </h4>   
                         ))}
-                    </div>  
+                    </div>
+                    <BiMenu
+                        style={{
+                          color: "#000",
+                            fontSize: "2rem",
+                        }}
+                        className='sm:hidden z-[9] cursor-pointer'
+                    />  
                 </div>
             </motion.div>
 
-            <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48 '>
+            <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48  '>
                 <h1 className='text-[2vh]'>
                     We build big ideas.
                     Software. Apps. Tools.
@@ -171,11 +169,11 @@ function Home() {
             {/* video div */}
             <div 
                 
-                className={`vdodiv w-full h-screen absolute z-[3] 
-                top-0 left-0  overflow-hidden ${styles.vdodiv}`}
+                className={`hidden vdodiv w-full absolute z-[3] 
+                top-0 left-0 overflow-hidden ${styles.vdodiv}`}
             >   
                 <video
-                    className="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    className="absolute w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                     autoPlay
                     loop
                     muted
