@@ -85,7 +85,8 @@ function Real() {
                 </div>
             </div>
             {/* 2nd slide */}
-            <div className="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative ">
+            <div   
+            className="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative ">
                 <div 
                     className="image absolute  w-[40vh] h-[40vh] top-10 -translate-y-1/2 right-1/6
                     "
