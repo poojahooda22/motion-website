@@ -47,7 +47,7 @@ function App() {
 
 
   return (
-    <div className='section main w-full'>
+    <div className='section main  sm:w-full'>
       <Home  />
       <Craft />
       <Real />
