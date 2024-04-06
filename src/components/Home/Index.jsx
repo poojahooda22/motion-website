@@ -154,7 +154,7 @@ function Home() {
                           color: "#000",
                             fontSize: "2rem",
                         }}
-                        className='sm:hidden z-[9] cursor-pointer'
+                        className=' sm:hidden z-[9] cursor-pointer'
                     />  
                 </div>
             </motion.div>
