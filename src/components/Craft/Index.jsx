@@ -82,9 +82,9 @@ function Craft() {
    
   return (
     <div data-color="cyan"  ref={container} 
-        className="craft section w-full flex gap-10 justify-between items-start px-10 py-40 relative">
-        <div className="ltext w-[50%] sticky top-[10%] left-0  ">
-            <p className="ptag w-90 font-[Sansita] text-[1.2rem] font-medium leading-[2rem] ">
+        className="craft section w-full flex flex-col sm:flex-row gap-10  justify-between items-start px-10 py-40 relative">
+        <div className="ltext sticky top-[10%] left-0   ">
+            <p className="ptag font-[Sansita] text-[1.2rem] font-medium leading-[2rem] ">
                 Significo is a custom health software developer founded on the belief<br/>
                 that technology can transform healthcare to put people first. We put<br/>
                 humanity back at the center of healthcare by simplifying complexity,<br/>
@@ -95,7 +95,7 @@ function Craft() {
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            className="cards w-1/2 ">                
+            className="cards w-1/2 flex items-center jus">                
             <Card />
         </div>
     </div>
