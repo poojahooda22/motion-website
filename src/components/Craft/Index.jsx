@@ -85,24 +85,24 @@ function Craft() {
         data-color="cyan"  
         ref={container} 
         className="craft section w-full flex flex-col sm:flex-row gap-10  
-        justify-between items-start px-10 py-40 relative"
+        justify-between items-start px-6 py-8 sm:px-10 sm:py-40 relative"
     >
         <div className="ltext sticky top-[10%] left-0   ">
             <p 
-                className="ptag font-[Sansita] text-[1.2rem] 
-                font-medium leading-[2rem]"
+                className="ptag font-[Sansita] text-[2.4vh]  sm:text-[1.2rem]
+                font-medium leading-[1.6rem]  sm:leading-[2rem]"
             >
                 Significo is a custom health software developer founded on the belief<br/>
                 that technology can transform healthcare to put people first. We put<br/>
                 humanity back at the center of healthcare by simplifying complexity,<br/>
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead font-[SansitaReg] text-[4.4rem] mt-10 mb-10 leading-[5rem]">We Craft<br/> Human-Centric <br/> Health Software</h1>
+                <h1 className="texthead font-[SansitaReg] text-[2.6rem]  sm:text-[4.4rem]  leading-[3rem] mt-10 mb-10 sm:leading-[5rem]">We Craft<br/> Human-Centric <br/> Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            className="cards w-1/2 flex items-center jus">                
+            className="cards w-1/2 flex sm:flex-col items-center">                
             <Card />
         </div>
     </div>
