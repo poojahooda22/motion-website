@@ -18,8 +18,6 @@ function Home() {
 
     const container = useRef(null);
 
-
-
     useEffect(() => {
         var clutter = "";
         const para = document.querySelector(".toptext")
