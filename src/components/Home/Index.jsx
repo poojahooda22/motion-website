@@ -27,7 +27,7 @@ function Home() {
     //       // Set up the event listener for resize events
     //       window.addEventListener('resize', handleSize);
       
-    //       // Call handleSize immediately to set the initial state based on the current window size
+
     //       handleSize(); 
       
     //       // Clean up the event listener when the component unmounts or when the effect reruns
