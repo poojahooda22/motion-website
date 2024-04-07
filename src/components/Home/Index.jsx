@@ -16,7 +16,7 @@ gsap.set(".slidesm", {scale: 5})
 
 function Home() {
 
-    // const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 400)
+    // const [isSmallScreen, setSmallScreen] = useState()
     const container = useRef(null);
 
 
