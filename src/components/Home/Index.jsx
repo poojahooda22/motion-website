@@ -16,7 +16,6 @@ gsap.set(".slidesm", {scale: 5})
 
 function Home() {
 
-    // const [ ] = 
     const container = useRef(null);
 
 
