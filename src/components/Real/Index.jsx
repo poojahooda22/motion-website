@@ -62,8 +62,8 @@ function Real() {
             >
                 
                 <div 
-                    className="text1 font-[SansitaReg] 
-                    text-[15vh] leading-[18vh]"
+                    className="text1 font-[SansitaReg] text-[9vh] leading-[12vh]
+                    sm:text-[15vh] sm:leading-[18vh]"
                 >
                     <h1 className="">
                         Real Talk,    
@@ -73,8 +73,8 @@ function Real() {
                     </h1>
                 </div>
                 <div 
-                    className="image absolute w-[45vh] h-[45vh] 
-                    top-1/2 -translate-y-1/2 translate-x-1/2
+                    className="image absolute w-[35vh] h-[35vh] sm:w-[45vh] sm:h-[45vh] -translate-y-2/5
+                    top-1/2 sm:-translate-y-1/2 translate-x-1/2
                     right-0 "
                 >
                     <img 
