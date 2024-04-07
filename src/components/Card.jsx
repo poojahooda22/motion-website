@@ -58,13 +58,12 @@ function Card() {
         <div className="card-container flex sm:flex-col items-center">
             {items.map((item, index) => {
                 return (
-                    <div key={index} className="card  mb-8 w-[80vw] sm:w-[70%] sm:flex items-center justify-between 
-                    border-[1px] border-[--black] py-8 px-4  sm:py-10 sm:px-10 gap-4">
+                    <div key={index} className="card mb-8 w-[90vw] sm:w-[70%] sm:flex items-center justify-between border-[1px] border-[--black]  py-10 px-10 gap-4">
                         <div className="rightdata w-[10vh] h-[10vh]"
                             dangerouslySetInnerHTML={{ __html: item.image }}/>
                         <div className="w-3/4 font-[Sansita]  leftdata">
-                            <h1 key={index} className="text-[3vh] font-bold mb-4">{item.title}</h1>
-                            <p className=" text-[1.9vh] font-medium">{item.description}</p>
+                            <h1 key={index} className="text-[3vh] font-semibold mb-4">{item.title}</h1>
+                            <p className=" text-[1.8vh] font-medium">{item.description}</p>
                         </div>
                         
                     </div>
@@ -77,18 +76,3 @@ function Card() {
 export default Card
 
 
-{/* <div className="card-container flex sm:flex-col items-center">
-            {items.map((item, index) => {
-                return (
-                    <div key={index} className="card mb-8 w-[90vw] sm:w-[70%] sm:flex items-center justify-between border-[1px] border-[--black]  py-10 px-10 gap-4">
-                        <div className="rightdata w-[10vh] h-[10vh]"
-                            dangerouslySetInnerHTML={{ __html: item.image }}/>
-                        <div className="w-3/4 font-[Sansita]  leftdata">
-                            <h1 key={index} className="text-[3vh] font-semibold mb-4">{item.title}</h1>
-                            <p className=" text-[1.8vh] font-medium">{item.description}</p>
-                        </div>
-                        
-                    </div>
-                )
-            })} 
-        </div> */}
