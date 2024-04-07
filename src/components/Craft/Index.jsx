@@ -91,15 +91,16 @@ function Craft() {
     >
         <div className="ltext sticky top-[10%] left-0   ">
             <p 
-                className="ptag font-[Sansita] text-[2.5vh] 
-                font-medium leading-[1.6rem]  sm:leading-[2rem]"
+                className="ptag font-[Sansita] text-[2.9vh] 
+                font-medium leading-[4.2vh] "
             >
                 Significo is a custom health software developer founded on the belief<br/>
                 that technology can transform healthcare to put people first. We put<br/>
                 humanity back at the center of healthcare by simplifying complexity,<br/>
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead font-[SansitaReg] text-[4.4rem] leading-[3rem] mt-10 mb-10 sm:leading-[5rem]">We Craft<br/> Human-Centric <br/> Health Software</h1>
+                <h1 className="texthead font-[SansitaReg] text-[10vh] leading-[10vh] 
+                mt-10 mb-10">We Craft<br/> Human-Centric <br/> Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
