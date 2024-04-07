@@ -201,7 +201,7 @@ function Home() {
 
                 <div 
                     
-                    className='slidesm absolute scale-[5] top-1/2 left-1/2 
+                    className='slidesm absolute scale-[5] top-1/2 left-1/2 overflow-hidden
                     -translate-x-1/2 -translate-y-1/2 w-[90%]'
                 >    
                     <div className='row'>
