@@ -8,7 +8,7 @@ import { Power2, Power4 } from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 import { AiOutlineMenu } from "react-icons/ai";
-import { BiMenu } from "react-icons/bi";
+// import { BiMenu } from "react-icons/bi";
 
 gsap.registerPlugin(ScrollTrigger);
 
