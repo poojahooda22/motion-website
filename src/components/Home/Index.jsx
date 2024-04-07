@@ -25,8 +25,6 @@ function Home() {
     //       }
     //       window.addEventListener('resize', handleSize);
     //       handleSize(); 
-      
-    //       // Clean up the event
     //       return () => window.removeEventListener();
     // },[])
 
