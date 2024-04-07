@@ -26,8 +26,6 @@ function Home() {
       
     //       // Set up the event listener for resize events
     //       window.addEventListener('resize', handleSize);
-      
-
     //       handleSize(); 
       
     //       // Clean up the event listener when the component unmounts or when the effect reruns
