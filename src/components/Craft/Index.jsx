@@ -65,14 +65,16 @@ function Craft() {
         tl.fromTo(
             ".card", 
             {                
-                y: 500,  
+                y: 500,
+                x: 10,  
                 scale: .9,       
             },
             {
                 opacity: 1,
                 scale: 1.1,
                 gap: 10,
-                y: 0,     
+                y: 0,
+                x: 0,     
                 ease: Power4,
                 transformOrigin: "bottom",
             }
@@ -85,7 +87,7 @@ function Craft() {
         data-color="cyan"  
         ref={container} 
         className="craft section w-full flex flex-col sm:flex-row gap-10  
-        justify-between items-start px-6 py-8 sm:px-10 sm:py-40 relative"
+        justify-between items-center px-6 sm:px-10  relative "
     >
         <div className="ltext sticky top-[10%] left-0   ">
             <p 
@@ -102,7 +104,7 @@ function Craft() {
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            className="right cards w-1/2 flex sm:w-1/2 items-center">                
+            className="right cards w-full flex sm:w-1/2 items-center">                
             <Card />
         </div>
     </div>
