@@ -99,7 +99,7 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,<br/>
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead font-[SansitaReg] text-[10vh] leading-[10vh] 
+                <h1 className="texthead font-[SansitaReg] text-[10vh] leading-[12vh] 
                 mt-10 mb-10">We Craft<br/> Human-Centric <br/> Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
