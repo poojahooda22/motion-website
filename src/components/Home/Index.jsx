@@ -21,7 +21,7 @@ function Home() {
 
     // useEffect(() => {
     //     function handleSize() {
-    //       return () => 
+    //       
     // },[])
 
     useEffect(() => {
