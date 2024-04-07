@@ -16,23 +16,23 @@ gsap.set(".slidesm", {scale: 5})
 
 function Home() {
 
-    const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 400)
+    // const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 400)
     const container = useRef(null);
 
-    useEffect(() => {
-        function handleSize() {
-            setSmallScreen(window.innerWidth < 400);
-          }
+    // useEffect(() => {
+    //     function handleSize() {
+    //         setSmallScreen(window.innerWidth < 400);
+    //       }
       
-          // Set up the event listener for resize events
-          window.addEventListener('resize', handleSize);
+    //       // Set up the event listener for resize events
+    //       window.addEventListener('resize', handleSize);
       
-          // Call handleSize immediately to set the initial state based on the current window size
-          handleSize(); 
+    //       // Call handleSize immediately to set the initial state based on the current window size
+    //       handleSize(); 
       
-          // Clean up the event listener when the component unmounts or when the effect reruns
-          return () => window.removeEventListener('resize', handleSize);
-    },[])
+    //       // Clean up the event listener when the component unmounts or when the effect reruns
+    //       return () => window.removeEventListener('resize', handleSize);
+    // },[])
 
     useEffect(() => {
         var clutter = "";
