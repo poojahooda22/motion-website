@@ -19,7 +19,6 @@ function Home() {
     // const [isSmallScreen, setSmallScreen] = useState(window.innerWidth < 400)
     const container = useRef(null);
 
-    // useEffect(() => {
 
 
     useEffect(() => {
