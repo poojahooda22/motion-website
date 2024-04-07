@@ -163,7 +163,7 @@ function Home() {
             </motion.div>
 
             <div className='btmtext absolute z-[4] bottom-[4%] left-[25%]  sm:bottom-[7%] sm:left-[3%] w-48 '>
-                <h1 className='text-[2vh]'>
+                <h1 className='text-[1.8vh]'>
                     We build big ideas.
                     Software. Apps. Tools.
                     For real people. Real lives.
@@ -196,7 +196,7 @@ function Home() {
                     className=' heading absolute  top-[12%] sm:top-[7%] left-1/2 
                     -translate-x-1/2 w-72'
                 >
-                    <h2 className='toptext text-[2.4vh] font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
+                    <h2 className='toptext text-[2.2vh] font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
                 </div>
 
                 <div 
