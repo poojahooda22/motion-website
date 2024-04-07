@@ -116,7 +116,7 @@ function Home() {
                 }}
                 animate={hidden ? "hidden" : "visible"}
                 transition={{duration: 0.35, ease: "easeInOut"}}
-                className="section w-[100vw] sm:w-full px-6 fixed top-0 left-0 z-[9] "
+                className="section w-[100vw] sm:w-full px-6 fixed top-0 left-0 z-[9]"
             >
                 <div className="w-full flex items-center justify-between  ">
                     <div className="logo w-[16vh] h-[12vh] sm:w-[16vh] sm:h-[10vh] cursor-pointer z-[9] ">
@@ -149,7 +149,7 @@ function Home() {
                             </h4>   
                         ))}
                     </div>
-                    <div>
+                    {/* <div>
                         <BiMenu
                             style={{
                             
@@ -157,7 +157,7 @@ function Home() {
                             }}
                             className='section sm:hidden z-[9] cursor-pointer'
                         />  
-                    </div>
+                    </div> */}
                     
                 </div>
             </motion.div>
