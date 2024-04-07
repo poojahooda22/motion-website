@@ -21,7 +21,6 @@ function Home() {
 
     // useEffect(() => {
     //     function handleSize() {
-    //        
     //       }
     //       return () => window.removeEventListener();
     // },[])
