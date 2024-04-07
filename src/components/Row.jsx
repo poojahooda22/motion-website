@@ -24,6 +24,9 @@ function Row({ translateClass, direction }) {
         { text: "empathetic", image: img6 },
         { text: "useful", image: img1 },      
         { text: "empathetic", image: img6 },
+        { text: "empathetic", image: img5 },
+        { text: "intuitive", image: img2 },
+        { text: "useful", image: img4 },
                       
     ]
 
@@ -33,7 +36,7 @@ function Row({ translateClass, direction }) {
         {items.map((item, index) => {
             return (
                 <div key={index} className='elem flex items-center gap-8'>
-                    <h1  className='font-[SansitaBold] sm:text-[8.4vh] leading-[9vh]'>{item.text}</h1>
+                    <h1  className='font-[SansitaBold] text-[5vh] sm:text-[8.4vh] leading-[6vh] sm:leading-[9vh]'>{item.text}</h1>
                     <div className='imgdiv w-[5vh] h-[5vh]'>
                         <img 
                             className=''
