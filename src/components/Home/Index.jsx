@@ -23,7 +23,7 @@ function Home() {
     //     function handleSize() {
     //         setSmallScreen(window.innerWidth < 400);
     //       }
-    //       window.addEventListener('resize', handleSize);
+    //       window.addEventListener();
     //       return () => window.removeEventListener();
     // },[])
 
