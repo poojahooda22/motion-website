@@ -21,7 +21,7 @@ function Home() {
 
     // useEffect(() => {
     //     function handleSize() {
-    //         setSmallScreen(window.innerWidth < 400);
+    //         setSmallScreen();
     //       }
     //       return () => window.removeEventListener();
     // },[])
