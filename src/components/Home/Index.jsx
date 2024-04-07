@@ -23,8 +23,6 @@ function Home() {
     //     function handleSize() {
     //         setSmallScreen(window.innerWidth < 400);
     //       }
-      
-    //       // Set up the event listener for resize events
     //       window.addEventListener('resize', handleSize);
     //       handleSize(); 
       
