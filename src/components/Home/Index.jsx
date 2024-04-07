@@ -26,7 +26,7 @@ function Home() {
     //       window.addEventListener('resize', handleSize);
     //       handleSize(); 
       
-    //       // Clean up the event listener when the
+    //       // Clean up the event
     //       return () => window.removeEventListener();
     // },[])
 
