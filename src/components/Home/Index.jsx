@@ -152,10 +152,10 @@ function Home() {
                     <div>
                         <BiMenu
                             style={{
-                            color: "#000",
-                                fontSize: "5.5vh",
+                            
+                            fontSize: "5.5vh",
                             }}
-                            className=' sm:hidden z-[9] cursor-pointer'
+                            className='section sm:hidden z-[9] cursor-pointer'
                         />  
                     </div>
                     
