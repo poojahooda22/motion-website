@@ -20,8 +20,7 @@ function Home() {
     const container = useRef(null);
 
     // useEffect(() => {
-   
-    // },[])
+
 
     useEffect(() => {
         var clutter = "";
