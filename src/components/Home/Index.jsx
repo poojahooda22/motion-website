@@ -173,7 +173,7 @@ function Home() {
             <div 
                 
                 className={` vdodiv w-full h-screen absolute z-[3] 
-                top-0 left-0 overflow-hidden ${styles.vdodiv}`}
+                top-0 left-0 overflow-hidden sm:overflow-visible ${styles.vdodiv}`}
             >   
                 <video
                     className="absolute w-full h-screen object-cover top-1/2 left-1/2 
@@ -201,7 +201,7 @@ function Home() {
 
                 <div 
                     
-                    className='slidesm absolute scale-[5] top-1/2 left-1/2
+                    className='slidesm absolute scale-[5]  sm:scale-100 top-1/2 left-1/2
                     -translate-x-1/2 -translate-y-1/2 w-[90%]'
                 >    
                     <div className='row'>
