@@ -102,7 +102,7 @@ function Craft() {
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            className="cards w-1/2 flex sm:flex-col items-center">                
+            className="right cards w-1/2 flex sm:w-1/2 items-center">                
             <Card />
         </div>
     </div>
