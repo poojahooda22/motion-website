@@ -144,7 +144,7 @@ function Home() {
                     <div className="hidden md:flex gap-2 items-center z-[9] cursor-pointer ">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
-                            font-[Sansita] text-[2.5vh] overflow-hidden font-medium`}> 
+                            font-[Sansita] text-[2.1vh] overflow-hidden font-medium`}> 
                                 <a className={`${styles.atag} relative`}>{item} </a>                    
                             </h4>   
                         ))}
