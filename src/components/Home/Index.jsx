@@ -116,10 +116,10 @@ function Home() {
                 }}
                 animate={hidden ? "hidden" : "visible"}
                 transition={{duration: 0.35, ease: "easeInOut"}}
-                className="section w-full px-[8vh] py-[1vh] fixed top-0 left-0 z-[9]"
+                className="section w-[100vw] sm:w-full px-6 fixed top-0 left-0 z-[9] "
             >
-                <div className="w-full flex items-center justify-between ">
-                    <div className="logo w-[24vh] h-[20vh] sm:w-[20vh] sm:h-[10vh] cursor-pointer z-[9] ">
+                <div className="w-full flex items-center justify-between  ">
+                    <div className="logo w-[16vh] h-[16vh] sm:w-[16vh] sm:h-[10vh] cursor-pointer z-[9] ">
                         {/* logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 141 41" fill="none">
                             <g >
@@ -141,7 +141,7 @@ function Home() {
                             </defs>
                         </svg>
                     </div>                   
-                    <div className="hidden sm:flex gap-2 items-center z-[9] cursor-pointer ">
+                    <div className="hidden md:flex gap-2 items-center z-[9] cursor-pointer ">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
                             font-[Sansita] text-[2.5vh] overflow-hidden font-medium`}> 
@@ -149,17 +149,20 @@ function Home() {
                             </h4>   
                         ))}
                     </div>
-                    <BiMenu
-                        style={{
-                          color: "#000",
-                            fontSize: "5.5vh",
-                        }}
-                        className=' sm:hidden z-[9] cursor-pointer'
-                    />  
+                    <div>
+                        <BiMenu
+                            style={{
+                            color: "#000",
+                                fontSize: "5.5vh",
+                            }}
+                            className=' sm:hidden z-[9] cursor-pointer'
+                        />  
+                    </div>
+                    
                 </div>
             </motion.div>
 
-            <div className='btmtext absolute z-[4] bottom-[7%] left-[3%] w-48  '>
+            <div className='btmtext absolute z-[4] bottom-[4%] left-[25%]  sm:bottom-[7%] sm:left-[3%] w-48 '>
                 <h1 className='text-[2vh]'>
                     We build big ideas.
                     Software. Apps. Tools.
@@ -190,7 +193,7 @@ function Home() {
             >
                 {/* /* top Heading div */ }
                 <div 
-                    className=' heading absolute top-[7%] left-1/2 
+                    className=' heading absolute  top-[12%] sm:top-[7%] left-1/2 
                     -translate-x-1/2 w-72'
                 >
                     <h2 className='toptext text-[2.4vh] font-[Sansita] font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
