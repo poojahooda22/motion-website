@@ -27,7 +27,7 @@ function Home() {
     //       handleSize(); 
       
     //       // Clean up the event listener when the component unmounts or when the effect reruns
-    //       return () => window.removeEventListener('resize', handleSize);
+    //       return () => window.removeEventListener();
     // },[])
 
     useEffect(() => {
