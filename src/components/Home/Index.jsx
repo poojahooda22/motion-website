@@ -24,7 +24,6 @@ function Home() {
     //         setSmallScreen(window.innerWidth < 400);
     //       }
     //       window.addEventListener('resize', handleSize);
-    //       handleSize(); 
     //       return () => window.removeEventListener();
     // },[])
 
