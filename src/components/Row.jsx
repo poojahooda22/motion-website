@@ -38,7 +38,7 @@ function Row({ translateClass, direction }) {
                 <div key={index} className='elem flex items-center gap-8'>
                     <h1  className='font-[SansitaBold] text-[6vh] sm:text-[8.4vh] leading-[6vh] sm:leading-[9vh]'>
                         {item.text}
-                        </h1>
+                    </h1>
                     <div className='imgdiv w-[5vh] h-[5vh]'>
                         <img 
                             className=''
