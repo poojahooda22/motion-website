@@ -202,7 +202,8 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
-                    <h1 className=' font-semibold text-[20vh] leading-none text-white'>13</h1>
+                    <h1 className=' font-semibold text-[20vh] leading-none text-white'>
+                        13</h1>
                     <h3 className='text-[6vh] font-semibold leading-[8vh]'>
                         Nationalities Represented on Our <br/> Team.
                     </h3>    
