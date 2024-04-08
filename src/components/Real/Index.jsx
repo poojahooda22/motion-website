@@ -154,7 +154,7 @@ function Real() {
                         src={icon2}
                         className="w-full h-full object-contain rounded-full"
                     />
-                    </div>
+                </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 
                         className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
