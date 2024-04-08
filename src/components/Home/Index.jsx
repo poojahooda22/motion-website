@@ -146,7 +146,7 @@ function Home() {
                 </div>
             </motion.div>
 
-            <div className='btmtext absolute z-[4] bottom-[4%] left-[25%]  sm:bottom-[7%] sm:left-[3%] w-48 '>
+            <div className='btmtext absolute z-[4] bottom-[4%] left-[15%]  sm:bottom-[7%] sm:left-8 w-48 '>
                 <h1 className='text-[1.8vh]'>
                     We build big ideas.
                     Software. Apps. Tools.
