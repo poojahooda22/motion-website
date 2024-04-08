@@ -72,11 +72,10 @@ function Craft() {
             {
                 opacity: 1,
                 scale: 1.1,
-                gap: 10,
+
                 y: 0,
-   
                 ease: Power4,
-                transformOrigin: "bottom",
+                transformOrigin: "50% 50% -50",
             }
         );                
     }, container );
