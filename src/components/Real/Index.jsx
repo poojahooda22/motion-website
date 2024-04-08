@@ -156,7 +156,7 @@ function Real() {
                     </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
                     <h3 
-                    className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
+                        className='font-[Sansita] w-1/3 text-left font-semibold tracking-tight 
                     text-[2.5vh] absolute top-0 left-0 z-[3] -translate-y-1/2 -translate-x-1/3'
                     >
                         Our team is global and diverse, because our individual experiences make us stronger.
