@@ -55,17 +55,17 @@ function Card() {
     ]
 
   return (
-        <div className="card-container flex sm:flex-col items-center">
+        <div className="card-container flex flex-col items-center ">
             {items.map((item, index) => {
                 return (
-                    <div key={index} className="card mb-8 w-[90vw] sm:w-[70%] sm:flex items-center justify-between border-[1px] border-[--black]  py-10 px-10 gap-4">
+                    <div key={index} className="card mb-8 w-[30vw] sm:flex items-center justify-between 
+                    border-[1px] border-[--black]  py-8 px-8 gap-4">
                         <div className="rightdata w-[10vh] h-[10vh]"
                             dangerouslySetInnerHTML={{ __html: item.image }}/>
                         <div className="w-3/4 font-[Sansita]  leftdata">
-                            <h1 key={index} className="text-[3vh] font-semibold mb-4">{item.title}</h1>
-                            <p className=" text-[1.8vh] font-medium">{item.description}</p>
-                        </div>
-                        
+                            <h1 key={index} className="text-[2.8vh] font-semibold mb-4">{item.title}</h1>
+                            <p className=" text-[1.7vh] font-medium">{item.description}</p>
+                        </div>                       
                     </div>
                 )
             })} 
