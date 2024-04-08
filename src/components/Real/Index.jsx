@@ -146,7 +146,7 @@ function Real() {
                 flex-shrink-0  relative"
             >
                 <div 
-                        className="image absolute w-[45vh] h-[45vh]  top-20 -translate-x-1/5
+                    className="image absolute w-[45vh] h-[45vh]  top-20 -translate-x-1/5
                         -translate-y-1/2 right-1/6
                         "
                     >
