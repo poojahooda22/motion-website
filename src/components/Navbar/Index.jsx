@@ -65,7 +65,8 @@ function Navbar() {
                         key={index} 
                         className={`${styles.links} relative py[2.4vh] px-[2.2vh] 
                         text-center  
-                        font-[Sansita]text-[1vw] overflow-hidden`}> 
+                        font-[Sansita]text-[1vw] overflow-hidden`}
+                        > 
                         <a className={`${styles.atag} relative`}>{item} </a>                    
                     </h4>   
                 ))}
