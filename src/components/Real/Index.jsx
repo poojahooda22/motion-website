@@ -117,7 +117,7 @@ function Real() {
                         className="image absolute w-[20vh] h-[20vh] 
                         top-2/3 left-1/4 -translate-x-1/2
                         "
-                    >
+                >
                     <img 
                         src={img4}
                         className="w-full h-full object-contain rounded-full"
