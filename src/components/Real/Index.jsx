@@ -234,8 +234,7 @@ function Real() {
                         className="w-full h-full object-contain rounded-full"
                     />
                 </div>
-            </div>
-            
+            </div>   
         </div>
       </div>
     </div>
