@@ -65,7 +65,7 @@ function Craft() {
         tl.fromTo(
             ".card", 
             {                
-                y: 600,
+                y: 800,
 
                 scale: .9,       
             },
