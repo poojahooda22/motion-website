@@ -35,7 +35,8 @@ function Row({ translateClass, direction }) {
     whitespace-nowrap mb-2`}>
         {items.map((item, index) => {
             return (
-                <div key={index} className='elem flex items-center gap-8'>
+                <div 
+                key={index} className='elem flex items-center gap-8'>
                     <h1 
                         className='font-[SansitaBold] text-[6vh] sm:text-[8.4vh] 
                         leading-[6vh] sm:leading-[9vh]'
