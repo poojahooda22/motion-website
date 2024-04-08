@@ -37,7 +37,7 @@ function Row({ translateClass, direction }) {
             return (
                 <div 
                     key={index} 
-                className='elem flex items-center gap-8'>
+                    className='elem flex items-center gap-8'>
                     <h1 
                         className='font-[SansitaBold] text-[6vh] sm:text-[8.4vh] 
                         leading-[6vh] sm:leading-[9vh]'
