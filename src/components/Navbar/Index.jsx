@@ -69,7 +69,7 @@ function Navbar() {
                     > 
                         <a className={`${styles.atag} relative`}>
                             {item} 
-                            </a>                    
+                        </a>                    
                     </h4>   
                 ))}
             </div>
