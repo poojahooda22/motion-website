@@ -32,7 +32,8 @@ function Row({ translateClass, direction }) {
 
   return (
     <div 
-        className={`${translateClass} ${direction} row w-full flex items-center  
+        className={`${translateClass} ${direction} row w-full flex 
+        items-center  
         gap-8 
         whitespace-nowrap mb-2`}
     >
