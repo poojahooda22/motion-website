@@ -57,7 +57,7 @@ function Craft() {
             scrollTrigger: {
             trigger: ".cards",
             start: "top 10%",
-            end: "bottom 10%",
+            end: "bottom 90%",
             scrub: 1,
             stagger: 0.5
             }
@@ -65,17 +65,16 @@ function Craft() {
         tl.fromTo(
             ".card", 
             {                
-                y: 800,
-
-                scale: .9,       
+                y: 600,
+                scale: .8,       
             },
             {
                 opacity: 1,
-                scale: 1.1,
+                scale: 1,
 
                 y: 0,
                 ease: Power4,
-                transformOrigin: "50% 50% -50",
+                transformOrigin: "50% 50%",
             }
         );                
     }, container );
@@ -85,10 +84,10 @@ function Craft() {
     <div 
         data-color="cyan"  
         ref={container} 
-        className="craft section w-full flex flex-col sm:flex-row gap-10  
-        justify-between items-center px-6 py-8 sm:px-10 relative "
+        className="craft section w-full flex gap-10  
+        justify-between items-center px-6 py-8 sm:px-10 relative"
     >
-        <div className="ltext sticky top-[10%] left-0   ">
+        <div className="ltext sticky top-[10%] left-0  ">
             <p 
                 className="ptag font-[Sansita] text-[2.9vh] 
                 font-medium leading-[4.2vh] "
@@ -104,7 +103,7 @@ function Craft() {
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            className="right cards w-full flex sm:w-1/2 items-center">                
+            className="right cards w-full sm:w-1/2 ">                
             <Card />
         </div>
     </div>
