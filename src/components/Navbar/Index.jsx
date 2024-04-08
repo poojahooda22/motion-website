@@ -67,7 +67,8 @@ function Navbar() {
                         text-center  
                         font-[Sansita]text-[1vw] overflow-hidden`}
                     > 
-                        <a className={`${styles.atag} relative`}>{item} </a>                    
+                        <a className={`${styles.atag} relative`}>
+                            {item} </a>                    
                     </h4>   
                 ))}
             </div>
