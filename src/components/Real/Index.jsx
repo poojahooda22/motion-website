@@ -162,7 +162,8 @@ function Real() {
                         Our team is global and diverse, because our individual experiences make us stronger.
                     </h3>
                     <h1 className=' font-semibold text-[20vh] leading-none text-white'>
-                        49%</h1>
+                        49%
+                        </h1>
                     <h3 className='text-[6vh] font-semibold leading-[6vh]'>
                         Expert Women in Tech.
                     </h3>    
