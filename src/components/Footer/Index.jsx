@@ -19,7 +19,7 @@ function Footer() {
               relative cursor-pointer`}
             >
               <span 
-              className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
+                className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
               font-semibold `}
               >
                 LET&apos;S GO
