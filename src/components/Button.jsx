@@ -24,7 +24,8 @@ function Button({bgColor, text}) {
         <LuArrowUpRight 
           style={{
             fontSize: "24px", 
-            color: "black", }} 
+            color: "black", 
+          }} 
           className={`${styles.iconMask}`} 
         /> 
         </div>         
