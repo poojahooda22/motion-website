@@ -20,7 +20,7 @@ function Button({bgColor, text}) {
           font-semibold`}
         >
           {text}
-          </span>
+        </span>
             <LuArrowUpRight style={{fontSize: "24px", color: "black", }} className={`${styles.iconMask}`} /> 
         </div>         
     </div>
