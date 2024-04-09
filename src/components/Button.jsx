@@ -19,7 +19,8 @@ function Button({bgColor, text}) {
           capitalize tracking-normal
           font-semibold`}
         >
-          {text}</span>
+          {text}
+          </span>
             <LuArrowUpRight style={{fontSize: "24px", color: "black", }} className={`${styles.iconMask}`} /> 
         </div>         
     </div>
