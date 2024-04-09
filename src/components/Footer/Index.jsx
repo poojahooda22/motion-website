@@ -18,7 +18,8 @@ function Footer() {
               gap-2 overflow-hidden 
               relative cursor-pointer`}
             >
-              <span className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
+              <span 
+              className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
               font-semibold `}
               >
                 LET&apos;S GO
