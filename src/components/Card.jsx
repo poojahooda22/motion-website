@@ -55,16 +55,16 @@ function Card() {
     ]
 
   return (
-        <div className="card-container flex flex-col items-center ">
+        <div className="card-container flex sm:flex-col gap-10">
             {items.map((item, index) => {
                 return (
-                    <div key={index} className="card mb-8 w-[30vw] sm:flex items-center justify-between 
-                    border-[1px] border-[--black]  py-8 px-8 gap-4">
-                        <div className="rightdata w-[10vh] h-[10vh]"
+                    <div key={index} className="card min-w-[40vh] sm:w-[30vw] sm:flex items-center gap-6
+                    border-[1px] border-[--black]  py-8 px-8 ">
+                        <div className="rightdata w-[10vh] h-[10vh] sm:w-[28vh]  sm:h-[10vh] "
                             dangerouslySetInnerHTML={{ __html: item.image }}/>
-                        <div className="w-3/4 font-[Sansita]  leftdata">
-                            <h1 key={index} className="text-[2.8vh] font-semibold mb-4">{item.title}</h1>
-                            <p className=" text-[1.7vh] font-medium">{item.description}</p>
+                        <div className=" font-[Sansita]  leftdata">
+                            <h1 key={index} className="text-[3vh] font-bold whitespace-nowrap sm:text-[2.8vh] sm:font-bold mb-2">{item.title}</h1>
+                            <p className="text-[2.2vh]  sm:text-[2vh] font-medium">{item.description}</p>
                         </div>                       
                     </div>
                 )
@@ -76,3 +76,23 @@ function Card() {
 export default Card
 
 
+// return (
+//     <div className="card-container flex flex-col items-center ">
+//         {items.map((item, index) => {
+//             return (
+//                 <div key={index} className="card mb-8 w-[30vw] sm:flex items-center justify-between 
+//                 border-[1px] border-[--black]  py-8 px-8 gap-4">
+//                     <div className="rightdata w-[10vh] h-[10vh]"
+//                         dangerouslySetInnerHTML={{ __html: item.image }}/>
+//                     <div className="w-3/4 font-[Sansita]  leftdata">
+//                         <h1 key={index} className="text-[2.8vh] font-semibold mb-4">{item.title}</h1>
+//                         <p className=" text-[1.7vh] font-medium">{item.description}</p>
+//                     </div>                       
+//                 </div>
+//             )
+//         })} 
+//     </div>
+// )
+// }
+
+// export default Card
