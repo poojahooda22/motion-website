@@ -11,7 +11,7 @@ function Footer() {
           <div className="first order-1 font-[SansitaReg]  text-[6vh] leading-[7vh] sm:text-[4.2rem] w-1/3 sm:leading-[5rem] sm:mb-10 ">
             <h1>Discover Significo.</h1>
           </div>
-          {/* <Button text="Let's Go"  /> */}
+          {/* <Button text=" /> */}
           <div className='middle order-3 sm:order-2 w-[20vh] text-center mt-6 px-4 py-4 sm:w-fit sm:px-4 sm:py-[1.6vh] bg-[--black] text-[#f5f19c] whitespace-nowrap'>
             <div 
               className= {`${styles.masker} flex items-center 
