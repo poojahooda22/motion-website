@@ -20,7 +20,7 @@ function Footer() {
             >
               <span 
                 className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
-              font-semibold `}
+                font-semibold `}
               >
                 LET&apos;S GO
               </span>
