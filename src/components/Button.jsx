@@ -12,7 +12,8 @@ function Button({bgColor, text}) {
     >
       <div 
         className= {`${styles.masker} flex items-center gap-2 overflow-hidden 
-        relative cursor-pointer`}>
+        relative cursor-pointer`}
+      >
             <span className={`${styles.spanMask} font-[Sansita] text-[1.8vh] capitalize tracking-normal
             font-semibold `}>{text}</span>
             <LuArrowUpRight style={{fontSize: "24px", color: "black", }} className={`${styles.iconMask}`} /> 
