@@ -19,7 +19,8 @@ function Footer() {
               relative cursor-pointer`}
             >
               <span className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
-              font-semibold `}>LET&apos;S GO</span>
+              font-semibold `}
+              >LET&apos;S GO</span>
               <LuArrowUpRight style={{fontSize: "24px", color: "#f5f19c", }} className={`${styles.iconMask}`} /> 
             </div>
           </div>
