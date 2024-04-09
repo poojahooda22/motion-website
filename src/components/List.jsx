@@ -71,24 +71,25 @@ function List() {
     <div className="list-container">
       {data.map((item, index) => {
         return (
-            <div key={index} className="listelem w-full py-[2.5rem] px-[2rem] border-b-2 border-black relative">
-                <div className="relative flex items-center justify-between z-[3] ">
-                    <div className="left flex gap-14 text-5xl">
-                        <h3 className="opacity-25">0{item.key}</h3>
-                        <h1 className="">{item.title}</h1>
+            <div key={index} className="listelem w-full py-[3vh] sm:px-[4vh] sm:py-[6vh] flex justify-between items-center
+            border-b-2 border-black sm:relative ">
+                <div className="relative w-full sm:flex sm:items-center justify-between z-[3]  ">
+                    <div className="left sm:flex items-center gap-14 sm:text-5xl">
+                        <h3 className="hidden sm:inline-block opacity-25">0{item.key}</h3>
+                        <h1 className="text-blue-600 text-3xl sm:text-black sm:text-[6vh]">{item.title}</h1>
                     </div>
-                    <h3 className="font-[Sansita] text-[2.4vh] font-medium tracking-tight">
+                    <h3 className="font-[Sansita] text-[3vh] sm:text-[2.4vh] font-medium tracking-tight">
                       {item.role}
                     </h3>   
                 </div>
                 <div 
-                  className='picture opacity-0 absolute z-[4] top-1/2 
-                  left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] 
+                  className='picture w-[14vh] h-[14vh] opacity-100 right-0 sm:opacity-0 sm:absolute z-[4] sm:top-1/2 
+                  sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
                   overflow-hidden rounded-full'
                 >
-                  <img src={item.img}/>
+                  <img src={item.img} className='w-[100%] h-[100%] object-contain' />
                 </div>
-                <div className="bluelayer absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
+                <div className="hidden sm:inline-block bluelayer sm:absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
             </div>
         )
       })}
