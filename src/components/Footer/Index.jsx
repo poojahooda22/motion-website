@@ -14,7 +14,8 @@ function Footer() {
           {/* <Button text="Let's Go" bgColor="bg-[#f5f19c]" /> */}
           <div className='middle order-3 sm:order-2 w-[20vh] text-center mt-6 px-4 py-4 sm:w-fit sm:px-4 sm:py-[1.6vh] bg-[--black] text-[#f5f19c] whitespace-nowrap'>
             <div 
-              className= {`${styles.masker} flex items-center gap-2 overflow-hidden 
+              className= {`${styles.masker} flex items-center 
+              gap-2 overflow-hidden 
               relative cursor-pointer`}
             >
               <span className={`${styles.spanMask} font-[Sansita] text-[2.1vh] capitalize tracking-normal 
