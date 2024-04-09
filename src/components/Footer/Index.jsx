@@ -27,7 +27,8 @@ function Footer() {
               </span>
               <LuArrowUpRight 
                 style={{fontSize: "24px", color: "#f5f19c", }} 
-                className={`${styles.iconMask}`} /> 
+                className={`${styles.iconMask}`} 
+                /> 
             </div>
           </div>
         </div>
