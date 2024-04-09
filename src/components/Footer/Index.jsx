@@ -22,7 +22,7 @@ function Footer() {
               font-semibold `}
               >
                 LET&apos;S GO
-                </span>
+              </span>
               <LuArrowUpRight style={{fontSize: "24px", color: "#f5f19c", }} className={`${styles.iconMask}`} /> 
             </div>
           </div>
