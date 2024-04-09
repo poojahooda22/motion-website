@@ -46,7 +46,7 @@ function Real() {
     <div  
         data-color="salmon" 
         ref={container} 
-        className="real section w-full"
+        className="real section sm:w-full px-8 sm:px-8"
     >
       <div 
         className="cont h-[400vh] relative"
@@ -57,7 +57,7 @@ function Real() {
         >
             {/* 1st slide */}
             <div 
-                className="slide w-full flex items-center 
+                className="slide w-full sm:flex items-center 
                 justify-center h-screen flex-shrink-0 "
             >
                 
