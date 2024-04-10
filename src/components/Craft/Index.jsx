@@ -93,7 +93,7 @@ function Craft() {
         //         opacity: 1,
         //         scale: 1,
 
-        //         y: 0,
+        //         
         // );                
     }, container );
 
