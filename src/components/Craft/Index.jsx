@@ -92,8 +92,7 @@ function Craft() {
         //     {
         //         opacity: 1,
         //         scale: 1,
-
-        //         
+         
         // );                
     }, container );
 
