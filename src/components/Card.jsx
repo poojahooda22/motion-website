@@ -81,7 +81,7 @@ export default Card
 //         {items.map((item, index) => {
 //             return (
 //                 <div key={index} className="card mb-8 w-[30vw] sm:flex items-center justify-between 
-//                 border-[1px] border-[--black]  py-8 px-8 gap-4">
+//                 border-[1px] border-[--black]  py-8 px-8 
 //                     <div className="rightdata 
 //                         { __html: item.image }}/>
 //                     <div 
