@@ -62,27 +62,27 @@ function Craft() {
             stagger: 0.5
             }
         });
-        if (window.innerWidth < 768) {
-            // Mobile Animation (X-axis)
-            tl.fromTo('.card', {
-                x: 0, // Starting from left (negative value)
-            }, {
+        // if (window.innerWidth < 768) {
+        //     // Mobile Animation (X-axis)
+        //     tl.fromTo('.card', {
+        //         x: 0, // Starting from left (negative value)
+        //     }, {
 
-                x: -100,
-                ease: Power4
-            });
-        } else {
-            // Desktop Animation (Y-axis)
-            tl.fromTo('.card', {
-                y: 700,
-                scale: .9,
-            }, {
-                y: 0,
-                scale: 1.1,
-                ease: Power4,
-                transformOrigin: "bottom 50% -50",
-            });
-        }
+        //         x: -100,
+        //         ease: Power4
+        //     });
+        // } else {
+        //     // Desktop Animation (Y-axis)
+        //     tl.fromTo('.card', {
+        //         y: 700,
+        //         scale: .9,
+        //     }, {
+        //         y: 0,
+        //         scale: 1.1,
+        //         ease: Power4,
+        //         transformOrigin: "bottom 50% -50",
+        //     });
+        // }
         // tl.fromTo(
         //     ".card", 
         //     {                
@@ -119,7 +119,7 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead font-[SansitaReg] text-[6vh] leading-[7vh] sm:text-[10vh] sm:leading-[12vh] 
+                <h1 className="texthead font-[SansitaReg] text-[5.5vh] leading-[6vh] sm:text-[10vh] sm:leading-[12vh] 
                 mt-10 mb-10">We Craft<br/> Human-Centric <br/> Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
