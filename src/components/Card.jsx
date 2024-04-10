@@ -90,7 +90,7 @@ export default Card
 //                     </div>                       
 //                 </div>
 //             )
-//         })} 
+
 //     </div>
 // )
 // }
