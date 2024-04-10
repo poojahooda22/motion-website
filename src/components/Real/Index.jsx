@@ -52,7 +52,7 @@ function Real() {
         className="cont h-[400vh] relative"
     >
         <div  
-            className="slides w-full h-[130vh] 
+            className="slides w-full h-[130vh] overflow-hidden
              sticky top-0 left-0 flex"
         >
             {/* 1st slide */}
@@ -124,7 +124,7 @@ function Real() {
                 </div>
                 <div 
                     className="image absolute w-[20vh] sm:w-[45vh] sm:h-[45vh] first-letter: 
-                    sm:bottom-0 sm:right-1/6 right-0
+                    sm:bottom-0 sm:right-1/6 right-0 sm:-translate-x-2/3 sm:translate-y-1/2
                     translate-y-[20vh]"
                 >
                     <img 
