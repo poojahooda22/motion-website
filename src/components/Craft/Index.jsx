@@ -90,7 +90,7 @@ function Craft() {
         //         gap: 10,       
         //     },
         //     {
-        //         opacity: 1,
+        //         opacity
         // );                
     }, container );
 
