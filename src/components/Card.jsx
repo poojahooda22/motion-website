@@ -78,7 +78,3 @@ export default Card
 
 // return (
 //     <div className="card-container flex flex-col items-center ">
-//         {items.map((item, index) => {
-//             return (
-
-
