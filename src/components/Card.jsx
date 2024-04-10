@@ -91,7 +91,7 @@ export default Card
 //                 </div>
 //             )
 
-//     </div>
+
 // )
 // }
 
