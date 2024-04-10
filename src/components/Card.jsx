@@ -88,8 +88,7 @@ export default Card
 //                         <h1 key={index} className="text-[2.8vh] font-semibold mb-4">{item.title}</h1>
 //                         <p className=" text-[1.7vh] font-medium">{item.description}</p>
 //                     </div>                       
-//                 </div>
-//             )
+
 
 // }
 
