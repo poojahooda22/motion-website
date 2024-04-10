@@ -86,7 +86,7 @@ function Craft() {
         //     ".card", 
         //     {                
         //         y: 400,
-        //         scale: .8,
+        //         scale: 
         // );                
     }, container );
 
