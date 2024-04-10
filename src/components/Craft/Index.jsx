@@ -81,13 +81,7 @@ function Craft() {
                 ease: Power4,
                 transformOrigin: "bottom 50% -50",
             });
-        }
-        // tl.fromTo(
-        //     ".card", 
-        //     {                
-        //         y: 400,
-
-    );                
+        }                
     }, container );
 
    
