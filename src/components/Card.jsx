@@ -55,7 +55,7 @@ function Card() {
     ]
 
   return (
-        <div className="card-container flex sm:flex-col gap-10">
+        <div className="card-container flex sm:flex-col gap-10 mt-20">
             {items.map((item, index) => {
                 return (
                     <div key={index} className="card min-w-[40vh] sm:w-[30vw] sm:flex items-center gap-6
