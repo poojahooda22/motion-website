@@ -91,7 +91,7 @@ function Craft() {
         //     },
         //     {
         //         opacity: 1,
-        //         scale:      
+        //         s    
         // );                
     }, container );
 
