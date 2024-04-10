@@ -80,7 +80,5 @@ export default Card
 //     <div className="card-container flex flex-col items-center ">
 //         {items.map((item, index) => {
 //             return (
-//                 <div key={index} className="card mb-8 w-[30vw] sm:flex items-center justify-between 
-
 
 
