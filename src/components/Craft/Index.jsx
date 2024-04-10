@@ -94,7 +94,7 @@ function Craft() {
         //         scale: 1,
 
         //         y: 0,
-        //         ease: Power4,
+        //         ease: Pow
       
         // );                
     }, container );
