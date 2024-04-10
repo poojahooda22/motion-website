@@ -95,7 +95,7 @@ function Craft() {
 
         //         y: 0,
         //         ease: Power4,
-        //         transformOrigin: "bottom 50% ,
+        //         transformOrigin: "bottom ,
         //     }
         // );                
     }, container );
