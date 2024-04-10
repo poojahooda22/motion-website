@@ -94,7 +94,6 @@ function Craft() {
         //         scale: 1,
 
         //         y: 0,
-      
         // );                
     }, container );
 
