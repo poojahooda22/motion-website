@@ -86,8 +86,5 @@ export default Card
 //                         dangerouslySetInnerHTML={{ __html: item.image }}/>
 //                     <div className="w-3/4 font-[Sansita]  leftdata">
 //                         <h1 key={index} className="text-[2.8vh] font-semibold mb-4">{item.title}</h1>
-                   
 
-
-// }
 
