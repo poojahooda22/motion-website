@@ -89,7 +89,6 @@ function Craft() {
         //         scale: .8,
         //         gap: 10,       
         //     },
-        //   
         // );                
     }, container );
 
