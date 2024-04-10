@@ -62,27 +62,26 @@ function Craft() {
             stagger: 0.5
             }
         });
-        // if (window.innerWidth < 768) {
-        //     // Mobile Animation (X-axis)
-        //     tl.fromTo('.card', {
-        //         x: 0, // Starting from left (negative value)
-        //     }, {
-
-        //         x: -100,
-        //         ease: Power4
-        //     });
-        // } else {
-        //     // Desktop Animation (Y-axis)
-        //     tl.fromTo('.card', {
-        //         y: 700,
-        //         scale: .9,
-        //     }, {
-        //         y: 0,
-        //         scale: 1.1,
-        //         ease: Power4,
-        //         transformOrigin: "bottom 50% -50",
-        //     });
-        // }
+        if (window.innerWidth < 768) {
+            // Mobile Animation (X-axis)
+            tl.fromTo('.card', {
+                x: 0, // Starting from left (negative value)
+            }, {
+                x: -100,
+                ease: Power4
+            });
+        } else {
+            // Desktop Animation (Y-axis)
+            tl.fromTo('.card', {
+                y: 700,
+                scale: .9,
+            }, {
+                y: 0,
+                scale: 1.1,
+                ease: Power4,
+                transformOrigin: "bottom 50% -50",
+            });
+        }
         // tl.fromTo(
         //     ".card", 
         //     {                
