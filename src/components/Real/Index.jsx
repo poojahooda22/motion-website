@@ -132,8 +132,9 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[20vh] sm:w-[45vh] sm:h-[45vh] top-1/2 -translate-y-1/2 translate-x-1/2
-                    right-0 "
+                    className="image absolute w-[20vh] top-10 -right-2/3 sm:w-[45vh] sm:h-[45vh] sm:top-1/2 
+                    sm:-translate-y-1/2 sm:translate-x-1/2
+                    sm:right-0 "
                 >
                     <img 
                         src={img5}
@@ -210,10 +211,10 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
-                    <h1 className=' font-semibold text-[8vh] sm:text-[20vh] leading-none sm:text-white'>
+                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
                         13
                     </h1>
-                    <h3 className='text-[2.5vh] sm:text-[6vh] font-semibold sm:leading-[8vh]'>
+                    <h3 className='text-[3.5vh] sm:text-[6vh] font-semibold sm:leading-[8vh]'>
                         Nationalities Represented on Our <br/> Team.
                     </h3>    
                 </div>
