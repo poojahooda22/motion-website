@@ -84,11 +84,11 @@ function List() {
                 <div className="left sm:flex items-center gap-14 sm:text-5xl">
                   <h3 className="hidden sm:inline-block opacity-25">0{item.key}</h3>
                       <h1 className="text-blue-600 text-3xl sm:text-black sm:text-[6vh]">{item.title}</h1>
-                    </div>
+                </div>
                     <h3 className="font-[Sansita] text-[3vh] sm:text-[2.4vh] font-medium tracking-tight">
                       {item.role}
                     </h3>   
-                </div>
+              </div>
                 <div 
                   className='picture w-[14vh] h-[14vh] opacity-100 right-0 sm:opacity-0 sm:absolute z-[4] sm:top-1/2 
                   sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
