@@ -71,7 +71,7 @@ function List() {
     <div className="list-container">
       {data.map((item, index) => {
         return (
-            <div 
+          <div 
               key={index} 
               className="listelem w-full py-[3vh] sm:px-[4vh] sm:py-[6vh] 
               flex justify-between items-center
@@ -97,7 +97,7 @@ function List() {
                   <img src={item.img} className='w-[100%] h-[100%] object-contain' />
                 </div>
                 <div className="hidden sm:inline-block bluelayer sm:absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
-            </div>
+          </div>
         )
       })}
     </div>
