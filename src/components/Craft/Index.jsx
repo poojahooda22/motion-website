@@ -17,11 +17,11 @@ function Craft() {
         const para = document.querySelector(".texthead")
         const characters = para.textContent.split("")
         characters.forEach(function(e) {
-            if(e === " ") clutter += `<span>&nbsp;</span>`
+            // if(e === " ") clutter += `<span>&nbsp;</span>`
             clutter += `<span>${e}</span>`
         })
         para.innerHTML = clutter;
-        gsap.set('.texthead span', {display: 'inline-block'});
+        // gsap.set('.texthead span', {display: 'inline-block'});
         const tl = gsap.timeline({
             scrollTrigger: {
             trigger: ".ltext",
