@@ -75,7 +75,8 @@ function List() {
               flex justify-between items-center
               border-b-2 border-black sm:relative"
             >
-              <div className="relative w-full sm:flex 
+              <div 
+              className="relative w-full sm:flex 
               sm:items-center justify-between z-[3] "
               >
                     <div className="left sm:flex items-center gap-14 sm:text-5xl">
