@@ -1,7 +1,7 @@
 
 import Card from "../Card";
 import Button from "../Button";
-import {useRef} from 'react';
+import {useRef, useEffect} from 'react';
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -12,44 +12,29 @@ gsap.registerPlugin(ScrollTrigger);
 function Craft() {
     const container = useRef(null);
 
-    // useEffect(() => {
-    //     var clutter = "";
-    //     const para = document.querySelector(".texthead")
-    //     const characters = para.textContent.split("")
-    //     characters.forEach(function(e) {
-    //         if(e === " ") clutter += `<span>&nbsp;</span>`
-    //         clutter += `<span>${e}</span>`
-    //     })
-    //     para.innerHTML = clutter;
-
-    //     const tl = gsap.timeline({
-    //         scrollTrigger: {
-    //         trigger: ".ltext",
-    //         start: "top 100%",
-    //         end: "bottom 50%",
-    //         scrub: .5,
-    //         }
-    //     });
-
-    //     tl.fromTo(
-    //         ".texthead", 
-    //         {                
-    //             y: 50, 
-    //             opacity: 0,           
-    //         },
-    //         {
-    //             opacity: 1,
-    //             y: 0,
-    //             ease: Power4,
-    //             delay: 0.5,
-    //             transformOrigin: "40% 50% -50",
-    //             stagger: {
-    //                 each: 0.1,
-    //                 delay: 0.5
-    //             }
-    //         }
-    //     );
-    // },[]);
+    useEffect(() => {
+        var clutter = "";
+        const para = document.querySelector(".texthead")
+        const characters = para.textContent.split("")
+        characters.forEach(function(e) {
+            clutter += `<span>${e}</span>`
+        })
+        para.innerHTML = clutter;
+        const tl = gsap.timeline({
+            scrollTrigger: {
+            trigger: ".ltext",
+            start: "top 100%",
+            end: "bottom 50%",
+            scrub: .5,
+            }
+        });
+        tl.from('.texthead span', {
+            x: -100,
+            opacity: 0,
+            duration: 1,
+            stagger: .3,        
+        }) 
+    },[]);
 
     
     useGSAP(() => {
@@ -78,13 +63,14 @@ function Craft() {
             }, {
                 y: 0,
                 scale: 1.1,
-                stagger: 0.1,
-                backgroundColor: "black",
-                color: "white",
+                duration: 1,
+                delay: .5,
+                stagger: .1,
                 ease: Power4,
                 transformOrigin: "bottom 50% -50",
             });
-        }                
+        }   
+                    
     }, container );
 
    
@@ -105,8 +91,14 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,
                 accelerating capacity, and improving outcomes.
             </p>
-                <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[10vh] sm:leading-[12vh] 
-                mt-10 mb-10">We Craft<br/> Human-Centric <br/> Health Software</h1>
+            <div className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] 
+                sm:leading-[12vh] mt-10 mb-10"
+            >
+                <h1>We Craft </h1>
+                <h1>Human-Centric </h1>
+                <h1>Health Software</h1>
+            </div>
+                
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
