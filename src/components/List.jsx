@@ -77,7 +77,7 @@ function List() {
             >
               <div 
                 className="relative w-full sm:flex 
-              sm:items-center justify-between z-[3] "
+                sm:items-center justify-between z-[3] "
               >
                     <div className="left sm:flex items-center gap-14 sm:text-5xl">
                         <h3 className="hidden sm:inline-block opacity-25">0{item.key}</h3>
