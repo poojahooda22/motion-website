@@ -52,10 +52,10 @@ gsap.registerPlugin(ScrollTrigger);
             <div   
                 className="capsule flex flex-col items-center gap-4 p-6 sm:-rotate-[16deg] sm:translate-y-10
                 rounded-full border-[1px] border-black">
-                <div className="image w-[30vh] h-[30vh] sm:w-[40vh] sm:h-[40vh]  rounded-full overflow-hidden">
+                <div className="image w-[74vw] h-[74vw] sm:w-[40vh] sm:h-[40vh]  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap1} />
                 </div>
-                <div className="text text-center text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
+                <div className="text text-center text-[6vw] sm:text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
                     <h3>Equity in Tech: An <br/>
                         Internation Women&apos;s <br/> Day Conversation Wi <br/>Caroline 
                         Nieto, <br/> Significo&apos;s CPO
@@ -79,7 +79,7 @@ gsap.registerPlugin(ScrollTrigger);
                         achieving your organization&apos;s goals 
                     </h4>
                 </div>
-                <div className="image w-[30vh] h-[30vh] sm:w-[40vh] sm:h-[40vh]  rounded-full overflow-hidden">
+                <div className="image w-[74vw] h-[74vw] sm:w-[40vh] sm:h-[40vh]  rounded-full overflow-hidden">
                     <img className="h-full w-full object-cover" src={cap2} />
                 </div>
                 
