@@ -87,7 +87,7 @@ function List() {
               </div>
               <h3 className="font-[Sansita] text-[3vh] sm:text-[2.4vh] font-medium tracking-tight">
                   {item.role}
-                </h3>   
+              </h3>   
             </div>
                 <div 
                   className='picture w-[14vh] h-[14vh] opacity-100 right-0 sm:opacity-0 sm:absolute z-[4] sm:top-1/2 
