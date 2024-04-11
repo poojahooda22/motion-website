@@ -96,7 +96,7 @@ function List() {
               overflow-hidden rounded-full'
             >
               <img src={item.img} className='w-[100%] h-[100%] object-contain' />
-                </div>
+              </div>
                 <div className="hidden sm:inline-block bluelayer sm:absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
           </div>
         )
