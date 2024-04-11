@@ -89,7 +89,7 @@ function List() {
                 {item.role}
               </h3>   
             </div>
-              <div 
+            <div 
                   className='picture w-[14vh] h-[14vh] opacity-100 right-0 sm:opacity-0 sm:absolute z-[4] sm:top-1/2 
                   sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
                   overflow-hidden rounded-full'
