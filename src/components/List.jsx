@@ -92,7 +92,7 @@ function List() {
             <div 
               className='picture w-[14vh] h-[14vh] opacity-100 right-0 
               sm:opacity-0 sm:absolute z-[4] sm:top-1/2 
-                  sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
+                sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
               overflow-hidden rounded-full'
             >
                   <img src={item.img} className='w-[100%] h-[100%] object-contain' />
