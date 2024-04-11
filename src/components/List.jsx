@@ -71,7 +71,8 @@ function List() {
     <div className="list-container">
       {data.map((item, index) => {
         return (
-            <div key={index} className="listelem w-full py-[3vh] sm:px-[4vh] sm:py-[6vh] flex justify-between items-center
+            <div key={index} className="listelem w-full py-[3vh] sm:px-[4vh] sm:py-[6vh] 
+            flex justify-between items-center
               border-b-2 border-black sm:relative ">
                 <div className="relative w-full sm:flex sm:items-center justify-between z-[3]  ">
                     <div className="left sm:flex items-center gap-14 sm:text-5xl">
