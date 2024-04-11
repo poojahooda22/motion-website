@@ -8,7 +8,7 @@ import { Power2, Power4 } from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 // import { AiOutlineMenu } from "react-icons/ai";
-// import { BiMenu } from "react-icons/bi";
+import { BiMenu } from "react-icons/bi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -102,7 +102,7 @@ function Home() {
                 transition={{duration: 0.35, ease: "easeInOut"}}
                 className="section w-[100vw] sm:w-full px-6 fixed top-0 left-0 z-[9]"
             >
-                <div className="w-full flex items-center justify-between  ">
+                <div className="w-full flex sm:flex items-center justify-between  ">
                     <div className="logo w-[16vh] h-[12vh] sm:w-[16vh] sm:h-[10vh] cursor-pointer z-[9] ">
                         {/* logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 141 41" fill="none">
@@ -133,15 +133,15 @@ function Home() {
                             </h4>   
                         ))}
                     </div>
-                    {/* <div>
+                    
                         <BiMenu
                             style={{
                             
                             fontSize: "5.5vh",
                             }}
-                            className='section sm:hidden z-[9] cursor-pointer'
+                            className=' inline-block sm:hidden z-[9] cursor-pointer'
                         />  
-                    </div> */}
+                 
                     
                 </div>
             </motion.div>
