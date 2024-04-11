@@ -95,7 +95,7 @@ function List() {
               sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
               overflow-hidden rounded-full'
             >
-                <img src={item.img} className='w-[100%] h-[100%] object-contain' />
+              <img src={item.img} className='w-[100%] h-[100%] object-contain' />
                 </div>
                 <div className="hidden sm:inline-block bluelayer sm:absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
           </div>
