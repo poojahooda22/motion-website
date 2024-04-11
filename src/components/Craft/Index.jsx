@@ -59,7 +59,7 @@ function Craft() {
             start: "top 10%",
             end: "bottom 90%",
             scrub: 1,
-            stagger: 0.5
+            stagger: 0.6
             }
         });
         if (window.innerWidth < 768) {
