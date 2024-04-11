@@ -73,7 +73,7 @@ function List() {
         return (
           <div 
             key={index} 
-              className="listelem w-full py-[3vh] sm:px-[4vh] sm:py-[6vh] 
+            className="listelem w-full py-[3vh] sm:px-[4vh] sm:py-[6vh] 
               flex justify-between items-center
               border-b-2 border-black sm:relative"
           >
