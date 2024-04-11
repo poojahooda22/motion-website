@@ -17,9 +17,11 @@ function Craft() {
         const para = document.querySelector(".texthead")
         const characters = para.textContent.split("")
         characters.forEach(function(e) {
+            if(e === " ") clutter += `<span>&nbsp;</span>`
             clutter += `<span>${e}</span>`
         })
         para.innerHTML = clutter;
+        gsap.set('.texthead span', {display: 'inline-block'});
         const tl = gsap.timeline({
             scrollTrigger: {
             trigger: ".ltext",
@@ -29,10 +31,10 @@ function Craft() {
             }
         });
         tl.from('.texthead span', {
-            x: -100,
+            y: 100,
             opacity: 0,
-            duration: 1,
-            stagger: .3,        
+            duration: 0.5,
+            stagger: .1,        
         }) 
     },[]);
 
@@ -58,18 +60,16 @@ function Craft() {
         } else {
             // Desktop Animation (Y-axis)
             tl.fromTo('.card', {
-                y: 700,
+                y: 600,
                 scale: .9,
             }, {
                 y: 0,
                 scale: 1.1,
-                duration: 1,
-                delay: .5,
-                stagger: .1,
+                duration: .5,
                 ease: Power4,
                 transformOrigin: "bottom 50% -50",
             });
-        }   
+        }     
                     
     }, container );
 
@@ -91,14 +91,7 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,
                 accelerating capacity, and improving outcomes.
             </p>
-            <div className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] 
-                sm:leading-[12vh] mt-10 mb-10"
-            >
-                <h1>We Craft </h1>
-                <h1>Human-Centric </h1>
-                <h1>Health Software</h1>
-            </div>
-                
+            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">We Craft Human-Centric Health Software</h1>    
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
