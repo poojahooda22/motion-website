@@ -107,34 +107,3 @@ export default Craft
 
 
 
-// return (
-//     <div 
-//         data-color="cyan"  
-//         ref={container} 
-//         className="craft section w-full flex gap-10  
-//         justify-between items-center px-6 py-8 sm:px-10 relative"
-//     >
-//         <div className="ltext sticky top-[10%] left-0  ">
-//             <p 
-//                 className="ptag font-[Sansita] text-[2.9vh] 
-//                 font-medium leading-[4.2vh] "
-//             >
-//                 Significo is a custom health software developer founded on the belief<br/>
-//                 that technology can transform healthcare to put people first. We put<br/>
-//                 humanity back at the center of healthcare by simplifying complexity,<br/>
-//                 accelerating capacity, and improving outcomes.
-//             </p>
-//                 <h1 className="texthead font-[SansitaReg] text-[10vh] leading-[12vh] 
-//                 mt-10 mb-10">We Craft<br/> Human-Centric <br/> Health Software</h1>
-//             {/* button */}
-//             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
-//         </div>
-//         <div
-//             className="right cards w-full sm:w-1/2 ">                
-//             <Card />
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Craft
