@@ -93,6 +93,7 @@ function Home() {
     return (
     <div ref={container} data-color="black" className="home section w-full h-[200vh] relative  ">
         <div className='w-full sticky top-0 left-0 '>
+            {/* navbar */}
             <motion.div 
                 variants={{
                 visible: {y: 0},
