@@ -34,7 +34,8 @@ gsap.registerPlugin(ScrollTrigger);
 
   return (
     <div data-color="white" ref={container} className="capsules  section w-full sm:h-[115vh] 
-    sm:overflow-hidden mb-32 sm:flex items-start sm:justify-between mt-32 sm:mt-60 px-8 gap-40  ">
+        sm:overflow-hidden mb-32 sm:flex items-start sm:justify-between mt-32 sm:mt-60 px-8 gap-40  "
+    >
         <div className="left sm:w-1/3 h-full flex flex-col sm:justify-between py-10 items-start " >
             <h1 className="w-2/3 font-[Sansita] text-[2.8vh] leading-[4vh] font-medium">
                 Stay up-to-date on the
