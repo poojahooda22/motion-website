@@ -34,7 +34,7 @@ function Craft() {
         const para = document.querySelector(".texthead")
         const characters = para.textContent.split("")
         characters.forEach(function(e) {
-            // if(e === " ") clutter += `<span>&nbsp;</span>`
+            if(e === " ") clutter += `<span>&nbsp;</span>`
             clutter += `<span>${e}</span>`
         })
         para.innerHTML = clutter;
