@@ -1,8 +1,8 @@
 
 import Card from "../Card";
 import Button from "../Button";
-import {useRef, useEffect} from 'react';
-
+import {useRef, useEffect, useState} from 'react';
+import Swiper from "swiper";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Power4, } from 'gsap/gsap-core';
@@ -10,7 +10,24 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 function Craft() {
+
+    // const [isMobile, setIsMobile] = useState(false);
     const container = useRef(null);
+    const textRef = useRef();
+
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //       setIsMobile(window.innerWidth <= 768);
+    //     };
+    
+    //     // Attach the event listener
+    //     window.addEventListener("resize", handleResize);
+    
+    //     // Clean up the event listener when the component unmounts
+    //     return () => {
+    //       window.removeEventListener("resize", handleResize);
+    //     };
+    //   }, [isMobile]);
 
     useEffect(() => {
         var clutter = "";
@@ -21,44 +38,35 @@ function Craft() {
             clutter += `<span>${e}</span>`
         })
         para.innerHTML = clutter;
-        // gsap.set('.texthead span', {display: 'inline-block'});
+        gsap.set('.texthead span', {display: 'inline-block'});
         const tl = gsap.timeline({
             scrollTrigger: {
             trigger: ".ltext",
             start: "top 100%",
             end: "bottom 50%",
             scrub: .5,
+            markers: true,
             }
         });
         tl.from('.texthead span', {
             y: 100,
             opacity: 0,
             duration: 0.5,
-            stagger: .1,        
+            stagger: .1, 
+
         }) 
     },[]);
 
-    
     useGSAP(() => {
-        const tl = gsap.timeline({
-            scrollTrigger: {
-            trigger: ".cards",
-            start: "top 10%",
-            end: "bottom 90%",
-            scrub: 1,
-            
-            }
-        });
-        if (window.innerWidth < 768) {
-            // Mobile Animation (X-axis)
-            tl.fromTo('.card', {
-                x: 0, // Starting from left (negative value)
-            }, {
-                x: -100,
-                ease: Power4
+        let mm = gsap.matchMedia();
+        mm.add("(min-width: 768px)", () => {
+            const tl = gsap.timeline({
+                scrollTrigger: {
+                trigger: ".cards",
+                start: "top 10%",
+                scrub: 1,   
+                }
             });
-        } else {
-            // Desktop Animation (Y-axis)
             tl.fromTo('.card', {
                 y: 600,
                 scale: .9,
@@ -69,15 +77,13 @@ function Craft() {
                 ease: Power4,
                 transformOrigin: "bottom 50% -50",
             });
-        }     
-                    
+        })                           
     }, container );
 
    
   return (
     <div 
-        data-color="cyan"  
-        ref={container} 
+        data-color="cyan" 
         className="craft section w-full sm:flex gap-x-40 justify-between 
           items-center px-8 py-8 sm:px-10 relative "
     >
@@ -91,12 +97,13 @@ function Craft() {
                 humanity back at the center of healthcare by simplifying complexity,
                 accelerating capacity, and improving outcomes.
             </p>
-            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">We Craft Human-Centric Health Software</h1>    
+            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">We Craft Human-Centric Health Software</h1>
             {/* button */}
             <Button  bgColor="bg-none" text="OUR SOLUTIONS" />
         </div>
         <div
-            className="right cards sm:w-1/2  ">                
+            ref={container} 
+            className="right cards sm:w-1/2  flex items-center justify-center">                
             <Card />
         </div>
     </div>
