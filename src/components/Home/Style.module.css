@@ -3,7 +3,7 @@
     clip-path: circle(100% at 50% 50%);
 }
 
-.links:hover .atag {
+/* .links:hover .atag {
     transition: translateY(-100%);
     animation: slideAndFade 0.4s forwards;
     
@@ -26,4 +26,13 @@
        transform: translateY(0);
        opacity: 1;
      }
-  }
+  } */
+
+
+  .links a {
+    transition: all 0.5s;
+}
+
+.links:hover a:nth-child(1){
+    margin-top: -1.2vw;
+}
