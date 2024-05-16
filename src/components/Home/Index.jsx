@@ -104,7 +104,7 @@ function Home() {
                 className="section w-[100vw] sm:w-full px-6 fixed top-0 left-0 z-[9]"
             >
                 <div className="w-full flex sm:flex items-center justify-between  ">
-                    <div className="logo w-[16vh] h-[12vh] sm:w-[16vh] sm:h-[10vh] cursor-pointer z-[9] ">
+                    <div className="logo w-[12vh] h-[12vh] sm:w-[16vh] sm:h-[10vh] cursor-pointer z-[9] ">
                         {/* logo */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 141 41" fill="none">
                             <g >
@@ -128,9 +128,10 @@ function Home() {
                     </div>                   
                     <div className="hidden md:flex gap-2 items-center z-[9] cursor-pointer ">
                         {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
-                            <h4 key={index} className={`${styles.links} relative py[2.4vh] px-[2.2vh] text-center  
-                            font-[Sansita] text-[2.1vh] overflow-hidden font-medium`}> 
-                                <a className={`${styles.atag} relative`}>{item} </a>                    
+                            <h4 key={index} className={`${styles.links} h-[3vh] relative py[2.4vh] px-[2.2vh] text-center  flex flex-col
+                            font-[Sansita] text-[2.1vh] overflow-hidden font-medium leading-[2.5vh]`}> 
+                                <a className={`atag ${styles.atag} relative`}>{item} </a>
+                                <a className={`atag ${styles.atag} relative`}>{item} </a>                      
                             </h4>   
                         ))}
                     </div>
@@ -138,7 +139,7 @@ function Home() {
                         <BiMenu
                             style={{
                             
-                            fontSize: "5.5vh",
+                            fontSize: "5.5vw",
                             }}
                             className=' inline-block sm:hidden z-[9] cursor-pointer'
                         />  
@@ -186,7 +187,7 @@ function Home() {
 
                 <div 
                     
-                    className='slidesm absolute scale-[5]  sm:scale-100 top-1/2 left-1/2
+                    className='slidesm absolute scale-[1]  sm:scale-100 top-1/2 left-1/2
                     -translate-x-1/2 -translate-y-1/2 w-[90%]'
                 >    
                     <div className='row'>
