@@ -1,7 +1,7 @@
 
 # React + Vite
 
-This template 
+This templ
 
 
 
