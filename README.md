@@ -1,7 +1,7 @@
 
 # React + Vite
 
-This template provides a minimal se
+This template provides a minimal
 
 
 
