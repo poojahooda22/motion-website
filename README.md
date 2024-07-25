@@ -1,7 +1,7 @@
 
 # React + Vite
 
-This template provides a minimal setup  
+This template provides a minimal se
 
 
 
