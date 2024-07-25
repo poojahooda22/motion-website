@@ -2,7 +2,7 @@
 import Card from "../Card";
 import Button from "../Button";
 import {useRef, useEffect, useState} from 'react';
-import Swiper from "swiper";
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Power4, } from 'gsap/gsap-core';
