@@ -1,30 +1,29 @@
 import './App.css'
 import Capsule from './components/Capsule/Index'
 import Craft from './components/Craft/Index'
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import Home from './components/Home/Index'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Para from './components/Paragraph/Index'
 import Para2 from './components/Paragraph2/Index'
 import Real from './components/Real/Index'
 import Team from './components/Team/Index'
-import LocomotiveScroll from 'locomotive-scroll';
 import Footer from './components/Footer/Index';
+import Lenis from "@studio-freight/lenis";
+
 
 function App() {
-  const scrollRef = useRef(null);
 
   useEffect(() => {
-    if (scrollRef.current) {
-      const scroll = new LocomotiveScroll({
-        el: scrollRef.current,
-        smooth: true, 
-      });
-
-      return () => {
-        scroll.destroy();
-      };
-    }
+    const lenis = new Lenis();
+    const raf = (time) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    };
+    requestAnimationFrame(raf);
+    return () => {
+      lenis.destroy();
+    };
   }, []);
 
   useEffect(() => {
