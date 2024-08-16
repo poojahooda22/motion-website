@@ -45,7 +45,7 @@ function Craft() {
             start: "top 100%",
             end: "bottom 50%",
             scrub: .5,
-            markers: true,
+            
             }
         });
         tl.from('.texthead span', {
